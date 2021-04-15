@@ -1,0 +1,12988 @@
+organism
+benthos
+cell
+person
+animal
+plant
+artifact
+dressage
+piaffe
+funambulism
+rock climbing
+contact sport
+outdoor sport
+gymnastics
+track and field
+track
+jumping
+broad jump
+high jump
+skiing
+cross-country skiing
+ski jumping
+water sport
+swimming
+bathe
+dip
+dive
+floating
+skin diving
+scuba diving
+snorkeling
+surfing
+water-skiing
+rowing
+boxing
+professional boxing
+in-fighting
+fight
+rope-a-dope
+spar
+archery
+sledding
+tobogganing
+bobsledding
+wrestling
+Greco-Roman wrestling
+professional wrestling
+sumo
+skating
+ice skating
+roller skating
+skateboarding
+speed skating
+racing
+auto racing
+boat racing
+camel racing
+greyhound racing
+horse racing
+riding
+equestrian sport
+pony-trekking
+showjumping
+cross-country riding
+cycling
+bicycling
+motorcycling
+bullfighting
+cockfighting
+hunt
+beagling
+coursing
+deer hunting
+ducking
+fox hunting
+fishing
+angling
+fly-fishing
+troll
+casting
+fly casting
+overcast
+surf casting
+day game
+athletic game
+ice hockey
+tetherball
+water polo
+outdoor game
+golf
+professional golf
+round of golf
+medal play
+match play
+miniature golf
+croquet
+quoits
+shuffleboard
+field game
+field hockey
+football
+American football
+professional football
+hurling
+rugby
+ball game
+ball
+professional baseball
+perfect game
+no-hit game
+two-hitter
+three-hitter
+four-hitter
+five-hitter
+softball
+stickball
+cricket
+lacrosse
+polo
+soccer
+court game
+handball
+racquetball
+squash
+volleyball
+jai alai
+badminton
+battledore
+basketball
+professional basketball
+netball
+tennis
+professional tennis
+singles
+singles
+doubles
+doubles
+royal tennis
+pallone
+judo
+team sport
+pest
+critter
+creepy-crawly
+peeper
+poikilotherm
+range animal
+scavenger
+bottom-feeder
+work animal
+domestic animal
+feeder
+feeder
+hatchling
+head
+pet
+stayer
+stunt
+marine animal
+hen
+male
+adult
+young
+orphan
+young mammal
+baby
+pup
+wolf pup
+puppy
+cub
+lion cub
+bear cub
+tiger cub
+kit
+suckling
+sire
+dam
+thoroughbred
+giant
+herbivore
+insectivore
+microorganism
+adenovirus
+herpes
+herpes zoster
+cytomegalovirus
+varicella zoster virus
+reovirus
+moneran
+Bacillus anthracis
+Yersinia pestis
+spirillum
+enteric bacteria
+actinomycete
+myxobacteria
+streptococcus
+spirochete
+zooplankton
+commensal
+myrmecophile
+protozoan
+sarcodinian
+ciliate
+alga
+brown algae
+green algae
+chlorella
+eukaryote
+sporozoan
+loach
+cyprinid
+carp
+tench
+dace
+shiner
+rudd
+minnow
+gudgeon
+goldfish
+crucian carp
+electric eel
+catostomid
+killifish
+swordtail
+guppy
+topminnow
+squirrelfish
+boarfish
+cornetfish
+stickleback
+pipefish
+shrimpfish
+trumpetfish
+embryo
+fetus
+yolk
+tunicate
+ascidian
+salp
+vertebrate
+Amniota
+aquatic vertebrate
+jawless vertebrate
+holocephalan
+elasmobranch
+shark
+cow shark
+porbeagle
+mako
+great white shark
+basking shark
+thresher
+nurse shark
+sand tiger
+whale shark
+requiem shark
+bull shark
+sandbar shark
+blacktip shark
+whitetip shark
+dusky shark
+lemon shark
+blue shark
+tiger shark
+dogfish
+smooth dogfish
+spiny dogfish
+hammerhead
+angel shark
+ray
+electric ray
+sawfish
+guitarfish
+stingray
+eagle ray
+manta
+skate
+bird
+dickeybird
+fledgling
+nestling
+cock
+hen
+night bird
+bird of passage
+ratite
+carinate
+ostrich
+cassowary
+emu
+kiwi
+rhea
+rhea
+passerine
+nonpasserine bird
+oscine
+songbird
+accentor
+lark
+wagtail
+pipit
+finch
+chaffinch
+brambling
+goldfinch
+linnet
+siskin
+redpoll
+redpoll
+New World goldfinch
+pine siskin
+house finch
+purple finch
+canary
+serin
+crossbill
+bullfinch
+junco
+New World sparrow
+vesper sparrow
+white-throated sparrow
+white-crowned sparrow
+chipping sparrow
+field sparrow
+tree sparrow
+song sparrow
+swamp sparrow
+bunting
+indigo bunting
+ortolan
+reed bunting
+yellowhammer
+snow bunting
+honeycreeper
+sparrow
+English sparrow
+tree sparrow
+grosbeak
+evening grosbeak
+hawfinch
+pine grosbeak
+cardinal
+pyrrhuloxia
+towhee
+weaver
+baya
+whydah
+Java sparrow
+grassfinch
+honeycreeper
+lyrebird
+scrubbird
+broadbill
+New World flycatcher
+kingbird
+Arkansas kingbird
+Cassin's kingbird
+eastern kingbird
+grey kingbird
+pewee
+phoebe
+vermillion flycatcher
+cotinga
+manakin
+ovenbird
+antbird
+woodhewer
+pitta
+scissortail
+Old World flycatcher
+thrush
+missel thrush
+song thrush
+fieldfare
+redwing
+blackbird
+ring ouzel
+robin
+clay-colored robin
+hermit thrush
+veery
+wood thrush
+nightingale
+thrush nightingale
+Old World chat
+stonechat
+whinchat
+redstart
+wheatear
+bluebird
+robin
+bluethroat
+warbler
+gnatcatcher
+kinglet
+goldcrest
+ruby-crowned kinglet
+Old World warbler
+blackcap
+greater whitethroat
+lesser whitethroat
+wood warbler
+sedge warbler
+wren warbler
+tailorbird
+babbler
+New World warbler
+parula warbler
+Wilson's warbler
+flycatching warbler
+Cape May warbler
+yellow warbler
+Blackburn
+Audubon's warbler
+myrtle warbler
+blackpoll
+New World chat
+ovenbird
+water thrush
+yellowthroat
+New World oriole
+northern oriole
+Baltimore oriole
+Bullock's oriole
+orchard oriole
+meadowlark
+eastern meadowlark
+western meadowlark
+cacique
+bobolink
+New World blackbird
+grackle
+rusty blackbird
+cowbird
+red-winged blackbird
+Old World oriole
+starling
+common starling
+myna
+crested myna
+hill myna
+corvine bird
+crow
+raven
+rook
+jackdaw
+chough
+jay
+New World jay
+Canada jay
+nutcracker
+magpie
+Australian magpie
+butcherbird
+currawong
+piping crow
+wren
+winter wren
+house wren
+marsh wren
+rock wren
+Carolina wren
+cactus wren
+mockingbird
+catbird
+thrasher
+New Zealand wren
+creeper
+European nuthatch
+red-breasted nuthatch
+white-breasted nuthatch
+titmouse
+chickadee
+black-capped chickadee
+tufted titmouse
+Carolina chickadee
+blue tit
+bushtit
+verdin
+fairy bluebird
+swallow
+barn swallow
+cliff swallow
+tree swallow
+white-bellied swallow
+martin
+house martin
+bank martin
+purple martin
+wood swallow
+tanager
+scarlet tanager
+western tanager
+summer tanager
+hepatic tanager
+shrike
+butcherbird
+European shrike
+northern shrike
+white-rumped shrike
+loggerhead shrike
+migrant shrike
+bush shrike
+bowerbird
+water ouzel
+vireo
+red-eyed vireo
+solitary vireo
+blue-headed vireo
+waxwing
+cedar waxwing
+Bohemian waxwing
+bird of prey
+Accipitriformes
+hawk
+eyas
+tiercel
+goshawk
+sparrow hawk
+Cooper's hawk
+redtail
+rough-legged hawk
+red-shouldered hawk
+buzzard
+honey buzzard
+kite
+black kite
+swallow-tailed kite
+white-tailed kite
+harrier
+marsh harrier
+Montagu's harrier
+marsh hawk
+harrier eagle
+falcon
+peregrine
+gyrfalcon
+kestrel
+sparrow hawk
+pigeon hawk
+hobby
+caracara
+eagle
+young bird
+eaglet
+harpy
+golden eagle
+tawny eagle
+bald eagle
+sea eagle
+Kamchatkan sea eagle
+ern
+fishing eagle
+osprey
+vulture
+griffon vulture
+bearded vulture
+Egyptian vulture
+black vulture
+secretary bird
+New World vulture
+buzzard
+condor
+Andean condor
+California condor
+black vulture
+king vulture
+owl
+owlet
+little owl
+horned owl
+great grey owl
+tawny owl
+barred owl
+screech owl
+screech owl
+scops owl
+spotted owl
+hoot owl
+hawk owl
+long-eared owl
+barn owl
+amphibian
+urodele
+salamander
+European fire salamander
+spotted salamander
+alpine salamander
+newt
+common newt
+red eft
+Pacific newt
+eft
+mole salamander
+spotted salamander
+tiger salamander
+axolotl
+hellbender
+giant salamander
+dicamptodon
+Pacific giant salamander
+lungless salamander
+eastern red-backed salamander
+dusky salamander
+climbing salamander
+slender salamander
+web-toed salamander
+frog
+true frog
+wood-frog
+leopard frog
+bullfrog
+green frog
+cascades frog
+pickerel frog
+grass frog
+barking frog
+crapaud
+tree frog
+tailed frog
+true toad
+bufo
+agua
+European toad
+natterjack
+American toad
+Eurasian green toad
+Texas toad
+southwestern toad
+western toad
+obstetrical toad
+midwife toad
+fire-bellied toad
+spadefoot
+tree toad
+spring peeper
+Pacific tree toad
+canyon treefrog
+cricket frog
+chorus frog
+eastern narrow-mouthed toad
+tongueless frog
+South American poison toad
+caecilian
+reptile
+anapsid
+sea turtle
+green turtle
+loggerhead
+ridley
+Atlantic ridley
+Pacific ridley
+hawksbill turtle
+leatherback turtle
+snapping turtle
+mud turtle
+terrapin
+red-bellied terrapin
+slider
+cooter
+box turtle
+painted turtle
+tortoise
+European tortoise
+giant tortoise
+gopher tortoise
+desert tortoise
+Texas tortoise
+soft-shelled turtle
+tuatara
+saurian
+gecko
+iguanid
+common iguana
+marine iguana
+desert iguana
+chuckwalla
+earless lizard
+collared lizard
+leopard lizard
+spiny lizard
+fence lizard
+western fence lizard
+eastern fence lizard
+sagebrush lizard
+side-blotched lizard
+tree lizard
+horned lizard
+basilisk
+American chameleon
+night lizard
+skink
+teiid lizard
+agamid
+agama
+frilled lizard
+moloch
+anguid lizard
+legless lizard
+venomous lizard
+lacertid lizard
+chameleon
+monitor
+African monitor
+Komodo dragon
+crocodilian reptile
+crocodile
+African crocodile
+Asian crocodile
+alligator
+American alligator
+Chinese alligator
+caiman
+gavial
+saurischian
+diplodocus
+snake
+colubrid snake
+thunder snake
+ringneck snake
+hognose snake
+green snake
+green snake
+racer
+whip-snake
+rat snake
+corn snake
+black rat snake
+chicken snake
+Indian rat snake
+glossy snake
+bull snake
+gopher snake
+pine snake
+king snake
+garter snake
+common garter snake
+ribbon snake
+Western ribbon snake
+ground snake
+eastern ground snake
+water snake
+common water snake
+water moccasin
+grass snake
+red-bellied snake
+sand snake
+vine snake
+night snake
+blind snake
+indigo snake
+constrictor
+boa constrictor
+rubber boa
+rosy boa
+anaconda
+python
+carpet snake
+reticulated python
+Indian python
+rock python
+amethystine python
+elapid
+coral snake
+coral snake
+copperhead
+cobra
+Indian cobra
+asp
+black-necked cobra
+hamadryad
+ringhals
+mamba
+death adder
+tiger snake
+Australian blacksnake
+krait
+taipan
+sea snake
+viper
+adder
+asp
+puff adder
+gaboon viper
+horned viper
+pit viper
+copperhead
+water moccasin
+rattlesnake
+diamondback
+timber rattlesnake
+prairie rattlesnake
+sidewinder
+Western diamondback
+rock rattlesnake
+tiger rattlesnake
+Mojave rattlesnake
+speckled rattlesnake
+massasauga
+ground rattler
+fer-de-lance
+arthropod
+trilobite
+arachnid
+harvestman
+scorpion
+false scorpion
+whip-scorpion
+spider
+orb-weaving spider
+black and gold garden spider
+barn spider
+garden spider
+comb-footed spider
+black widow
+tarantula
+wolf spider
+trap-door spider
+tick
+hard tick
+Ixodes dammini
+Ixodes scapularis
+sheep-tick
+wood tick
+mite
+myriapod
+garden centipede
+centipede
+millipede
+sea spider
+horseshoe crab
+eurypterid
+domestic fowl
+Plymouth Rock
+game fowl
+cochin
+jungle fowl
+chicken
+bantam
+chick
+cock
+hen
+brood hen
+mother hen
+layer
+pullet
+Rhode Island red
+Orpington
+turkey
+ocellated turkey
+grouse
+black grouse
+ptarmigan
+capercaillie
+spruce grouse
+sage grouse
+ruffed grouse
+sharp-tailed grouse
+prairie chicken
+guan
+curassow
+chachalaca
+megapode
+pheasant
+ring-necked pheasant
+argus
+golden pheasant
+bobwhite
+Old World quail
+monal
+peafowl
+peacock
+peahen
+blue peafowl
+green peafowl
+quail
+California quail
+tragopan
+partridge
+Hungarian partridge
+red-legged partridge
+Greek partridge
+mountain quail
+guinea fowl
+hoatzin
+tinamou
+dodo
+pigeon
+pouter pigeon
+dove
+rock dove
+band-tailed pigeon
+wood pigeon
+turtledove
+Australian turtledove
+mourning dove
+domestic pigeon
+squab
+roller
+homing pigeon
+sandgrouse
+parrot
+popinjay
+poll
+African grey
+amazon
+macaw
+kea
+cockatoo
+sulphur-crested cockatoo
+pink cockatoo
+cockateel
+lovebird
+lory
+parakeet
+Carolina parakeet
+budgerigar
+ring-necked parakeet
+cuckoo
+European cuckoo
+black-billed cuckoo
+roadrunner
+ani
+coucal
+touraco
+roller
+kingfisher
+Eurasian kingfisher
+belted kingfisher
+kookaburra
+bee eater
+hornbill
+hoopoe
+motmot
+tody
+swift
+hummingbird
+Archilochus colubris
+thornbill
+woodpecker
+green woodpecker
+downy woodpecker
+flicker
+yellow-shafted flicker
+gilded flicker
+red-shafted flicker
+ivorybill
+redheaded woodpecker
+sapsucker
+yellow-bellied sapsucker
+red-breasted sapsucker
+wryneck
+barbet
+puffbird
+jacamar
+toucan
+trogon
+aquatic bird
+waterfowl
+anseriform bird
+duck
+drake
+quack-quack
+duckling
+diving duck
+dabbling duck
+mallard
+black duck
+teal
+greenwing
+bluewing
+garganey
+widgeon
+shoveler
+pintail
+sheldrake
+ruddy duck
+bufflehead
+goldeneye
+canvasback
+pochard
+redhead
+scaup
+greater scaup
+lesser scaup
+wild duck
+wood duck
+mandarin duck
+muscovy duck
+sea duck
+eider
+scoter
+old squaw
+merganser
+goosander
+American merganser
+red-breasted merganser
+smew
+hooded merganser
+goose
+gosling
+gander
+Chinese goose
+greylag
+blue goose
+brant
+honker
+barnacle goose
+coscoroba
+swan
+cob
+pen
+cygnet
+mute swan
+whooper
+tundra swan
+whistling swan
+Bewick's swan
+trumpeter
+black swan
+screamer
+mammal
+female mammal
+tusker
+prototherian
+echidna
+echidna
+platypus
+opossum
+opossum rat
+bandicoot
+kangaroo
+giant kangaroo
+wallaby
+common wallaby
+rock wallaby
+pademelon
+tree wallaby
+rat kangaroo
+phalanger
+brush-tailed phalanger
+flying phalanger
+koala
+wombat
+dasyure
+thylacine
+Tasmanian devil
+numbat
+placental
+livestock
+bull
+cow
+calf
+calf
+yearling
+buck
+doe
+insectivore
+mole
+shrew
+hedgehog
+tenrec
+contour feather
+bastard wing
+scallop shell
+oyster shell
+theca
+invertebrate
+sponge
+coelenterate
+polyp
+jellyfish
+hydrozoan
+anthozoan
+sea anemone
+sea pen
+coral
+gorgonian
+sea feather
+sea fan
+stony coral
+brain coral
+staghorn coral
+mushroom coral
+ctenophore
+worm
+woodworm
+woodborer
+flatworm
+rotifer
+nematode
+annelid
+oligochaete
+polychaete
+leech
+mollusk
+gastropod
+abalone
+conch
+snail
+edible snail
+garden snail
+brown snail
+Helix hortensis
+slug
+seasnail
+neritid
+whelk
+moon shell
+limpet
+sea slug
+sea hare
+bubble shell
+physa
+cowrie
+chiton
+bivalve
+spat
+clam
+seashell
+soft-shell clam
+quahog
+geoduck
+razor clam
+giant clam
+cockle
+oyster
+ark shell
+mussel
+marine mussel
+freshwater mussel
+scallop
+cephalopod
+chambered nautilus
+octopod
+decapod
+crustacean
+malacostracan crustacean
+decapod crustacean
+brachyuran
+crab
+stone crab
+Dungeness crab
+rock crab
+swimming crab
+fiddler crab
+king crab
+spider crab
+lobster
+true lobster
+Norway lobster
+spiny lobster
+crayfish
+hermit crab
+shrimp
+prawn
+tropical prawn
+krill
+stomatopod
+isopod
+woodlouse
+amphipod
+copepod
+seed shrimp
+barnacle
+onychophoran
+wading bird
+stork
+white stork
+black stork
+adjutant bird
+marabou
+openbill
+jabiru
+saddlebill
+policeman bird
+wood ibis
+shoebill
+ibis
+wood ibis
+sacred ibis
+spoonbill
+common spoonbill
+roseate spoonbill
+flamingo
+heron
+great blue heron
+great white heron
+egret
+little blue heron
+snowy egret
+little egret
+great white heron
+American egret
+cattle egret
+night heron
+black-crowned night heron
+yellow-crowned night heron
+boatbill
+bittern
+American bittern
+European bittern
+least bittern
+crane
+courlan
+limpkin
+crested cariama
+chunga
+rail
+weka
+crake
+gallinule
+Florida gallinule
+moorhen
+purple gallinule
+notornis
+coot
+American coot
+Old World coot
+bustard
+button quail
+trumpeter
+seabird
+shorebird
+plover
+piping plover
+killdeer
+dotterel
+golden plover
+lapwing
+turnstone
+ruddy turnstone
+black turnstone
+sandpiper
+surfbird
+European sandpiper
+spotted sandpiper
+least sandpiper
+red-backed sandpiper
+greenshank
+redshank
+yellowlegs
+greater yellowlegs
+lesser yellowlegs
+pectoral sandpiper
+knot
+curlew sandpiper
+sanderling
+upland sandpiper
+ruff
+tattler
+woodcock
+snipe
+whole snipe
+Wilson's snipe
+great snipe
+jacksnipe
+dowitcher
+curlew
+godwit
+stilt
+black-necked stilt
+black-winged stilt
+white-headed stilt
+stilt
+avocet
+oystercatcher
+phalarope
+red phalarope
+northern phalarope
+Wilson's phalarope
+pratincole
+courser
+stone curlew
+larid
+gull
+mew
+black-backed gull
+herring gull
+laughing gull
+ivory gull
+kittiwake
+tern
+skimmer
+jaeger
+parasitic jaeger
+skua
+auk
+auklet
+razorbill
+little auk
+guillemot
+black guillemot
+pigeon guillemot
+murre
+puffin
+Atlantic puffin
+horned puffin
+tufted puffin
+gaviiform seabird
+podicipitiform seabird
+great crested grebe
+red-necked grebe
+black-necked grebe
+dabchick
+pied-billed grebe
+pelican
+white pelican
+Old world white pelican
+frigate bird
+gannet
+solan
+booby
+cormorant
+snakebird
+tropic bird
+sphenisciform seabird
+Adelie
+king penguin
+emperor penguin
+jackass penguin
+rock hopper
+pelagic bird
+albatross
+wandering albatross
+black-footed albatross
+petrel
+giant petrel
+fulmar
+shearwater
+storm petrel
+diving petrel
+aquatic mammal
+cetacean
+baleen whale
+right whale
+bowhead
+rorqual
+blue whale
+finback
+sei whale
+lesser rorqual
+humpback
+grey whale
+toothed whale
+sperm whale
+beaked whale
+dolphin
+common dolphin
+bottlenose dolphin
+Atlantic bottlenose dolphin
+Pacific bottlenose dolphin
+porpoise
+grampus
+killer whale
+pilot whale
+river dolphin
+narwhal
+white whale
+sea cow
+carnivore
+omnivore
+pinniped mammal
+seal
+crabeater seal
+eared seal
+fur seal
+fur seal
+sea lion
+South American sea lion
+California sea lion
+Australian sea lion
+Steller sea lion
+earless seal
+harbor seal
+harp seal
+elephant seal
+bearded seal
+walrus
+aardvark
+canine
+bitch
+dog
+pooch
+cur
+lapdog
+toy dog
+Chihuahua
+Japanese spaniel
+Maltese dog
+Pekinese
+Shih-Tzu
+toy spaniel
+English toy spaniel
+King Charles spaniel
+papillon
+toy terrier
+hunting dog
+courser
+Rhodesian ridgeback
+hound
+Afghan hound
+basset
+beagle
+bloodhound
+bluetick
+coonhound
+dachshund
+foxhound
+harrier
+redbone
+wolfhound
+borzoi
+Irish wolfhound
+greyhound
+Italian greyhound
+whippet
+Ibizan hound
+Norwegian elkhound
+otterhound
+Saluki
+Scottish deerhound
+Weimaraner
+terrier
+bullterrier
+Staffordshire bullterrier
+American Staffordshire terrier
+Bedlington terrier
+Border terrier
+Kerry blue terrier
+Irish terrier
+Norfolk terrier
+Norwich terrier
+Yorkshire terrier
+rat terrier
+fox terrier
+wirehair
+Lakeland terrier
+Welsh terrier
+Airedale
+cairn
+Australian terrier
+Dandie Dinmont
+Boston bull
+schnauzer
+miniature schnauzer
+giant schnauzer
+standard schnauzer
+Scotch terrier
+Tibetan terrier
+silky terrier
+Skye terrier
+soft-coated wheaten terrier
+West Highland white terrier
+Lhasa
+sporting dog
+bird dog
+water dog
+retriever
+flat-coated retriever
+curly-coated retriever
+golden retriever
+Labrador retriever
+Chesapeake Bay retriever
+pointer
+German short-haired pointer
+setter
+vizsla
+English setter
+Irish setter
+Gordon setter
+spaniel
+Brittany spaniel
+clumber
+springer spaniel
+English springer
+Welsh springer spaniel
+cocker spaniel
+Sussex spaniel
+water spaniel
+working dog
+watchdog
+kuvasz
+housedog
+schipperke
+shepherd dog
+Belgian sheepdog
+groenendael
+malinois
+briard
+kelpie
+komondor
+Old English sheepdog
+Shetland sheepdog
+collie
+Border collie
+Bouvier des Flandres
+Rottweiler
+German shepherd
+police dog
+pinscher
+Doberman
+miniature pinscher
+Sennenhunde
+Greater Swiss Mountain dog
+Bernese mountain dog
+Appenzeller
+EntleBucher
+boxer
+mastiff
+bull mastiff
+bulldog
+Great Dane
+guide dog
+Saint Bernard
+sled dog
+Eskimo dog
+malamute
+Siberian husky
+dalmatian
+affenpinscher
+basenji
+pug
+Leonberg
+Newfoundland
+Great Pyrenees
+spitz
+Samoyed
+Pomeranian
+chow
+keeshond
+griffon
+corgi
+Pembroke
+Cardigan
+poodle
+toy poodle
+miniature poodle
+standard poodle
+large poodle
+Mexican hairless
+wolf
+timber wolf
+white wolf
+red wolf
+coyote
+jackal
+wild dog
+dingo
+dhole
+African hunting dog
+hyena
+striped hyena
+brown hyena
+spotted hyena
+aardwolf
+fox
+vixen
+red fox
+red fox
+kit fox
+kit fox
+Arctic fox
+grey fox
+feline
+cat
+domestic cat
+kitty
+mouser
+alley cat
+stray
+tom
+tabby
+kitten
+tabby
+tiger cat
+tortoiseshell
+Persian cat
+Angora
+Siamese cat
+Burmese cat
+Egyptian cat
+Abyssinian
+Manx
+wildcat
+sand cat
+European wildcat
+cougar
+ocelot
+jaguarundi
+jungle cat
+serval
+margay
+manul
+lynx
+common lynx
+Canada lynx
+bobcat
+spotted lynx
+caracal
+big cat
+leopard
+snow leopard
+jaguar
+lion
+lioness
+tiger
+Bengal tiger
+tigress
+liger
+tiglon
+cheetah
+bear
+brown bear
+bruin
+Syrian bear
+grizzly
+Alaskan brown bear
+American black bear
+Asiatic black bear
+ice bear
+sloth bear
+civet
+fossa
+genet
+mongoose
+meerkat
+slender-tailed meerkat
+suricate
+bat
+fruit bat
+carnivorous bat
+leafnose bat
+vespertilian bat
+red bat
+brown bat
+little brown bat
+cave myotis
+big brown bat
+serotine
+pallid bat
+pipistrelle
+long-eared bat
+freetail
+vampire bat
+predator
+prey
+big game
+fossorial mammal
+tetrapod
+hexapod
+insect
+social insect
+defoliator
+pollinator
+collembolan
+beetle
+tiger beetle
+ladybug
+two-spotted ladybug
+Mexican bean beetle
+Hippodamia convergens
+vedalia
+ground beetle
+firefly
+long-horned beetle
+leaf beetle
+flea beetle
+Colorado potato beetle
+carpet beetle
+clerid beetle
+dung beetle
+June beetle
+Japanese beetle
+Oriental beetle
+rhinoceros beetle
+melolonthid beetle
+rose chafer
+stag beetle
+elaterid beetle
+wireworm
+water beetle
+deathwatch beetle
+weevil
+snout beetle
+blister beetle
+bark beetle
+rove beetle
+darkling beetle
+mealworm
+seed beetle
+Asian longhorned beetle
+louse
+flea
+dipterous insect
+fly
+housefly
+tsetse fly
+blowfly
+bluebottle
+greenbottle
+flesh fly
+tachina fly
+gadfly
+bee fly
+robber fly
+fruit fly
+louse fly
+mosquito
+wiggler
+gnat
+yellow-fever mosquito
+Asian tiger mosquito
+anopheline
+malarial mosquito
+common mosquito
+Culex quinquefasciatus
+gnat
+fungus gnat
+crane fly
+hymenopterous insect
+bee
+drone
+worker
+honeybee
+Africanized bee
+black bee
+Italian bee
+carpenter bee
+bumblebee
+andrena
+leaf-cutting bee
+mason bee
+wasp
+paper wasp
+hornet
+giant hornet
+common wasp
+bald-faced hornet
+yellow jacket
+mason wasp
+potter wasp
+velvet ant
+sphecoid wasp
+gall wasp
+chalcid fly
+ichneumon fly
+ant
+pharaoh ant
+army ant
+carpenter ant
+fire ant
+wood ant
+slave ant
+slave-making ant
+bulldog ant
+termite
+orthopterous insect
+grasshopper
+short-horned grasshopper
+long-horned grasshopper
+cricket
+mole cricket
+European house cricket
+field cricket
+tree cricket
+phasmid
+cockroach
+oriental cockroach
+American cockroach
+Australian cockroach
+German cockroach
+giant cockroach
+mantis
+bug
+hemipterous insect
+leaf bug
+lygaeid
+coreid bug
+bedbug
+true bug
+water bug
+assassin bug
+firebug
+cotton stainer
+homopterous insect
+whitefly
+coccid insect
+plant louse
+aphid
+adelgid
+jumping plant louse
+cicada
+spittle insect
+leafhopper
+plant hopper
+psocopterous insect
+ephemerid
+stonefly
+ant lion
+doodlebug
+lacewing
+aphid lion
+dobson
+alderfly
+mantispid
+odonate
+dragonfly
+damselfly
+caseworm
+thysanuran insect
+thysanopter
+earwig
+lepidopterous insect
+butterfly
+nymphalid
+mourning cloak
+tortoiseshell
+painted beauty
+admiral
+red admiral
+white admiral
+banded purple
+red-spotted purple
+viceroy
+anglewing
+ringlet
+comma
+fritillary
+emperor butterfly
+peacock
+danaid
+pierid
+small white
+large white
+southern cabbage butterfly
+sulphur butterfly
+lycaenid
+blue
+copper
+hairstreak
+moth
+moth miller
+tortricid
+lymantriid
+tussock caterpillar
+geometrid
+cankerworm
+measuring worm
+pyralid
+noctuid moth
+cutworm
+armyworm
+beet armyworm
+fall armyworm
+hawkmoth
+tobacco hornworm
+tomato hornworm
+bombycid
+silkworm
+emperor
+imperial moth
+giant silkworm moth
+silkworm
+luna moth
+cecropia
+io moth
+polyphemus moth
+pernyi moth
+arctiid
+lasiocampid
+tent caterpillar
+webworm
+instar
+caterpillar
+corn borer
+bollworm
+cabbageworm
+woolly bear
+larva
+nymph
+grub
+pupa
+imago
+queen
+brachiopod
+echinoderm
+starfish
+brittle star
+basket star
+sea urchin
+edible sea urchin
+sand dollar
+crinoid
+sea cucumber
+lagomorph
+rabbit
+rabbit ears
+lapin
+bunny
+European rabbit
+wood rabbit
+hare
+European hare
+jackrabbit
+polar hare
+snowshoe hare
+Angora
+pika
+rodent
+mouse
+rat
+pocket rat
+house mouse
+harvest mouse
+field mouse
+brown rat
+black rat
+bandicoot rat
+New World mouse
+wood mouse
+muskrat
+wood rat
+vole
+packrat
+meadow vole
+water vole
+water vole
+hamster
+Eurasian hamster
+golden hamster
+gerbil
+lemming
+porcupine
+jumping mouse
+jerboa
+dormouse
+squirrel
+tree squirrel
+eastern grey squirrel
+western grey squirrel
+fox squirrel
+black squirrel
+red squirrel
+American red squirrel
+chickeree
+antelope squirrel
+ground squirrel
+mantled ground squirrel
+suslik
+flickertail
+rock squirrel
+Arctic ground squirrel
+prairie dog
+eastern chipmunk
+chipmunk
+American flying squirrel
+marmot
+groundhog
+hoary marmot
+yellowbelly marmot
+beaver
+cavy
+guinea pig
+aperea
+mara
+capybara
+agouti
+coypu
+chinchilla
+viscacha
+abrocome
+mole rat
+mole rat
+Ungulata
+ungulate
+hyrax
+odd-toed ungulate
+equine
+horse
+roan
+gee-gee
+foal
+filly
+colt
+male horse
+stallion
+gelding
+mare
+saddle horse
+remount
+warhorse
+hack
+cow pony
+quarter horse
+Morgan
+Tennessee walker
+American saddle horse
+Appaloosa
+Arabian
+Lippizan
+pony
+polo pony
+mustang
+buckskin
+dun
+grey
+wild horse
+cayuse
+hack
+hack
+plow horse
+pony
+Shetland pony
+Welsh pony
+Exmoor
+racehorse
+thoroughbred
+steeplechaser
+finisher
+yearling
+harness horse
+cob
+hackney
+workhorse
+draft horse
+carthorse
+Clydesdale
+Percheron
+farm horse
+shire
+post horse
+coach horse
+pacer
+trotting horse
+chestnut
+liver chestnut
+bay
+sorrel
+palomino
+pinto
+ass
+domestic ass
+jack
+jennet
+mule
+hinny
+wild ass
+zebra
+common zebra
+mountain zebra
+grevy's zebra
+rhinoceros
+Indian rhinoceros
+white rhinoceros
+black rhinoceros
+tapir
+even-toed ungulate
+swine
+hog
+piglet
+boar
+sow
+wild boar
+babirusa
+warthog
+peccary
+hippopotamus
+ruminant
+bovid
+bovine
+ox
+cattle
+ox
+bullock
+bull
+cow
+heifer
+bullock
+beef
+longhorn
+Brahman
+aurochs
+yak
+banteng
+Santa Gertrudis
+Aberdeen Angus
+dairy cattle
+Ayrshire
+Brown Swiss
+Charolais
+Jersey
+Devon
+Durham
+milking shorthorn
+Galloway
+Friesian
+Guernsey
+Hereford
+cattalo
+Old World buffalo
+water buffalo
+anoa
+Cape buffalo
+Asian wild ox
+bison
+American bison
+wisent
+musk ox
+sheep
+ewe
+ram
+wether
+lamb
+black sheep
+domestic sheep
+Cotswold
+Hampshire
+Lincoln
+Cheviot
+broadtail
+longwool
+merino
+Rambouillet
+wild sheep
+argali
+urial
+Dall sheep
+mountain sheep
+bighorn
+mouflon
+aoudad
+goat
+kid
+billy
+nanny
+domestic goat
+wild goat
+bezoar goat
+markhor
+ibex
+goat antelope
+mountain goat
+serow
+chamois
+takin
+antelope
+blackbuck
+gerenuk
+addax
+gnu
+dik-dik
+hartebeest
+sassaby
+impala
+gazelle
+Thomson's gazelle
+springbok
+bongo
+kudu
+harnessed antelope
+mountain nyala
+nilgai
+sable antelope
+saiga
+steenbok
+eland
+waterbuck
+oryx
+forest goat
+pronghorn
+deer
+fawn
+red deer
+hart
+hind
+sambar
+wapiti
+Japanese deer
+Virginia deer
+mule deer
+elk
+fallow deer
+roe deer
+caribou
+woodland caribou
+barren ground caribou
+muntjac
+musk deer
+pere david's deer
+chevrotain
+camel
+Arabian camel
+Bactrian camel
+llama
+domestic llama
+guanaco
+alpaca
+vicuna
+giraffe
+musteline mammal
+weasel
+mink
+polecat
+black-footed ferret
+otter
+river otter
+Eurasian otter
+sea otter
+skunk
+badger
+ratel
+wolverine
+glutton
+marten
+tayra
+fictional animal
+pachyderm
+armadillo
+peba
+peludo
+giant armadillo
+sloth
+three-toed sloth
+two-toed sloth
+two-toed sloth
+anteater
+ant bear
+tamandua
+pangolin
+scapular
+tadpole
+primate
+simian
+ape
+hominoid
+hominid
+homo
+world
+Homo erectus
+Homo sapiens
+Neandertal man
+australopithecine
+great ape
+orangutan
+gorilla
+western lowland gorilla
+eastern lowland gorilla
+mountain gorilla
+silverback
+chimpanzee
+western chimpanzee
+eastern chimpanzee
+central chimpanzee
+pygmy chimpanzee
+lesser ape
+monkey
+Old World monkey
+guenon
+grivet
+vervet
+green monkey
+patas
+baboon
+chacma
+mandrill
+macaque
+rhesus
+bonnet macaque
+Barbary ape
+crab-eating macaque
+langur
+colobus
+proboscis monkey
+New World monkey
+marmoset
+pygmy marmoset
+tamarin
+capuchin
+howler monkey
+saki
+titi
+spider monkey
+squirrel monkey
+woolly monkey
+tree shrew
+prosimian
+lemur
+Madagascar cat
+slender loris
+slow loris
+potto
+galago
+indri
+tarsier
+elephant
+Indian elephant
+African elephant
+mammoth
+mastodon
+plantigrade mammal
+raccoon
+common raccoon
+bassarisk
+kinkajou
+coati
+lesser panda
+giant panda
+fish
+game fish
+food fish
+rough fish
+young fish
+spawner
+barracouta
+lungfish
+catfish
+silurid
+bullhead
+channel catfish
+flathead catfish
+cod
+whiting
+haddock
+pollack
+hake
+cusk
+eel
+common eel
+tuna
+moray
+conger
+teleost fish
+clupeid fish
+shad
+menhaden
+herring
+sardine
+pilchard
+anchovy
+salmon
+blackfish
+redfish
+Atlantic salmon
+sockeye
+chinook
+coho
+trout
+brown trout
+rainbow trout
+lake trout
+brook trout
+char
+whitefish
+smelt
+tarpon
+bonefish
+lizardfish
+goosefish
+toadfish
+frogfish
+needlefish
+halfbeak
+saury
+spiny-finned fish
+lingcod
+percoid fish
+perch
+perch
+yellow perch
+European perch
+pike-perch
+robalo
+pike
+northern pike
+muskellunge
+pickerel
+sunfish
+crappie
+freshwater bream
+pumpkinseed
+rock bass
+black bass
+Kentucky black bass
+smallmouth
+largemouth
+bass
+serranid fish
+rock sea bass
+striped bass
+stone bass
+grouper
+hind
+jewfish
+surfperch
+bigeye
+cardinalfish
+bluefish
+cobia
+remora
+jack
+crevalle jack
+rainbow runner
+moonfish
+amberjack
+yellowtail
+kingfish
+pompano
+scad
+dolphinfish
+characin
+tetra
+cardinal tetra
+piranha
+cichlid
+snapper
+grunt
+sparid
+sea bream
+mulloway
+croaker
+whiting
+sea trout
+mullet
+mullet
+silversides
+barracuda
+sea chub
+spadefish
+butterfly fish
+chaetodon
+angelfish
+rock beauty
+damselfish
+anemone fish
+sergeant major
+wrasse
+parrotfish
+jawfish
+dragonet
+goby
+sleeper
+flathead
+archerfish
+surgeonfish
+mackerel
+common mackerel
+Spanish mackerel
+chub mackerel
+wahoo
+Spanish mackerel
+king mackerel
+cero
+tuna
+bluefin
+yellowfin
+bonito
+skipjack
+bonito
+swordfish
+sailfish
+billfish
+marlin
+blue marlin
+black marlin
+striped marlin
+white marlin
+tripletail
+mojarra
+bowfin
+paddlefish
+sturgeon
+Pacific sturgeon
+beluga
+gar
+scorpionfish
+lionfish
+stonefish
+rockfish
+lumpfish
+greenling
+flathead
+gurnard
+flying gurnard
+triggerfish
+filefish
+boxfish
+puffer
+spiny puffer
+ocean sunfish
+flatfish
+flounder
+righteye flounder
+halibut
+lefteye flounder
+sole
+abacus
+abandoned ship
+abattoir
+abaya
+abbey
+abbey
+abutment
+abutment arch
+academic gown
+accelerator
+accelerator
+accelerator
+accelerometer
+accessory
+accommodation
+accordion
+acetate disk
+acoustic device
+acoustic guitar
+acropolis
+acrylic
+action
+actuator
+adapter
+adding machine
+addressing machine
+adhesive bandage
+adit
+adjustable wrench
+adobe
+adz
+aerator
+aerosol
+Aertex
+afghan
+Afro-wig
+afterburner
+after-shave
+agora
+aileron
+air bag
+airbus
+air compressor
+air conditioner
+aircraft
+aircraft carrier
+aircraft engine
+airdock
+airfield
+air filter
+airfoil
+airframe
+air gun
+air horn
+airliner
+airplane
+airplane propeller
+air pump
+airship
+air-to-air missile
+aisle
+Aladdin's lamp
+alarm
+alarm clock
+alb
+alcazar
+alidade
+A-line
+Allen screw
+Allen wrench
+alpaca
+alpenstock
+altar
+altar
+altazimuth
+alternator
+altimeter
+Amati
+ambulance
+American organ
+ammeter
+ammunition
+amphibian
+amphibian
+amphitheater
+amphitheater
+amphora
+amplifier
+analog clock
+analog computer
+analog watch
+analyzer
+anastigmat
+anchor
+anchor chain
+anchor light
+andiron
+anechoic chamber
+anemometer
+angle bracket
+ankle brace
+anklet
+answering machine
+antenna
+anteroom
+antiaircraft
+antiballistic missile
+antifouling paint
+antiperspirant
+anvil
+ao dai
+apartment
+apartment building
+aperture
+aperture
+apiary
+apparatus
+apparel
+appliance
+applicator
+appointment
+apron
+apse
+aqualung
+aquaplane
+aquarium
+arabesque
+arbor
+arcade
+arch
+architecture
+architrave
+arch support
+arc lamp
+area
+argyle
+armament
+armature
+armband
+armchair
+armet
+arm guard
+armhole
+armlet
+armoire
+armor
+armored car
+armored personnel carrier
+armored vehicle
+armor plate
+armrest
+array
+arrester
+arrow
+artificial horizon
+artillery
+ashcan
+ash-pan
+ashtray
+assault rifle
+assembly
+assembly
+assembly plant
+astrodome
+astronomical telescope
+athletic sock
+athletic supporter
+atlas
+atom bomb
+atomic clock
+atomizer
+atrium
+attachment
+attenuator
+attic
+attire
+audio amplifier
+audiocassette
+audio CD
+audiometer
+audio system
+audiotape
+audiotape
+auditorium
+autoclave
+autofocus
+autogiro
+autoloader
+automatic firearm
+automatic pistol
+automatic rifle
+automatic transmission
+automation
+automaton
+automobile engine
+automobile factory
+automobile horn
+autopilot
+auxiliary engine
+auxiliary storage
+aviary
+awl
+awning
+ax
+ax handle
+axis
+axle
+baby bed
+baby buggy
+baby grand
+baby powder
+baby shoe
+back
+back
+backbench
+backboard
+backboard
+back brace
+background
+backhoe
+backpack
+backpacking tent
+back porch
+backsaw
+backseat
+backspace key
+backstop
+backsword
+badminton court
+badminton equipment
+badminton racket
+bag
+bag
+bag
+baggage
+baggage
+baggage car
+baggage claim
+bagpipe
+bailey
+Bailey bridge
+bait
+bakery
+balaclava
+balalaika
+balance
+balance beam
+balance wheel
+balcony
+balcony
+baldric
+bale
+ball
+ball
+balldress
+ballet skirt
+ball gown
+ballistic missile
+balloon
+balloon sail
+ballot box
+ballpark
+ball-peen hammer
+ballpoint
+ballroom
+ball valve
+baluster
+banana boat
+band
+bandage
+Band Aid
+bandbox
+bandsaw
+bangle
+banjo
+banner
+bannister
+baptismal font
+bar
+bar
+barbecue
+barbed wire
+barbell
+barber chair
+barbershop
+barbican
+bareboat
+barge
+baritone
+bark
+barn
+barndoor
+barometer
+barouche
+bar printer
+barrel
+barrel
+barrel organ
+barrel vault
+barrette
+barricade
+barrier
+barroom
+barrow
+bascule
+base
+baseball
+baseball bat
+baseball cap
+baseball equipment
+baseball glove
+basement
+basement
+basilica
+basilisk
+basin
+basinet
+basket
+basket
+basketball
+basketball court
+basketball equipment
+basket weave
+bass
+bass drum
+bass fiddle
+bass guitar
+bass horn
+bassinet
+bassoon
+baster
+bastion
+bastion
+bat
+bath
+bathing cap
+bath oil
+bathrobe
+bathroom
+bath salts
+bath towel
+bathtub
+batik
+batiste
+baton
+baton
+baton
+battery
+batting cage
+batting glove
+batting helmet
+battle dress
+battlement
+battleship
+bayonet
+bay window
+bazaar
+bazaar
+BB gun
+beach house
+beach towel
+beach wagon
+beachwear
+beacon
+beaker
+beaker
+beam
+beam balance
+beanbag
+beanie
+bearing
+bearskin
+beater
+beating-reed instrument
+bedclothes
+bed jacket
+bedpan
+bedpost
+bedroom
+bedroom furniture
+bedsitting room
+bedspread
+bedspring
+bedstead
+beefcake
+beehive
+beeper
+beer barrel
+beer bottle
+beer can
+beer garden
+beer glass
+beer hall
+beer mug
+belfry
+bell
+bell arch
+bellbottom trousers
+bell cote
+bell gable
+bell jar
+bell push
+bell tent
+bell tower
+bellyband
+belt
+belting
+bench
+beret
+Bermuda shorts
+berth
+besom
+bevel
+bevel gear
+bib
+bib-and-tucker
+bicycle
+bicycle-built-for-two
+bicycle chain
+bicycle pump
+bicycle rack
+bicycle seat
+bicycle wheel
+bidet
+bier
+bier
+bikini
+bikini pants
+bilge pump
+bill
+billboard
+billiard ball
+billiard room
+bin
+binder
+binder
+binding
+binnacle
+binoculars
+binocular microscope
+biplane
+birchbark canoe
+birdbath
+birdcage
+birdcall
+bird feeder
+birdhouse
+biretta
+bistro
+bit
+bit
+black
+blackboard
+black box
+blackface
+blackwash
+blade
+blade
+blanket
+blast furnace
+blender
+blind
+blindfold
+bling
+blinker
+block
+block and tackle
+blockhouse
+block plane
+bloodmobile
+bloomers
+blouse
+blower
+blowtorch
+blucher
+bludgeon
+blue
+boarding house
+boardroom
+boat
+boater
+boat hook
+boathouse
+boatswain's chair
+bobbin
+bobsled
+bobsled
+bocce ball
+bodice
+body
+body armor
+body lotion
+body stocking
+bodywork
+boiler
+bolero
+bollard
+bolo
+bolo tie
+bolt
+bolt
+bolt
+bolt cutter
+bomb
+bomber
+bomber jacket
+bomb shelter
+bone-ash cup
+bones
+boneshaker
+bongo
+bonnet
+book
+book bag
+bookcase
+bookend
+bookmobile
+bookshelf
+bookshop
+boom
+boomerang
+booster
+booster
+boot
+bootee
+booth
+booth
+boothose
+bootjack
+bootleg
+bootstrap
+bore bit
+bosom
+bottle
+bottle
+bottlebrush
+bottlecap
+bottle opener
+bottling plant
+bottom
+boucle
+boudoir
+boutique
+bow
+bow
+bow
+bow and arrow
+bowed stringed instrument
+Bowie knife
+bowl
+bowl
+bowler hat
+bowling alley
+bowling ball
+bowling equipment
+bowling shoe
+bowsprit
+bow tie
+box
+box
+box beam
+box camera
+boxcar
+box coat
+boxing equipment
+box office
+box wrench
+brace
+brace
+brace
+brace and bit
+bracelet
+bracer
+bracket
+brake
+brake
+brake disk
+brake drum
+brake pad
+brake pedal
+brake shoe
+brass
+brass
+brass
+brassard
+brasserie
+brassiere
+brass knucks
+brazier
+breadbasket
+bread-bin
+bread knife
+breakfast area
+breakfast table
+breakwater
+breastplate
+breast pocket
+breathalyzer
+breechblock
+breechcloth
+breeches
+Bren
+brewpub
+brick
+brick trowel
+brickwork
+bridal gown
+bridge
+bridle
+bridle path
+briefcase
+briefs
+brig
+brig
+brigantine
+brim
+bristle brush
+broadax
+broadcaster
+broadcloth
+broadcloth
+broadloom
+broadside
+broadsword
+brocade
+brogan
+broiler
+broken arch
+broom
+broomstick
+Browning automatic rifle
+Browning machine gun
+brownstone
+brush
+Brussels carpet
+Brussels lace
+bucket
+bucket seat
+buckle
+buckram
+buffer
+buffer
+buffet
+buffing wheel
+buggy
+bugle
+building
+building complex
+bulldog clip
+bulldozer
+bullet
+bulletproof vest
+bullet train
+bullhorn
+bullnose
+bullpen
+bullring
+bulwark
+bumboat
+bumper
+bumper
+bumper car
+bumper guard
+bundle
+bungalow
+bungee
+bunk
+bunk bed
+bunker
+bunker
+bunsen burner
+bunting
+Burberry
+burglar alarm
+burial chamber
+burial mound
+burqa
+burn bag
+burner
+burp gun
+bus
+bushel basket
+bush jacket
+business suit
+buskin
+bustier
+bustle
+butcher knife
+butcher shop
+butter dish
+butterfly valve
+butter knife
+butt hinge
+butt joint
+button
+buttonhook
+buttress
+buzzer
+BVD
+byway
+cab
+cab
+cabana
+caber
+cabin
+cabin
+cabin car
+cabin class
+cabin cruiser
+cabinet
+cabinet
+cabinet
+cable
+cable
+cable car
+caddy
+cafe
+cafeteria
+cafeteria tray
+caff
+caftan
+caftan
+cage
+calcimine
+calculator
+caldron
+caliper
+call center
+caller ID
+calorimeter
+camber arch
+camel's hair
+camera
+camera lens
+camera tripod
+camise
+camisole
+camouflage
+camp
+campaign hat
+camp chair
+camper
+camper trailer
+camshaft
+can
+canal boat
+candelabrum
+candid camera
+candle
+candlesnuffer
+candlestick
+candy thermometer
+cane
+canister
+cannikin
+cannikin
+cannon
+cannon
+cannon
+cannon
+cannonball
+canoe
+can opener
+canopic jar
+canopy
+canopy
+canopy
+canteen
+canteen
+canteen
+canteen
+cantilever bridge
+cantle
+canvas
+canvas tent
+cap
+cap
+cap
+capacitor
+caparison
+cape
+capitol
+cap opener
+capote
+cap screw
+capsule
+captain's chair
+car
+car
+car
+carabiner
+carafe
+carbine
+car bomb
+carboy
+carburetor
+cardcase
+cardigan
+cardiograph
+car door
+cardroom
+cargo area
+cargo container
+cargo door
+cargo liner
+cargo ship
+car mirror
+carousel
+carpenter's hammer
+carpenter's kit
+carpenter's level
+carpenter's square
+carpetbag
+carpet beater
+carpet pad
+carpet sweeper
+carriage
+carriage
+carrier
+carryall
+carrycot
+car seat
+cart
+car tire
+carton
+car train
+cartridge
+cartridge belt
+cartwheel
+carving knife
+car wheel
+caryatid
+case
+case
+case
+casein paint
+case knife
+case knife
+casement window
+cash bar
+cashbox
+cash machine
+cashmere
+casing
+casket
+casque
+Cassegrainian telescope
+casserole
+cassette
+cassette player
+cassette recorder
+cassette tape
+cassock
+cast
+caster
+castle
+catalytic converter
+catamaran
+catapult
+catapult
+catboat
+cat box
+catch
+catcher's mask
+catchment
+cathedral
+cathedral
+catheter
+catsup bottle
+cattle guard
+cautery
+cavalier hat
+cavalry sword
+CD drive
+CD player
+CD-R
+CD-ROM
+CD-ROM drive
+cedar chest
+cell
+cell
+cellar
+cellblock
+cello
+cenotaph
+censer
+center
+central processing unit
+centrifugal pump
+centrifuge
+ceramic
+ceramic ware
+cereal bowl
+cereal box
+chador
+chafing dish
+chain
+chain
+chainlink fence
+chain mail
+chain printer
+chain saw
+chain store
+chair
+chair
+chair of state
+chairlift
+chaise longue
+chalet
+chalice
+chalk
+chamberpot
+chancel
+chancellery
+chanter
+chapel
+chapterhouse
+chapterhouse
+character printer
+charger
+chassis
+chasuble
+chateau
+chatelaine
+checker
+checkout
+cheekpiece
+cheeseboard
+cheese cutter
+chemical plant
+chemical reactor
+chemise
+chemise
+chenille
+chessman
+chest
+chest of drawers
+chest protector
+cheval glass
+chicane
+chicken coop
+chicken wire
+chiffon
+chiffonier
+child's room
+chime
+china
+china cabinet
+Chinese lantern
+chinning bar
+chino
+chino
+chin rest
+chin strap
+chintz
+chip
+chisel
+choir
+choir loft
+choke
+choo-choo
+chopine
+Christmas stocking
+chronograph
+chronometer
+chronoscope
+chuck
+chuck wagon
+chukka
+church
+church bell
+church hat
+church tower
+churidars
+churn
+ciderpress
+cigar box
+cigar cutter
+cigarette case
+cigarette holder
+cigar lighter
+cinema
+circle
+circlet
+circuit
+circuitry
+circular saw
+circus tent
+cistern
+cistern
+cittern
+city hall
+civilian clothing
+clamp
+clapperboard
+clarinet
+clasp
+clasp knife
+classroom
+clavichord
+clavier
+cleaners
+cleaning implement
+cleaning pad
+clean room
+cleat
+cleat
+cleats
+cleaver
+clerestory
+clevis
+cliff dwelling
+climbing frame
+clinch
+clinic
+clinker
+clinometer
+clip
+clip-on
+clipper
+clipper
+cloak
+cloak
+cloakroom
+cloche
+cloche
+clock
+clock radio
+clock tower
+clockwork
+clog
+cloister
+closed circuit
+closed-circuit television
+closet
+closeup lens
+cloth cap
+cloth covering
+clothesbrush
+clothes closet
+clothes dryer
+clotheshorse
+clothespin
+clothes tree
+clothing
+clothing store
+clove hitch
+club car
+cluster bomb
+clutch
+clutch bag
+coach
+coach house
+coal car
+coal shovel
+coaming
+coat
+coat button
+coat closet
+coatdress
+coatee
+coating
+coating
+coat of paint
+coatrack
+coaxial cable
+cobweb
+cocked hat
+cockhorse
+cockleshell
+cockpit
+cockpit
+cockscomb
+cocktail dress
+cocktail shaker
+coffee can
+coffee cup
+coffee filter
+coffee maker
+coffee mill
+coffee mug
+coffeepot
+coffee table
+coffee urn
+coffer
+coffin
+coif
+coil
+coil spring
+colander
+cold chisel
+cold cream
+cold frame
+collar
+college
+collider
+colliery
+cologne
+colonnade
+color television
+color wash
+columbarium
+column
+column
+comb
+comb
+combination lock
+combination plane
+combine
+comforter
+commissary
+commodity
+communications satellite
+communication system
+commutator
+commuter
+compact
+compact
+compact disk
+compact-disk burner
+compartment
+compartment
+compass
+compass
+compound lens
+compound lever
+compound microscope
+compress
+compression bandage
+compressor
+computer
+computer circuit
+computer keyboard
+computer network
+computer screen
+computer store
+computer system
+concert grand
+concert hall
+concertina
+concrete mixer
+condenser
+condenser
+condenser microphone
+condominium
+condominium
+conductor
+confectionery
+conference center
+conference room
+conference table
+confessional
+congress boot
+connecting rod
+connection
+conservatory
+conservatory
+console
+console table
+contact
+contact
+container
+container ship
+control
+control center
+control key
+control panel
+control room
+control system
+control tower
+convector
+convenience store
+convent
+converging lens
+converter
+convertible
+convertible
+conveyance
+cooker
+cookie cutter
+cookie jar
+cookie sheet
+cooking utensil
+cookstove
+cooler
+cooling system
+cooling tower
+coonskin cap
+coping saw
+copperware
+copyholder
+coquille
+coracle
+corbel
+cord
+cord
+cordage
+cords
+cork
+corker
+corkscrew
+corner
+corner
+cornet
+cornice
+cornice
+corselet
+corset
+cosmetic
+costume
+costume
+costume
+costume
+cosy
+cot
+cottage tent
+cotter
+cotton
+cotton flannel
+couch
+couchette
+coude telescope
+counter
+counter
+counter
+counterbore
+counter tube
+country house
+country store
+coupe
+coupling
+court
+court
+court
+courthouse
+courthouse
+coverall
+covered bridge
+covered couch
+covered wagon
+covering
+coverlet
+cowbarn
+cowbell
+cowboy boot
+cowboy hat
+cow pen
+cradle
+craft
+crane
+crankcase
+crankshaft
+crash barrier
+crash helmet
+crate
+cravat
+crayon
+cream
+credenza
+creel
+crematory
+crepe
+crescent wrench
+cretonne
+crib
+crib
+cricket ball
+cricket bat
+cricket equipment
+crinoline
+crochet needle
+crock
+crook
+croquet ball
+croquet equipment
+croquet mallet
+cross
+crossbar
+crossbow
+crosscut saw
+crossjack
+crosspiece
+crowbar
+crown
+crow's nest
+crucible
+cruet
+cruet-stand
+cruise control
+cruise missile
+cruiser
+cruiser
+cruise ship
+crupper
+cruse
+crusher
+crutch
+crypt
+crystal
+cubitiere
+cuckoo clock
+cudgel
+cue
+cue ball
+cuff
+cuirass
+cul
+culotte
+cultivator
+cup
+cupboard
+cupola
+cupola
+curb roof
+curler
+curling iron
+curtain
+customhouse
+cutaway
+cutlas
+cutter
+cybercafe
+cyclotron
+cylinder
+cylinder
+cylinder lock
+cymbal
+dacha
+dagger
+dairy
+dais
+daisywheel printer
+dam
+damask
+damper
+darkroom
+dart
+dashiki
+data converter
+data input device
+data system
+davenport
+davenport
+davit
+daybed
+day school
+deanery
+deck
+deck chair
+decoder
+decoupage
+deep-freeze
+deerstalker
+defense system
+defensive structure
+defibrillator
+deflector
+delayed action
+delft
+delicatessen
+delivery truck
+delta wing
+demijohn
+den
+denim
+densimeter
+densitometer
+dental appliance
+dental floss
+denture
+deodorant
+department store
+depilatory
+depressor
+depth finder
+derrick
+derringer
+desk
+desk phone
+desktop computer
+dessert spoon
+destroyer
+destroyer escort
+detached house
+detector
+detector
+detention home
+detonator
+device
+Dewar flask
+dhow
+dial
+dial telephone
+dialyzer
+diaper
+diaper
+diaphragm
+diathermy machine
+dibble
+dice cup
+Dictaphone
+diesel
+diesel-electric locomotive
+diesel-hydraulic locomotive
+diesel locomotive
+digester
+digital camera
+digital clock
+digital computer
+digital display
+digital subscriber line
+digital watch
+diner
+dinette
+dinghy
+dining area
+dining car
+dining-hall
+dining room
+dining-room furniture
+dining-room table
+dinner bell
+dinner dress
+dinner jacket
+dinner pail
+dinner table
+diode
+diode
+diplomatic building
+dipole
+dipper
+directional microphone
+direction finder
+dirk
+dirndl
+disguise
+dish
+dish
+dish rack
+dishrag
+dishtowel
+dishwasher
+disk
+disk controller
+diskette
+dispatch case
+display
+display panel
+display window
+disposal
+distaff
+distillery
+distributor cap
+distributor housing
+distributor point
+ditch
+divan
+dive bomber
+divider
+divining rod
+diving suit
+Dixie cup
+doeskin
+dogsled
+doll
+dollhouse
+dolly
+dolman
+dolman
+dolmen
+dome
+dome
+domino
+dongle
+donkey jacket
+door
+door
+door
+doorbell
+doorframe
+doorlock
+dormer
+dormer window
+dormitory
+dormitory
+double bed
+double boiler
+double-breasted jacket
+double-breasted suit
+double door
+double glazing
+double-hung window
+double knit
+double-reed instrument
+doublet
+dowel
+drafting instrument
+drafting table
+drainage ditch
+drainage system
+drain basket
+drapery
+drawbar
+drawbridge
+drawer
+drawers
+drawing room
+drawing room
+drawknife
+drawstring bag
+dredge
+dredger
+dredging bucket
+dress
+dresser
+dress hat
+dressing case
+dressing gown
+dressing room
+dressing sack
+dressing table
+dress rack
+dress shirt
+dress suit
+dress uniform
+drill
+drill press
+drinking vessel
+dripping pan
+drip pot
+drive
+drive
+driver
+driveshaft
+driving iron
+driving wheel
+drogue
+drogue parachute
+drone
+drone
+drop arch
+drop curtain
+drop-leaf table
+drugstore
+drum
+drum sander
+drumstick
+dry battery
+dryer
+dry fly
+dry wall
+duffel
+duffel bag
+duffel coat
+dugout
+dugout canoe
+dulcimer
+dumbbell
+dumpcart
+Dumpster
+dump truck
+dunce cap
+dune buggy
+duplex house
+duplicator
+dust bag
+dustcloth
+dust cover
+dust cover
+dustpan
+Dutch oven
+Dutch oven
+dwelling
+Eames chair
+earflap
+early warning system
+earmuff
+earphone
+earplug
+earplug
+earthenware
+earthwork
+easel
+easy chair
+edger
+eggbeater
+eiderdown
+ejection seat
+elastic
+elastic bandage
+Elastoplast
+elbow
+elbow pad
+electric
+electrical cable
+electrical converter
+electrical device
+electrical system
+electric bell
+electric blanket
+electric fan
+electric furnace
+electric guitar
+electric lamp
+electric locomotive
+electric meter
+electric mixer
+electric motor
+electric organ
+electric range
+electric refrigerator
+electric typewriter
+electrode
+electrograph
+electrometer
+electronic balance
+electronic converter
+electronic device
+electronic equipment
+electronic instrument
+electron microscope
+electrostatic generator
+electrostatic printer
+elevator
+elevator
+elevator shaft
+embankment
+embellishment
+emergency room
+empty
+enamel
+enamel
+enamelware
+encaustic
+enclosure
+endoscope
+energizer
+engine
+engine
+engineering
+English horn
+English saddle
+enlarger
+ensemble
+entablature
+entrenching tool
+envelope
+envelope
+envelope
+epee
+equalizer
+equatorial
+equipment
+erasable programmable read-only memory
+eraser
+Erlenmeyer flask
+escapement
+escape wheel
+escarpment
+espadrille
+espresso maker
+espresso shop
+establishment
+estaminet
+etagere
+etamine
+etui
+euphonium
+evaporative cooler
+evening bag
+exercise bike
+exercise device
+exhaust
+exhaust fan
+exhaust valve
+exhibition hall
+express
+extension cord
+external-combustion engine
+external drive
+extractor
+eyebrow pencil
+eyecup
+eyeliner
+eyepatch
+eyepiece
+eyeshadow
+fabric
+face guard
+faceplate
+face powder
+face veil
+facing
+facing
+facsimile
+factory
+Fahrenheit thermometer
+faience
+faille
+fairlead
+fairy light
+falchion
+fallboard
+false face
+family room
+fan
+fan blade
+fancy dress
+fanion
+fanlight
+fanjet
+fanjet
+farm building
+farmer's market
+farmhouse
+farm machine
+farmplace
+fastener
+fatigues
+faucet
+fauld
+fauteuil
+feather boa
+fedora
+feedback circuit
+feedlot
+felt
+felt-tip pen
+felucca
+fence
+fencing mask
+fencing sword
+fender
+Ferris wheel
+ferrule
+ferry
+festoon
+fez
+fiber optic cable
+fiberscope
+fichu
+field artillery
+field glass
+field hockey ball
+field house
+field lens
+field tent
+fieldwork
+fighter
+fighting chair
+figure eight
+figure skate
+filament
+file
+file folder
+file server
+filling
+film
+film advance
+filter
+filter
+finder
+finery
+finger
+fingerboard
+finger bowl
+finger paint
+finger plate
+finish coat
+fipple
+fipple flute
+fire alarm
+firearm
+fire bell
+fireboat
+firebox
+firebrick
+fire engine
+fire extinguisher
+fire iron
+fireplace
+fire screen
+fire tongs
+firing chamber
+first-aid kit
+first base
+first class
+fishbowl
+fisherman's bend
+fisherman's knot
+fisherman's lure
+fishhook
+fishing boat
+fishing gear
+fishing rod
+fixer-upper
+flag
+flagon
+flagpole
+flamethrower
+flange
+flannel
+flannel
+flannelette
+flap
+flash
+flash
+flash camera
+flashlight
+flask
+flat arch
+flat bench
+flatcar
+flatlet
+flat panel display
+flats
+flintlock
+flip-flop
+float
+flood
+floor
+floor
+floor cover
+floor lamp
+florist
+floss
+flugelhorn
+fluorescent lamp
+fluoroscope
+flute
+fly
+fly rod
+fly tent
+flytrap
+flywheel
+fob
+foghorn
+foil
+fold
+folder
+folding chair
+folding saw
+food court
+food processor
+football helmet
+football stadium
+footbath
+footbridge
+footstool
+footwear
+footwear
+force pump
+fore-and-aft sail
+forecastle
+forecourt
+fore edge
+foremast
+fore plane
+foresail
+fork
+forklift
+formalwear
+fortification
+fortress
+Foucault pendulum
+foulard
+foul-weather gear
+foundation garment
+foundry
+fountain
+fountain pen
+four-in-hand
+four-poster
+four-wheel drive
+four-wheel drive
+fragmentation bomb
+frail
+fraise
+frame
+frame
+framework
+franking machine
+freewheel
+freight car
+freight train
+French door
+French horn
+Fresnel lens
+fret
+friary
+friction clutch
+frigate
+frill
+Frisbee
+frock coat
+front porch
+front projector
+frying pan
+fuel filter
+fuel gauge
+fuel injection
+fuel system
+full-dress uniform
+full skirt
+funnel
+fur
+fur coat
+fur hat
+furnace
+furnace room
+furnishing
+furnishing
+furniture
+fuse
+fuselage
+fustian
+gabardine
+gable
+gable roof
+gaff
+gaffsail
+gaff topsail
+gag
+gaiter
+gaiter
+Galilean telescope
+gallery
+gallery
+galvanometer
+gambling house
+game
+gamebag
+game equipment
+gaming table
+gantry
+garage
+Garand rifle
+garbage
+garbage truck
+garden
+garden tool
+garden trowel
+garlic press
+garment
+garment bag
+garrison cap
+garter
+garter belt
+garter stitch
+gas guzzler
+gas burner
+gas-discharge tube
+gas engine
+gas fixture
+gas gun
+gas heater
+gas holder
+gasket
+gas lamp
+gasmask
+gas meter
+gasoline engine
+gasoline gauge
+gas oven
+gas pump
+gas range
+gas ring
+gas tank
+gas thermometer
+gas turbine
+gas-turbine ship
+gat
+gate
+gatehouse
+gatepost
+gathered skirt
+Gatling gun
+gauge
+gauntlet
+gauntlet
+gauze
+gazebo
+gear
+gear
+gear
+gearset
+gearshift
+generator
+generator
+generator
+geodesic dome
+georgette
+gharry
+ghetto blaster
+gift shop
+gift wrapping
+gig
+gig
+gilt
+gingham
+girandole
+girder
+girdle
+glass
+glass cutter
+glasses case
+Glengarry
+glider
+glockenspiel
+glove
+glove compartment
+gnomon
+goal
+goalmouth
+goalpost
+goblet
+goggles
+go-kart
+golf bag
+golf ball
+golfcart
+golf club
+golf equipment
+golf glove
+golliwog
+gondola
+gong
+gorget
+Gothic arch
+gouge
+gourd
+government building
+government office
+gown
+gown
+grab bag
+grab bar
+grace cup
+graffito
+gramophone
+granary
+grand piano
+grapnel
+grass skirt
+grate
+grate
+grater
+gravestone
+gravy boat
+grey
+grease-gun
+greasepaint
+greasy spoon
+greatcoat
+great hall
+greave
+greengrocery
+greenhouse
+grenade
+griddle
+grinder
+grinding wheel
+grindstone
+gristmill
+grocery store
+groined vault
+groover
+grosgrain
+ground floor
+groundsheet
+G-string
+guard boat
+guard ship
+gueridon
+Guarnerius
+guestroom
+guidance system
+guided missile
+guildhall
+guitar
+gun
+gun carriage
+gun case
+gunlock
+gunnery
+gunnysack
+gun trigger
+gusset
+gusset
+guy
+gymnastic apparatus
+gym shoe
+gyroscope
+habit
+hacienda
+hacksaw
+haft
+hairbrush
+hairdressing
+hairnet
+hairpiece
+hairpin
+hair slide
+hair spray
+half hitch
+half track
+hall
+hall
+hall
+hallstand
+halter
+halter
+hammer
+hammer
+hammer
+hammock
+hamper
+hand
+handball
+hand blower
+hand calculator
+handcar
+handcart
+hand cream
+hand drill
+hand glass
+hand glass
+hand-held computer
+handkerchief
+handlebar
+hand lotion
+hand luggage
+hand-me-down
+hand mower
+hand pump
+handsaw
+handset
+hand shovel
+hand tool
+hand towel
+hand truck
+handwear
+handwheel
+handwheel
+hanger
+harbor
+hard disc
+hard hat
+hardtop
+hardware
+harmonica
+harmonium
+harness
+harness
+harp
+harp
+harvester
+hasp
+hat
+hatbox
+hatch
+hatchback
+hatchet
+hatpin
+Hawaiian guitar
+hawse
+hawser
+haymaker
+hayrack
+hazard
+head
+headboard
+head covering
+headdress
+header
+head gasket
+headgear
+headlight
+headpiece
+headquarters
+headrest
+headsail
+headscarf
+headstall
+headstock
+health spa
+hearing aid
+hearing aid
+hearse
+hearth
+hearthrug
+heat engine
+heater
+heat exchanger
+heating pad
+heat pump
+heat sink
+heaume
+hedge
+hedge trimmer
+helicon
+helicopter
+helm
+helmet
+helmet
+hematocrit
+hemostat
+heraldry
+herringbone
+herringbone
+Herschelian telescope
+Hessian boot
+heterodyne receiver
+hideaway
+hi-fi
+high-angle gun
+highball glass
+highboy
+highchair
+highlighter
+high-rise
+hijab
+hinge
+hip boot
+hipflask
+hip pocket
+hippodrome
+hip roof
+hitch
+hitching post
+hitchrack
+hockey skate
+hockey stick
+hoe
+hoe handle
+hogshead
+hoist
+holder
+holster
+holster
+home appliance
+home computer
+home plate
+home room
+homespun
+homestead
+home theater
+honeycomb
+hood
+hood
+hood
+hood latch
+hook
+hook
+hook
+hookup
+hoopskirt
+hope chest
+hopper
+horizontal bar
+horizontal stabilizer
+horn
+horn
+horn button
+horse
+horsebox
+horse cart
+horse-drawn vehicle
+horseless carriage
+horseshoe
+horseshoe
+hose
+hospital
+hospital room
+hospital ship
+hostel
+hostel
+hotel
+hotel-casino
+hotel-casino
+hotel room
+hot line
+hot pants
+hot plate
+hot rod
+hot tub
+hot-water bottle
+hour hand
+house
+house
+houseboat
+house of cards
+house paint
+housetop
+housing
+hovel
+hovercraft
+hubcap
+huck
+hula-hoop
+hulk
+hull
+Humvee
+hunting knife
+hurdle
+hurricane lamp
+hut
+hutch
+hydraulic press
+hydraulic pump
+hydroelectric turbine
+hydrofoil
+hydrogen bomb
+hydrometer
+hygrometer
+hyperbaric chamber
+hypodermic needle
+ice ax
+iceboat
+icebreaker
+ice machine
+ice maker
+ice pack
+ice skate
+ice tongs
+icetray
+idle pulley
+ignition key
+ignition switch
+impact printer
+impeller
+implement
+imprint
+improvised explosive device
+in-basket
+incinerator
+inclinometer
+inclinometer
+incubator
+Indiaman
+indicator
+induction coil
+inertial guidance system
+inhaler
+ink bottle
+ink-jet printer
+inkstand
+instep
+institution
+instrument
+instrument of torture
+integrated circuit
+integrator
+interceptor
+intercommunication system
+interface
+interior door
+internal-combustion engine
+internal drive
+ion engine
+iPod
+iron
+iron
+iron horse
+ironing
+irrigation ditch
+jabot
+jack
+jack
+jacket
+jacket
+jack-in-the-box
+jack-o'-lantern
+jack plane
+jail
+jamb
+jampot
+jar
+javelin
+Jaws of Life
+jean
+jeep
+jellaba
+jerkin
+jeroboam
+jersey
+jersey
+jet
+jet engine
+jetliner
+jew's harp
+jib
+jibboom
+jig
+jig
+jigsaw
+jinrikisha
+jodhpurs
+joint
+jointer
+joist
+jorum
+joystick
+jungle gym
+junk
+jug
+jukebox
+jumbojet
+jumper
+jumper
+jumper cable
+jump suit
+jump suit
+junction
+junction
+junction barrier
+junk shop
+kachina
+Kalashnikov
+kameez
+kayak
+kazoo
+keep
+keg
+kennel
+kepi
+ketch
+kettle
+kettle
+key
+key
+keyboard
+keyboard instrument
+keyhole
+khadi
+khaki
+khakis
+khimar
+khukuri
+kickstand
+kid glove
+kiln
+kilt
+kimono
+king
+kirk
+kirpan
+kirtle
+kirtle
+kit
+kit
+kitchen
+kitchen appliance
+kitchen table
+kitchen utensil
+kitchenware
+klaxon
+klystron
+knee brace
+knee-high
+knee pad
+knee piece
+knife
+knife
+knife blade
+knit
+knitting machine
+knitting needle
+knitwear
+knob
+knocker
+knot
+knuckle joint
+koto
+kremlin
+kris
+Kurdistan
+kurta
+kylix
+lab coat
+lace
+lacquerware
+lacrosse ball
+ladder-back
+ladder-back
+ladle
+lake dwelling
+lamasery
+lame
+laminate
+lamp
+lamp
+lamppost
+lampshade
+lancet window
+lander
+land line
+lanolin
+lantern
+lanyard
+lapel
+laptop
+laryngoscope
+laser
+lasso
+latch
+latch
+lateen
+latex paint
+lathe
+lattice
+launcher
+laundry
+laundry cart
+lawn chair
+lawn furniture
+lawn mower
+layette
+lead-acid battery
+leaf spring
+lean-to
+leash
+leatherette
+leather strip
+lecture room
+lederhosen
+ledger board
+leg
+leg
+legging
+leisure wear
+lens
+lens
+lens cap
+leotard
+letter opener
+levee
+level
+lever
+lever
+lever lock
+Liberty ship
+library
+library
+lid
+life buoy
+life jacket
+life office
+life preserver
+life-support system
+lifting device
+light
+light bulb
+lighter
+lighter-than-air craft
+lighting
+light machine gun
+light meter
+light microscope
+lightning rod
+light pen
+lightship
+limiter
+limousine
+linear accelerator
+linen
+line printer
+lingerie
+lining
+link
+linkage
+linocut
+lip-gloss
+lipstick
+liqueur glass
+lisle
+litterbin
+little theater
+living quarters
+living room
+Loafer
+loaner
+lobe
+lobster pot
+local
+local area network
+lock
+lock
+lock
+lock
+lockage
+locker
+locker room
+locket
+lock-gate
+locomotive
+lodge
+lodge
+lodging house
+loft
+longbow
+long iron
+long johns
+long sleeve
+long trousers
+long underwear
+lookout
+loom
+loop knot
+lorgnette
+lorry
+lotion
+loudspeaker
+lounge
+loungewear
+love knot
+love seat
+loving cup
+lowboy
+L-plate
+lug
+luge
+luggage compartment
+lugger
+lugsail
+lug wrench
+lumberjack
+lumbermill
+lunar excursion module
+lunchroom
+lungi
+lute
+luxury liner
+lyceum
+lychgate
+machete
+machine
+machine
+machine gun
+machinery
+machine screw
+machine tool
+mackinaw
+mackinaw
+macrame
+madras
+magazine rack
+magnet
+magnetic disk
+magnetic needle
+magnetic recorder
+magnetic stripe
+magnetic tape
+magnetometer
+magnifier
+magnum
+mailbag
+mailbox
+mailer
+maillot
+maillot
+mail train
+mainframe
+mainmast
+main rotor
+mainsail
+majolica
+makeup
+Maksutov telescope
+malacca
+mallet
+mallet
+mandolin
+manger
+mangle
+manhole
+manhole cover
+man-of-war
+manometer
+manor
+manor hall
+manse
+mansion
+mantel
+mantilla
+map
+maraca
+marble
+marching order
+marimba
+marker
+marketplace
+marquetry
+marriage bed
+martello tower
+martingale
+mascara
+maser
+masher
+mashie
+mashie niblick
+masjid
+mask
+mask
+Mason jar
+masonry
+mast
+mast
+mastaba
+master bedroom
+masterpiece
+mat
+mat
+match
+match
+matchbook
+matchbox
+matchstick
+materiel
+matting
+mattress cover
+maul
+mausoleum
+maxi
+maypole
+maze
+measure
+measuring instrument
+measuring stick
+meat counter
+meat grinder
+meat hook
+meat thermometer
+mechanical device
+mechanical piano
+mechanical system
+mechanism
+medical building
+medical instrument
+medicine ball
+medicine chest
+megalith
+megaphone
+memorial
+memory
+memory chip
+memory device
+menagerie
+menhir
+menorah
+Menorah
+man's clothing
+mercantile establishment
+mercury thermometer
+mess
+mess jacket
+mess kit
+messuage
+metal detector
+metal screw
+metal wood
+meter
+metronome
+mezzanine
+microbalance
+microfilm
+micrometer
+microphone
+microprocessor
+microscope
+microtome
+microwave
+midiron
+mihrab
+mihrab
+military quarters
+military uniform
+military vehicle
+milk can
+milk float
+milking machine
+mill
+miller
+millinery
+millinery
+millstone
+millwheel
+mimeograph
+minaret
+mincer
+mine
+mine detector
+mineshaft
+minibar
+minibike
+minibus
+minicar
+minicomputer
+ministry
+miniskirt
+minivan
+mink
+mint
+minute hand
+mirror
+missile
+miter box
+miter joint
+mitten
+mixer
+mixer
+mixing bowl
+mixing faucet
+mizzen
+mizzenmast
+mobcap
+mobile home
+moccasin
+Model T
+modem
+module
+module
+mohair
+mold
+moleskin
+monastery
+moneybag
+money belt
+monitor
+monitor
+monitor
+monkey-wrench
+monocle
+monoplane
+monstrance
+mooring tower
+Moorish arch
+moquette
+morgue
+morion
+morning dress
+Morris chair
+mortar
+mortarboard
+mortise joint
+mosaic
+mosque
+mosquito net
+motel room
+Mother Hubbard
+motion-picture camera
+motion-picture film
+motley
+motor
+motorboat
+motorcycle
+motor hotel
+motor scooter
+motor vehicle
+mound
+mound
+mount
+mountain bike
+mountain tent
+mouse
+mouse button
+mousetrap
+mousse
+mouthpiece
+mouthpiece
+movement
+movie projector
+moving van
+mud brick
+muffler
+mug
+mulch
+mule
+multichannel recorder
+multiengine airplane
+multiprocessor
+munition
+Murphy bed
+musical instrument
+music box
+music hall
+music stand
+music stool
+musket
+muslin
+mustache cup
+muzzle loader
+muzzle
+nacelle
+nail
+nailbrush
+nail polish
+nard
+narrowbody aircraft
+national monument
+navigational system
+naval equipment
+naval radar
+naval weaponry
+nave
+nebuchadnezzar
+neck brace
+neckerchief
+necklace
+necklet
+neckpiece
+necktie
+neckwear
+needle
+needle
+negative
+negligee
+neon lamp
+nest
+nest egg
+net
+net
+net
+net
+network
+network
+newel post
+newspaper
+newsroom
+Newtonian telescope
+niblick
+nicad
+nightgown
+night-light
+nightwear
+nipple
+noisemaker
+nonsmoker
+non-volatile storage
+Norfolk jacket
+noria
+noseband
+nosewheel
+notebook
+nuclear reactor
+nut and bolt
+nylon
+nylons
+oar
+oast house
+obelisk
+object ball
+objective
+oboe
+observatory
+ocarina
+octant
+odometer
+oeil de boeuf
+office
+office building
+office furniture
+off-line equipment
+ohmmeter
+oilcan
+oilcloth
+oil filter
+oil heater
+oil lamp
+oil paint
+oil tanker
+olive drab
+olive drab
+omelet pan
+onion dome
+open-air market
+open-end wrench
+opener
+openside plane
+openwork
+opera
+opera cloak
+operating room
+operating table
+ophthalmoscope
+optical device
+optical disk
+optical instrument
+optical telescope
+orchestra pit
+ordinary
+organ
+organ loft
+organ pipe
+organza
+O ring
+orphanage
+oscillograph
+oscilloscope
+ossuary
+otoscope
+ottoman
+outboard motor
+outboard motorboat
+outbuilding
+outerwear
+outfit
+outhouse
+outrigger
+outrigger canoe
+outside caliper
+outside mirror
+oven
+oven thermometer
+overall
+overcoat
+overgarment
+overhand knot
+overhang
+overhead projector
+overmantel
+overnighter
+overpass
+overshoe
+overskirt
+oxcart
+oxford
+oximeter
+oxygen mask
+pace car
+pacemaker
+pack
+pack
+pack
+package
+package store
+packaging
+packet
+packing box
+packinghouse
+paddle
+paddle
+paddle
+paddle steamer
+paddlewheel
+paddock
+padlock
+page printer
+paint
+paintball gun
+paintbrush
+paisley
+pajama
+pajama
+palace
+palace
+palanquin
+palestra
+palisade
+pallet
+pallette
+pallium
+pallium
+pan
+pan
+panchromatic film
+paneling
+panhandle
+panic button
+pannier
+panopticon
+panpipe
+pantheon
+pantie
+panting
+pantry
+pantyhose
+paper chain
+paper clip
+paper cutter
+paper fastener
+paper feed
+paper mill
+paper towel
+parabolic reflector
+parachute
+parallel bars
+parapet
+parapet
+parasail
+parasol
+parer
+parfait glass
+pari-mutuel machine
+parka
+park bench
+parking meter
+parlor
+parquet
+parquetry
+parsonage
+Parsons table
+particle detector
+partition
+parts bin
+passenger car
+passenger ship
+passenger train
+passenger van
+passe-partout
+passkey
+patch
+patchcord
+patchouli
+patch pocket
+patchwork
+patina
+patio
+patrol boat
+pavilion
+pavior
+pawn
+pawnbroker's shop
+pay-phone
+pea jacket
+peavey
+pedal
+pedal pusher
+pedestal
+pedestal table
+pediment
+pedometer
+peeler
+peg
+peg
+pen
+penal institution
+penalty box
+pencil
+pencil box
+pencil sharpener
+pendulum
+pendulum clock
+pendulum watch
+penitentiary
+penknife
+pennant
+penthouse
+pentode
+peplum
+pepper mill
+pepper shaker
+pepper spray
+percale
+percolator
+percussion instrument
+perforation
+perfume
+perfumery
+perfumery
+peripheral
+permanent press
+personal computer
+personal digital assistant
+personnel carrier
+pestle
+pestle
+Petri dish
+pet shop
+petticoat
+pew
+phial
+Phillips screw
+phonograph record
+photocopier
+photographic equipment
+photographic paper
+photometer
+photomicrograph
+Photostat
+physical pendulum
+piano
+piano action
+piano keyboard
+pick
+pick
+pickelhaube
+picket fence
+pickup
+picture frame
+picture hat
+piece of cloth
+pier
+pier
+pier arch
+pier glass
+pier table
+pieta
+piggery
+pilaster
+pile
+pile driver
+pill bottle
+pillbox
+pillion
+pillory
+pillow block
+pillow lace
+pilot boat
+pilot engine
+pilothouse
+pilot light
+pin
+pin
+pinata
+pinball machine
+pince-nez
+pincer
+ping-pong ball
+pinion
+pinstripe
+pinstripe
+pinwheel
+pinwheel
+pipe cleaner
+pipe cutter
+pipet
+pipe wrench
+pique
+pirate
+pistol
+piston
+piston ring
+pitcher
+pitching wedge
+pitch pipe
+pith hat
+pizzeria
+place of business
+place of worship
+placket
+planchet
+plane
+plane
+plane seat
+planetarium
+planetary gear
+planking
+plant
+plastering trowel
+plastic bag
+plastic wrap
+plate
+plate
+plate
+plate rack
+platform
+platform
+platform bed
+plating
+playback
+playpen
+playsuit
+plaza
+plenum
+pliers
+plotter
+plow
+plug
+plug
+plughole
+plunger
+plush
+poacher
+pocket
+pocket flap
+pocketknife
+pocket watch
+pod
+pogo stick
+point-and-shoot camera
+pointed arch
+pointing trowel
+point lace
+Polaroid camera
+pole
+pole
+police boat
+police van
+polling booth
+polo mallet
+polonaise
+polo shirt
+polyester
+polygraph
+pommel horse
+poncho
+pongee
+poniard
+pontifical
+pontoon
+pontoon bridge
+pony cart
+pool ball
+poolroom
+pool table
+poorhouse
+pop bottle
+popgun
+poplin
+porcelain
+porch
+porringer
+portable
+portable computer
+portcullis
+porte-cochere
+portfolio
+porthole
+portico
+portmanteau
+portrait camera
+portrait lens
+post
+postage meter
+post and lintel
+postern
+posthole digger
+post horn
+pot
+pot
+potbelly
+potentiometer
+potpourri
+potter's wheel
+pottery
+pouch
+poultice
+pound
+powder
+powder and shot
+powder horn
+power cord
+power drill
+power line
+power mower
+power saw
+power shovel
+power steering
+power tool
+prayer rug
+prefab
+presbytery
+press
+press
+press of sail
+pressure cooker
+pressure gauge
+pressure suit
+prie-dieu
+primary coil
+Primus stove
+print
+printed circuit
+printer
+printer
+printer cable
+priory
+prison
+privateer
+prod
+production line
+projectile
+projector
+projector
+prompter
+prong
+propeller
+propeller plane
+proscenium
+proscenium arch
+prosthesis
+protective garment
+protractor
+pruning knife
+pruning saw
+pruning shears
+psaltery
+public address system
+public house
+public toilet
+public transport
+puck
+pull
+pullback
+pull chain
+pulley
+Pullman
+pullover
+pump
+pump
+pump house
+punch
+punch bowl
+punching bag
+punch press
+punnet
+punt
+pup tent
+purifier
+purl
+purse
+push-bike
+push broom
+push button
+pusher
+putter
+pylon
+pylon
+pyrograph
+pyrometer
+pyx
+pyx
+pyxis
+quad
+quadrant
+quadraphony
+quarterstaff
+queen
+quill
+quilt
+quilted bedspread
+quipu
+quiver
+quoit
+racer
+racing boat
+racing gig
+rack
+rack
+racket
+racquetball
+radar
+radial engine
+radiator
+radiator
+radiator cap
+radio
+radio antenna
+radiogram
+radio link
+radiometer
+radio-phonograph
+radio receiver
+radiotelephone
+radio telescope
+radiotherapy equipment
+radome
+raft
+rafter
+ragbag
+raglan
+raglan sleeve
+rail
+rail fence
+railhead
+railing
+railing
+raincoat
+rain gauge
+rain stick
+rake
+rake handle
+RAM disk
+ramekin
+rammer
+ramp
+rampart
+ramrod
+ranch
+ranch house
+rangefinder
+rapier
+ratchet
+ratline
+rattrap
+rayon
+razor
+razorblade
+reactor
+reading lamp
+reading room
+read-only memory
+readout
+ready-to-wear
+rearview mirror
+rebozo
+receiver
+receptacle
+reception desk
+reception room
+recess
+reciprocating engine
+recliner
+record changer
+recorder
+recording
+recording system
+record player
+recovery room
+recreational vehicle
+recreation room
+recycling bin
+recycling plant
+red carpet
+redoubt
+reel
+reel
+refectory table
+refinery
+reflecting telescope
+reflectometer
+reflector
+reflex camera
+reformatory
+reformer
+refracting telescope
+refractometer
+refrigeration system
+refrigerator
+refrigerator car
+regalia
+regimentals
+regulator
+rein
+relay
+religious residence
+reliquary
+remote control
+rendering
+repair shop
+repeater
+repeating firearm
+repository
+reproducer
+rescue equipment
+reservoir
+residence
+resistor
+resonator
+resonator
+resort hotel
+respirator
+restaurant
+rest house
+restraint
+resuscitator
+retainer
+reticule
+retort
+retractor
+reverse
+reversible
+revolver
+revolving door
+rheometer
+rib
+ribbed vault
+ribbing
+ricer
+ride
+ridge
+riding boot
+rifle
+rig
+rigging
+rink
+riot gun
+riser
+Ritz
+river boat
+rivet
+riveting machine
+roadblock
+roadster
+roadway
+roaster
+robe
+robotics equipment
+rocker
+rocker arm
+rocket
+rocket
+rocking chair
+rod
+rodeo
+roll
+roller
+in-line skate
+roller coaster
+roller skate
+roll film
+rolling pin
+rolling stock
+roll-on
+roll-on
+roll-on roll-off
+Roman arch
+Roman building
+romper
+roof
+roof
+roofing
+room
+roomette
+room light
+roost
+rope
+rope bridge
+rope tow
+rose water
+rose window
+rotary engine
+rotating mechanism
+rotating shaft
+rotisserie
+rotisserie
+rotor
+rotor
+rotor blade
+rotunda
+rotunda
+rouge
+roulette
+roulette ball
+roulette wheel
+round
+round arch
+round-bottom flask
+roundel
+router
+rowel
+row house
+royal
+rubber band
+rubber boot
+rudder
+rudder
+rug
+rugby ball
+ruin
+rumble
+rumble seat
+rummer
+rumpus room
+running shoe
+saber
+saber saw
+sable
+sable coat
+sabot
+sachet
+sack
+sack
+sack coat
+sacking
+saddle
+saddlebag
+saddle blanket
+saddle seat
+safe
+safe-deposit
+safe house
+safety arch
+safety belt
+safety bicycle
+safety pin
+safety razor
+safety valve
+sail
+sail
+sailboat
+sailcloth
+sailing vessel
+sailor cap
+salad bar
+salad bowl
+sallet
+salon
+saltbox
+saltcellar
+saltshaker
+salver
+salwar
+samisen
+samovar
+sandal
+sandbag
+sandblaster
+sandglass
+sand wedge
+sandwich board
+sanitary napkin
+sarcophagus
+sari
+sarong
+sash
+sash fastener
+sash window
+satchel
+sateen
+satellite
+satellite receiver
+satellite television
+satin
+saucepan
+saucepot
+savings bank
+saw
+sawhorse
+sawmill
+sax
+saxhorn
+scabbard
+scaffolding
+scale
+scale
+scanner
+scarf
+scarf joint
+scatter rug
+Schmidt telescope
+school
+schoolbag
+school bell
+school bus
+school ship
+school system
+schooner
+scientific instrument
+scissors
+sclerometer
+sconce
+sconce
+scoop
+scooter
+scoreboard
+scow
+scraper
+scratcher
+screen
+screen
+screen
+screen door
+screening
+screw
+screw
+screw
+screwdriver
+screwtop
+screw wrench
+scrub brush
+scull
+scullery
+sculpture
+scuttle
+scythe
+seabag
+sea boat
+sea chest
+sealing wax
+seam
+seaplane
+searchlight
+seat
+seat
+seat
+secondary coil
+second base
+second hand
+secretary
+sectional
+security blanket
+security system
+security system
+sedan
+seeder
+seeker
+Segway
+seismograph
+selector
+self-propelled vehicle
+semaphore
+semiautomatic firearm
+semiautomatic pistol
+semiconductor device
+semi-detached house
+semigloss
+sentry box
+separate
+septic tank
+sequence
+sequencer
+server
+server
+service club
+serving cart
+serving dish
+set gun
+setscrew
+settee
+settle
+settlement house
+Seven Wonders of the Ancient World
+sewage disposal plant
+sewing kit
+sewing machine
+sewing needle
+sewing room
+sextant
+shackle
+shackle
+shade
+shadow box
+shaft
+shag rug
+shaker
+shank
+shantung
+shaper
+shaping tool
+sharkskin
+sharpener
+Sharpie
+shaver
+shaving brush
+shaving cream
+shaving foam
+shawl
+shears
+sheath
+sheathing
+shed
+sheepskin coat
+sheepwalk
+sheeting
+shelf
+shelf bracket
+shell
+shell
+shell
+shelter
+shelter
+shelter
+Sheraton
+shield
+shield
+shift key
+shin guard
+ship
+shipboard system
+shipping
+shipwreck
+shirt
+shirt button
+shirtdress
+shirting
+shirtsleeve
+shirttail
+shiv
+shoe
+shoe
+shoebox
+shoehorn
+shoe shop
+shoetree
+shofar
+shop
+shopping bag
+shopping basket
+shopping cart
+short circuit
+short pants
+short sleeve
+shot glass
+shotgun
+shot tower
+shoulder
+shoulder bag
+shouldered arch
+shoulder pad
+shoulder patch
+shovel
+shovel
+showboat
+shower
+shower cap
+shower curtain
+shower room
+shower stall
+shredder
+shrimper
+shrine
+shunter
+shutter
+shutter
+shuttle
+sickle
+sickroom
+sideboard
+sidecar
+sidesaddle
+sieve
+sights
+signal box
+signboard
+silencer
+Silex
+silk
+silks
+silo
+simulator
+single bed
+single-breasted jacket
+single-breasted suit
+single-reed instrument
+singlestick
+singlet
+siren
+sister ship
+sitar
+sitz bath
+skate
+skateboard
+skeleton
+skep
+skewer
+ski binding
+skibob
+ski boot
+ski cap
+skidder
+skiff
+ski lodge
+ski mask
+skimmer
+ski-plane
+ski pole
+skirt
+skirt
+ski tow
+Skivvies
+skullcap
+skylight
+skyscraper
+slacks
+slack suit
+slat
+slate roof
+sled
+sleeping bag
+sleeping car
+sleeve
+sleeve
+sleigh bed
+sleigh bell
+slicer
+slide
+slide fastener
+slide projector
+sliding door
+sliding window
+sling
+slingback
+slinger ring
+slipcover
+slipknot
+slip-on
+slipper
+slip ring
+slit lamp
+sloop
+slop basin
+slot
+slot machine
+smack
+small boat
+smart bomb
+smelling bottle
+smokehouse
+smoker
+smoke screen
+smoothbore
+smooth plane
+snack bar
+snap
+snap brim
+snap-brim hat
+snare
+snare drum
+snifter
+sniper rifle
+snips
+snood
+snorkel
+snorkel
+snowbank
+snowboard
+snowmobile
+snowplow
+snowshoe
+snowsuit
+snow thrower
+snuffbox
+snuffer
+soapbox
+soap dispenser
+soccer ball
+sock
+socket
+soda can
+soda fountain
+sod house
+sodium-vapor lamp
+sofa
+softball
+soft pedal
+solar array
+solar dish
+solar heater
+solar house
+solar telescope
+solar thermal system
+soldering iron
+solenoid
+sombrero
+sorter
+souk
+sounder
+soup bowl
+soup ladle
+soupspoon
+source of illumination
+sou'wester
+space bar
+space capsule
+spacecraft
+space heater
+space helmet
+space rocket
+space shuttle
+space station
+spade
+spade bit
+spandex
+spandrel
+spanker
+spar
+spark arrester
+spark arrester
+spark plug
+spat
+spatula
+speakerphone
+spear
+spear
+specialty store
+spectacles
+spectroscope
+speculum
+speedboat
+speedometer
+speed skate
+sphygmomanometer
+spice rack
+spike
+spindle
+spindle
+spin dryer
+spinning machine
+spinning rod
+spiral spring
+spirit stove
+spirometer
+spittoon
+splashboard
+splice
+splicer
+splint
+split rail
+Spode
+spoiler
+spoiler
+spoke
+spokeshave
+sponge cloth
+spoon
+spoon
+Spork
+sporran
+sports car
+sports equipment
+sports implement
+sportswear
+sport utility
+spot
+spotlight
+spray gun
+spray paint
+spring
+spring balance
+springboard
+sprinkler
+sprinkler system
+sprit
+spritsail
+sprocket
+spur gear
+sputnik
+spy satellite
+square
+square knot
+square-rigger
+square sail
+squash ball
+squash racket
+squawk box
+squeegee
+squeezer
+squelch circuit
+squinch
+stabilizer
+stabilizer bar
+stable
+stable gear
+stabling
+stacks
+stadium
+stage
+stained-glass window
+stair-carpet
+stair-rod
+stall
+stamp mill
+stamping machine
+stanchion
+stand
+standard transmission
+Stanley Steamer
+staple
+staple gun
+stapler
+starship
+starter
+starting gate
+Statehouse
+stately home
+station
+stator
+stay
+staysail
+steakhouse
+steak knife
+stealth aircraft
+stealth bomber
+stealth fighter
+steam bath
+steamer
+steamer
+steam iron
+steam locomotive
+steamroller
+steam shovel
+steam turbine
+steel
+steel arch bridge
+steel drum
+steel mill
+steelyard
+steeple
+steering system
+stele
+Sten gun
+stenograph
+step
+step stool
+stereo
+stereoscope
+stethoscope
+stewing pan
+stick
+stick
+stick
+stick
+stile
+stiletto
+still
+stilt
+stirrer
+stirrup
+stob
+stock
+stockade
+stock car
+stockinet
+stocking
+stockpot
+stockroom
+stocks
+stock saddle
+stole
+stone wall
+stoneware
+stonework
+stool
+stoop
+stopcock
+stopper knot
+stopwatch
+storage battery
+storage space
+storeroom
+storm door
+storm window
+stoup
+stove
+stove
+Stradavarius
+straight chair
+straightener
+straight razor
+strainer
+straitjacket
+strap
+strap hinge
+strapless
+streamer fly
+streetcar
+street clothes
+streetlight
+stretcher
+stretch pants
+stringed instrument
+strip lighting
+stroboscope
+strongbox
+stronghold
+strongroom
+structural member
+structure
+studio apartment
+studio couch
+study
+study hall
+stump
+stun gun
+sty
+stylus
+stylus
+subcompact
+submachine gun
+submersible
+submersible
+subway train
+subwoofer
+suction cup
+suction pump
+suede cloth
+sugar bowl
+sugar spoon
+suit
+suiting
+sulky
+summer house
+sunbonnet
+sundial
+sundress
+sun gear
+sunglasses
+sunhat
+sun parlor
+sunroof
+sunscreen
+sunsuit
+supercharger
+superhighway
+supermarket
+superstructure
+supplejack
+supply chamber
+support
+support column
+support hose
+supporting structure
+supporting tower
+surcoat
+surface lift
+surface ship
+surface-to-air missile
+surfboat
+surcoat
+surgery
+surgical dressing
+surgical instrument
+surgical knife
+surplice
+surrey
+surveying instrument
+surveyor's level
+sushi bar
+suspension
+suspension bridge
+sustaining pedal
+swab
+swab
+swaddling clothes
+swallow-tailed coat
+swan's down
+swathe
+swatter
+sweat bag
+sweatband
+sweater
+sweat pants
+sweatshop
+sweat suit
+sweep
+swimming trunks
+swimsuit
+swing
+switch
+switchblade
+switch engine
+swivel chair
+swizzle stick
+sword
+sword cane
+synagogue
+synchromesh
+synchronous motor
+synthesizer
+syringe
+system
+tabard
+tabi
+tab key
+table
+table
+table knife
+table lamp
+tablespoon
+table-tennis table
+tableware
+taboret
+tachometer
+tack
+tack hammer
+taffeta
+tailgate
+taillight
+tailor-made
+tail rotor
+tailstock
+talaria
+tam
+tambour
+tambour
+tambourine
+tammy
+tamp
+tampon
+tandoor
+tank
+tank
+tankard
+tank car
+tank destroyer
+tank engine
+tank top
+tannoy
+tap
+tapa
+tape
+tape
+tape deck
+tape drive
+tape player
+tape recorder
+tapestry
+tappet
+tap wrench
+target
+tartan
+tattoo
+tavern
+taximeter
+tea bag
+tea ball
+tea chest
+teaching aid
+teacup
+tea gown
+tea maker
+teapot
+teashop
+teaspoon
+tea-strainer
+tea table
+tea tray
+tea urn
+teddy
+tee
+tee hinge
+telecom hotel
+telecommunication system
+telegraph
+telegraph key
+telephone
+telephone booth
+telephone line
+telephone pole
+telephone receiver
+telephone system
+telephone wire
+telephoto lens
+telescope
+teletypewriter
+television antenna
+television equipment
+television receiver
+television room
+temple
+temple
+temporary hookup
+tender
+tender
+tennis ball
+tennis racket
+tenon
+tenor drum
+tent
+tent-fly
+tent peg
+tepee
+terminal
+terminal
+terraced house
+terra cotta
+terrarium
+terra sigillata
+terry
+test equipment
+test rocket
+test room
+testudo
+tetrode
+textile machine
+textile mill
+thatch
+theater
+theater curtain
+theodolite
+theremin
+thermal printer
+thermocouple
+thermometer
+thermos
+thermostat
+thimble
+thinning shears
+third base
+third gear
+thong
+thong
+three-piece suit
+thresher
+thriftshop
+throat protector
+thumb
+thumbscrew
+thumbtack
+tiara
+ticking
+tie
+tie
+tie rack
+tie rod
+tights
+tile cutter
+tile roof
+tilter
+timber
+timber
+time capsule
+timepiece
+timer
+timer
+time-switch
+tin
+tire chain
+tithe barn
+titrator
+toaster
+toaster oven
+toastrack
+tobacco pouch
+tobacco shop
+toboggan
+toby
+toecap
+toga
+toggle
+toggle switch
+togs
+toilet
+toilet bag
+toilet bowl
+toilet powder
+toiletry
+toilet seat
+toilet water
+token
+tollbooth
+toll bridge
+tollgate
+tomahawk
+Tommy gun
+tomograph
+tone arm
+toner
+tongs
+tongue
+tonometer
+tool
+tool bag
+toolbox
+toolshed
+tooth
+tooth
+toothbrush
+toothpick
+top
+top
+topgallant
+topiary
+topmast
+topper
+topsail
+torch
+torpedo
+torpedo
+torpedo
+torpedo boat
+torque converter
+torque wrench
+torture chamber
+totem pole
+toupee
+touring car
+towel
+toweling
+towel rack
+towel rail
+tower
+town hall
+towpath
+tow truck
+toy
+toy box
+toyshop
+track
+trackball
+tracked vehicle
+tract house
+traction engine
+tractor
+tractor
+trail bike
+trailer
+trailer
+trailer truck
+train
+trampoline
+tramway
+transept
+transformer
+transistor
+transit instrument
+transmission shaft
+transmitter
+transom
+transporter
+transport ship
+trap
+trap door
+travel iron
+tray
+tread
+tread
+treadmill
+treadmill
+treasure chest
+treasure ship
+trench coat
+trench knife
+trestle bridge
+trestle table
+triangle
+tricot
+tricycle
+trigger
+trimaran
+trimmer
+triode
+tripod
+triptych
+triskelion
+triumphal arch
+troll
+trolleybus
+trombone
+troop carrier
+troopship
+trough
+trouser
+trouser press
+trouser
+trousseau
+trowel
+truck
+truncheon
+trundle bed
+trunk
+truss
+truss bridge
+try square
+T-square
+tub
+tube
+tuck box
+Tudor arch
+tudung
+tugboat
+tulle
+tumble-dryer
+tumbler
+tun
+tunic
+tuning fork
+turban
+turbine
+turbogenerator
+turnbuckle
+turner
+turnstile
+turntable
+turntable
+turret
+turret clock
+turtleneck
+tweed
+tweeter
+twenty-two
+twin bed
+twinjet
+twist bit
+two-man tent
+two-piece
+typesetting machine
+typewriter
+typewriter keyboard
+uke
+ultracentrifuge
+ultramicroscope
+ultraviolet lamp
+umbrella
+umbrella tent
+undercarriage
+undergarment
+underpants
+underwear
+undies
+unicycle
+uniform
+universal joint
+university
+upholstery
+upholstery material
+upright
+upstairs
+urn
+used-car
+utensil
+Uzi
+vacation home
+vacuum
+vacuum flask
+vacuum gauge
+valve
+van
+vaporizer
+variometer
+varnish
+vase
+vault
+vaulting horse
+vehicle
+velocipede
+velour
+velvet
+velveteen
+vending machine
+veneer
+Venetian blind
+ventilation shaft
+ventilator
+veranda
+vernier caliper
+vertical tail
+Very pistol
+vessel
+vessel
+vest
+vestment
+vest pocket
+vestry
+viaduct
+vibraphone
+vibrator
+vibrator
+vicuna
+videocassette
+videocassette recorder
+videodisk
+video recording
+videotape
+videotape
+vigil light
+villa
+villa
+villa
+viol
+viola
+viola da braccio
+viola da gamba
+viola d'amore
+violin
+viscometer
+vise
+visual display unit
+vivarium
+Viyella
+voile
+volleyball
+voltmeter
+voting booth
+voting machine
+wading pool
+waffle iron
+wagon
+wagon
+wagon tire
+wagon wheel
+wainscot
+wainscoting
+waist pack
+walker
+walker
+walker
+walk-in
+walking shoe
+walking stick
+Walkman
+walk-up apartment
+wall
+wall
+wall clock
+wallet
+wall tent
+wall unit
+wand
+ward
+wardrobe
+warehouse
+warplane
+war room
+warship
+wash-and-wear
+washbasin
+washboard
+washboard
+washer
+washer
+washroom
+washstand
+wastepaper basket
+watch
+watch cap
+watch case
+watchtower
+water bed
+water bottle
+water closet
+water cooler
+water faucet
+water filter
+water gauge
+water glass
+water heater
+watering can
+water jug
+water jump
+water meter
+water mill
+waterproof
+water scooter
+water tower
+water wagon
+waterwheel
+waterwheel
+water wings
+waterworks
+wattmeter
+weapon
+weaponry
+weapons carrier
+weathervane
+web
+web
+webbing
+wedge
+wedge
+weekender
+weighbridge
+weight
+weir
+weld
+welder's mask
+well
+wet bar
+wet fly
+wet suit
+whaler
+wheel
+wheel and axle
+wheelchair
+wheeled vehicle
+wheelwork
+wherry
+whetstone
+whip
+whipcord
+whisk
+whiskey bottle
+whiskey jug
+whispering gallery
+whistle
+whistle
+white
+white goods
+whitewash
+whorehouse
+wick
+wicker
+wicker basket
+wicket
+wicket
+wickiup
+wide-angle lens
+widebody aircraft
+Wiffle
+wig
+wigwam
+Wilton
+wimple
+winch
+Winchester
+winder
+wind instrument
+windjammer
+windmill
+windmill
+window
+window
+window blind
+window box
+window frame
+window screen
+window seat
+window shade
+windshield
+windshield wiper
+Windsor tie
+wind turbine
+wine bar
+wine bottle
+wine bucket
+wine cask
+wineglass
+winepress
+wing
+wing tip
+wiper
+wiper motor
+wire
+wire
+wire cloth
+wire cutter
+wire matrix printer
+wire stripper
+wiring
+wok
+woman's clothing
+wood
+wood chisel
+woodenware
+wooden spoon
+woodscrew
+woodshed
+woodwind
+woof
+woofer
+wool
+workbasket
+workbench
+work-clothing
+workpiece
+workroom
+works
+work-shirt
+workstation
+worktable
+worm gear
+worsted
+worsted
+wraparound
+wrapping
+wreck
+wrench
+wringer
+wrist pin
+wristwatch
+writing desk
+writing desk
+writing implement
+Xerox
+X-ray film
+X-ray machine
+yacht
+yagi
+yard
+yard
+yarmulke
+yataghan
+yawl
+yawl
+yoke
+yurt
+Zamboni
+zither
+zoot suit
+grain
+marbleization
+polish
+chromatic color
+black
+gray
+ash grey
+charcoal
+sanguine
+Turkey red
+crimson
+dark red
+orange
+yellow
+gamboge
+pale yellow
+green
+greenishness
+sea green
+sage green
+bottle green
+emerald
+olive green
+jade green
+blue
+azure
+steel blue
+greenish blue
+purplish blue
+purple
+lavender
+reddish purple
+pink
+carnation
+rose
+chestnut
+chocolate
+light brown
+reddish brown
+brick red
+Indian red
+olive
+ultramarine
+complexion
+skin
+skin graft
+macule
+bouffant
+pageboy
+pompadour
+thatch
+soup-strainer
+mustachio
+walrus mustache
+milk
+myeloblast
+leukocyte
+lymphocyte
+neutrophil
+prepuce
+cuticle
+hangnail
+exoskeleton
+vehicle
+paper
+press
+print media
+storage medium
+Fleet Street
+photojournalism
+newspaper
+daily
+gazette
+school newspaper
+tabloid
+yellow journalism
+telecommunication
+telephone
+voice mail
+call
+call-back
+collect call
+call forwarding
+call-in
+call waiting
+local call
+long distance
+telegraphy
+wireless
+broadcasting
+radio
+television
+cable television
+high-definition television
+reception
+web site
+album
+magazine
+colour supplement
+comic book
+news magazine
+pulp
+slick
+trade magazine
+movie
+swastika
+three-day event
+comfort food
+comestible
+course
+dainty
+dish
+fast food
+finger food
+kosher
+fare
+diet
+diet
+dietary
+balanced diet
+bland diet
+diabetic diet
+dietary supplement
+high-protein diet
+high-vitamin diet
+liquid diet
+low-fat diet
+reducing diet
+soft diet
+vegetarianism
+menu
+chow
+board
+ration
+foodstuff
+tomato concentrate
+meal
+kibble
+matzo meal
+oatmeal
+pea flour
+roughage
+flour
+corn gluten feed
+nutriment
+commissariat
+canned food
+square meal
+meal
+potluck
+refection
+refreshment
+breakfast
+continental breakfast
+brunch
+lunch
+tea
+dinner
+supper
+buffet
+picnic
+bite
+nosh
+coffee break
+banquet
+entree
+piece de resistance
+adobo
+side dish
+special
+casserole
+antipasto
+appetizer
+canape
+cocktail
+fruit cocktail
+shrimp cocktail
+hors d'oeuvre
+relish
+dip
+cheese dip
+guacamole
+soup
+alphabet soup
+consomme
+bisque
+borsch
+broth
+broth
+chicken soup
+gazpacho
+gumbo
+marmite
+mock turtle soup
+mulligatawny
+oxtail soup
+pea soup
+pepper pot
+petite marmite
+potage
+pottage
+eggdrop soup
+chowder
+corn chowder
+clam chowder
+fish chowder
+won ton
+split-pea soup
+green pea soup
+lentil soup
+Scotch broth
+vichyssoise
+stew
+bigos
+Brunswick stew
+olla podrida
+goulash
+hotchpotch
+hot pot
+Irish stew
+fish stew
+paella
+fricassee
+beef stew
+ragout
+ratatouille
+pot-au-feu
+viand
+ready-mix
+choice morsel
+sweet
+confectionery
+confiture
+sweetmeat
+candy
+candy bar
+carob bar
+hardbake
+hard candy
+bonbon
+brittle
+chewing gum
+gum ball
+bubble gum
+butterscotch
+candied fruit
+candied apple
+candy cane
+candy corn
+caramel
+comfit
+cotton candy
+dragee
+fondant
+fudge
+chocolate fudge
+penuche
+gumdrop
+honey crisp
+mint
+horehound
+jelly bean
+kiss
+chocolate kiss
+Life Saver
+lollipop
+lozenge
+marshmallow
+marzipan
+nougat
+nougat bar
+nut bar
+peanut bar
+popcorn ball
+praline
+rock candy
+sugar candy
+taffy
+truffle
+Turkish Delight
+dessert
+baked Alaska
+compote
+dumpling
+flan
+frozen dessert
+mousse
+mousse
+pavlova
+whip
+pudding
+pudding
+syllabub
+tiramisu
+jello
+ice
+ice cream
+ice-cream cone
+chocolate ice cream
+peach ice cream
+sherbert
+strawberry ice cream
+tutti-frutti
+vanilla ice cream
+ice lolly
+ice milk
+frozen yogurt
+parfait
+ice-cream sundae
+split
+frozen custard
+pudding
+plum pudding
+steamed pudding
+duff
+vanilla pudding
+chocolate pudding
+brown Betty
+custard
+creme caramel
+creme anglais
+creme brulee
+fruit custard
+tapioca pudding
+roly-poly
+suet pudding
+Bavarian cream
+maraschino
+nonpareil
+zabaglione
+garnish
+pastry
+turnover
+apple turnover
+knish
+pirogi
+samosa
+timbale
+ice-cream cake
+fish stick
+conserve
+apple butter
+jam
+lemon curd
+jelly
+marmalade
+gelatin
+gelatin dessert
+buffalo wing
+barbecued wing
+mince
+puree
+barbecue
+biryani
+saute
+patty
+veal parmesan
+veal cordon bleu
+margarine
+mincemeat
+stuffing
+bread
+anadama bread
+bap
+breadstick
+brown bread
+bun
+tea bread
+challah
+cinnamon bread
+cracked-wheat bread
+cracker
+crouton
+dark bread
+English muffin
+flatbread
+garlic bread
+gluten bread
+bannock
+chapatti
+pita
+loaf of bread
+French loaf
+matzo
+nan
+raisin bread
+quick bread
+banana bread
+date bread
+nut bread
+oatcake
+Irish soda bread
+skillet bread
+rye bread
+black bread
+Jewish rye bread
+limpa
+Swedish rye bread
+salt-rising bread
+simnel
+sour bread
+toast
+wafer
+white bread
+French bread
+Italian bread
+cornbread
+skillet corn bread
+cornpone
+hush puppy
+johnnycake
+spoon bread
+frankfurter bun
+hamburger bun
+muffin
+bran muffin
+corn muffin
+Yorkshire pudding
+popover
+scone
+cross bun
+brioche
+crescent roll
+hard roll
+soft roll
+kaiser roll
+Parker House roll
+onion roll
+sweet roll
+cinnamon roll
+honey bun
+pinwheel roll
+danish
+bagel
+biscuit
+rolled biscuit
+baking-powder biscuit
+buttermilk biscuit
+hardtack
+saltine
+soda cracker
+water biscuit
+graham cracker
+pretzel
+sandwich
+sandwich plate
+butty
+ham sandwich
+chicken sandwich
+club sandwich
+open-face sandwich
+hamburger
+tunaburger
+hotdog
+Sloppy Joe
+bomber
+gyro
+bacon-lettuce-tomato sandwich
+Reuben
+western
+wrap
+spaghetti
+gruel
+edible fruit
+vegetable
+julienne
+raw vegetable
+crudites
+legume
+pulse
+potherb
+greens
+root vegetable
+potato
+baked potato
+french fries
+home fries
+mashed potato
+yam
+sweet potato
+snack food
+chip
+corn chip
+eggplant
+pieplant
+cruciferous vegetable
+mustard
+cabbage
+kale
+Chinese cabbage
+bok choy
+head cabbage
+broccoli
+cauliflower
+brussels sprouts
+broccoli rabe
+squash
+summer squash
+yellow squash
+zucchini
+marrow
+pattypan squash
+spaghetti squash
+winter squash
+acorn squash
+butternut squash
+turban squash
+cucumber
+artichoke
+artichoke heart
+Jerusalem artichoke
+asparagus
+bamboo shoot
+sprout
+beet
+beet green
+chard
+pepper
+sweet pepper
+bell pepper
+green pepper
+pimento
+hot pepper
+chili
+jalapeno
+cayenne
+tabasco
+onion
+green onion
+Vidalia onion
+Spanish onion
+leek
+shallot
+salad green
+lettuce
+butterhead lettuce
+crisphead lettuce
+cos
+leaf lettuce
+bean
+lentil
+pea
+green pea
+snow pea
+sugar snap pea
+chickpea
+black-eyed pea
+common bean
+kidney bean
+navy bean
+pinto bean
+frijole
+black bean
+fresh bean
+flageolet
+green bean
+snap bean
+string bean
+Kentucky wonder
+scarlet runner
+haricot vert
+wax bean
+shell bean
+soy
+cardoon
+carrot
+celery
+celeriac
+chicory
+coffee substitute
+chicory escarole
+corn
+sweet corn
+hominy
+popcorn
+cress
+dandelion green
+gumbo
+kohlrabi
+lamb's-quarter
+wild spinach
+tomato
+beefsteak tomato
+cherry tomato
+tomatillo
+mushroom
+stuffed mushroom
+salsify
+parsnip
+pumpkin
+radish
+turnip
+turnip greens
+sorrel
+spinach
+taro
+edible nut
+peanut
+freestone
+cling
+windfall
+apple
+crab apple
+eating apple
+Cortland
+Delicious
+Golden Delicious
+Red Delicious
+Empire
+Jonathan
+McIntosh
+Northern Spy
+Pearmain
+Pippin
+Stayman
+Winesap
+cooking apple
+Granny Smith
+berry
+bilberry
+huckleberry
+blueberry
+wintergreen
+cranberry
+lingonberry
+currant
+gooseberry
+black currant
+red currant
+blackberry
+boysenberry
+loganberry
+raspberry
+saskatoon
+strawberry
+persimmon
+acerola
+carambola
+ceriman
+citrus
+orange
+mandarin
+clementine
+satsuma
+tangerine
+tangelo
+bitter orange
+sweet orange
+navel orange
+Valencia orange
+kumquat
+lemon
+lime
+grapefruit
+pomelo
+citron
+almond
+apricot
+peach
+nectarine
+pitahaya
+plum
+dried fruit
+dried apricot
+raisin
+fig
+pineapple
+anchovy pear
+banana
+passion fruit
+breadfruit
+jackfruit
+cocoa
+melon
+muskmelon
+cantaloup
+winter melon
+net melon
+watermelon
+cherry
+sweet cherry
+sour cherry
+grape
+muscadine
+slipskin grape
+vinifera grape
+custard apple
+cherimoya
+soursop
+sweetsop
+papaw
+papaya
+ackee
+durian
+feijoa
+kiwi
+loquat
+mangosteen
+mango
+sapodilla
+sapote
+tamarind
+avocado
+date
+elderberry
+guava
+hog plum
+jaboticaba
+jujube
+litchi
+mamey
+marang
+medlar
+medlar
+mulberry
+olive
+pear
+bosc
+anjou
+bartlett
+seckel
+plantain
+pomegranate
+prickly pear
+quince
+rambutan
+rose apple
+edible seed
+pumpkin seed
+walnut
+brazil nut
+butternut
+cashew
+chestnut
+hazelnut
+coconut
+cola extract
+macadamia nut
+pecan
+pine nut
+pistachio
+sunflower seed
+fodder
+eatage
+silage
+oil cake
+alfalfa
+broad bean
+hay
+grain
+groats
+millet
+barley
+buckwheat
+wheat
+rice
+brown rice
+white rice
+wild rice
+paddy
+mash
+bird feed
+petfood
+salad
+tossed salad
+green salad
+Caesar salad
+salmagundi
+salad nicoise
+combination salad
+potato salad
+pasta salad
+fruit salad
+herring salad
+chicken salad
+coleslaw
+tabbouleh
+ingredient
+flavorer
+condiment
+herb
+fines herbes
+spice
+spearmint oil
+lemon oil
+wintergreen oil
+salt
+cinnamon
+clove
+cumin
+fennel
+ginger
+mace
+nutmeg
+pepper
+sassafras
+basil
+bay leaf
+borage
+hyssop
+chervil
+chives
+comfrey
+coriander
+fennel
+fennel
+fennel seed
+fenugreek
+garlic
+garlic chive
+lemon balm
+lovage
+marjoram
+mint
+mustard
+Chinese mustard
+nasturtium
+parsley
+rosemary
+rue
+sage
+savory
+sweet woodruff
+sweet cicely
+tarragon
+thyme
+turmeric
+catsup
+cardamom
+cayenne
+chili powder
+chili sauce
+chutney
+steak sauce
+salsa
+cranberry sauce
+curry
+paprika
+pickle
+applesauce
+soy sauce
+tomato paste
+angelica
+angelica
+anise
+Chinese anise
+juniper berries
+saffron
+sesame seed
+caraway seed
+poppy seed
+dill
+monosodium glutamate
+vanilla bean
+vinegar
+sauce
+hot sauce
+bolognese pasta sauce
+carbonara
+tomato sauce
+wine sauce
+marchand de vin
+plum sauce
+pesto
+ravigote
+dressing
+bleu cheese dressing
+anchovy dressing
+mayonnaise
+Russian dressing
+barbecue sauce
+hollandaise
+bordelaise
+bourguignon
+chocolate sauce
+white sauce
+demiglace
+gravy
+gravy
+spaghetti sauce
+marinara
+mole
+hunter's sauce
+mushroom sauce
+roux
+Soubise
+Lyonnaise sauce
+veloute
+caper sauce
+curry sauce
+Worcester sauce
+egg
+egg white
+egg yolk
+boiled egg
+Easter egg
+chocolate egg
+candy egg
+poached egg
+scrambled eggs
+deviled egg
+shirred egg
+omelet
+firm omelet
+fluffy omelet
+souffle
+fried egg
+dairy product
+milk
+milk
+pasteurized milk
+raw milk
+homogenized milk
+powdered milk
+evaporated milk
+condensed milk
+skim milk
+semi-skimmed milk
+whole milk
+low-fat milk
+buttermilk
+cream
+clotted cream
+double creme
+heavy cream
+light cream
+sour cream
+whipping cream
+butter
+yogurt
+blueberry yogurt
+whey
+curd
+curd
+cheese
+cream cheese
+triple cream
+cottage cheese
+process cheese
+bleu
+Brie
+Camembert
+cheddar
+double Gloucester
+Edam
+goat cheese
+Gouda
+grated cheese
+Limburger
+mozzarella
+Muenster
+Parmesan
+quark cheese
+ricotta
+Swiss cheese
+Velveeta
+peanut butter
+shrimp butter
+lobster butter
+spread
+miso
+wasabi
+hummus
+pate
+tahini
+honey
+saccharin
+sugar
+syrup
+sugar syrup
+sorghum
+grenadine
+maple syrup
+batter
+dough
+bread dough
+coq au vin
+chicken and rice
+moo goo gai pan
+bacon and eggs
+barbecued spareribs
+beef Bourguignonne
+beef Wellington
+pasta
+cannelloni
+chicken Marengo
+chicken cordon bleu
+chicken paprika
+Tetrazzini
+chicken Kiev
+chili
+chop suey
+chow mein
+croquette
+cottage pie
+rissole
+dolmas
+egg foo yong
+egg roll
+eggs Benedict
+enchilada
+falafel
+fish and chips
+fondue
+cheese fondue
+chocolate fondue
+fondue
+French toast
+fried rice
+frittata
+frog legs
+galantine
+gefilte fish
+ham and eggs
+hash
+jambalaya
+kabob
+kedgeree
+lasagna
+seafood Newburg
+lobster thermidor
+lutefisk
+macaroni and cheese
+meatball
+meat loaf
+moussaka
+osso buco
+marrow
+pheasant under glass
+pigs in blankets
+pilaf
+pizza
+sausage pizza
+pepperoni pizza
+cheese pizza
+anchovy pizza
+Sicilian pizza
+porridge
+oatmeal
+potpie
+risotto
+roulade
+Salisbury steak
+sauerbraten
+sauerkraut
+scallopine
+scampi
+Scotch egg
+scrapple
+spaghetti and meatballs
+Spanish rice
+steak tartare
+pepper steak
+steak au poivre
+stuffed cabbage
+stuffed peppers
+stuffed tomato
+stuffed tomato
+succotash
+sukiyaki
+sashimi
+sushi
+Swiss steak
+tamale
+tempura
+teriyaki
+terrine
+Welsh rarebit
+schnitzel
+taco
+burrito
+tostada
+beverage
+wish-wash
+concoction
+filling
+potion
+elixir
+alcohol
+proof spirit
+home brew
+hooch
+aperitif
+brew
+beer
+draft beer
+suds
+Munich beer
+bock
+lager
+light beer
+Pilsner
+shebeen
+Weissbier
+malt
+malt
+ale
+bitter
+Burton
+pale ale
+porter
+stout
+kvass
+mead
+hydromel
+near beer
+ginger beer
+sake
+wine
+vintage
+red wine
+white wine
+blush wine
+sparkling wine
+Burgundy
+Beaujolais
+Medoc
+Canary wine
+Chablis
+Montrachet
+Chardonnay
+Pinot noir
+Pinot blanc
+Bordeaux
+claret
+Chianti
+Cabernet
+Merlot
+Sauvignon blanc
+California wine
+Cotes de Provence
+dessert wine
+Dubonnet
+macon
+Moselle
+Muscadet
+plonk
+retsina
+Rhine wine
+Rhone wine
+Rioja
+sack
+Soave
+zinfandel
+Sauterne
+table wine
+Tokay
+vermouth
+sweet vermouth
+dry vermouth
+Chenin blanc
+Verdicchio
+Vouvray
+Yquem
+generic
+varietal
+fortified wine
+Madeira
+port
+sherry
+Marsala
+muscat
+liquor
+neutral spirits
+aqua vitae
+eau de vie
+aquavit
+arrack
+bitters
+brandy
+applejack
+Calvados
+Armagnac
+Cognac
+grappa
+kirsch
+slivovitz
+gin
+sloe gin
+geneva
+grog
+ouzo
+rum
+demerara
+Jamaica rum
+schnapps
+pulque
+tequila
+vodka
+whiskey
+blended whiskey
+bourbon
+corn whiskey
+firewater
+Irish
+rye
+Scotch
+sour mash
+liqueur
+absinth
+amaretto
+anisette
+benedictine
+Chartreuse
+coffee liqueur
+creme de menthe
+creme de fraise
+Drambuie
+Galliano
+orange liqueur
+kummel
+maraschino
+pastis
+Pernod
+ratafia
+sambuca
+mixed drink
+cocktail
+highball
+Bloody Mary
+bullshot
+cobbler
+collins
+cooler
+refresher
+smoothie
+daiquiri
+spritzer
+gimlet
+gin and tonic
+grasshopper
+Harvey Wallbanger
+julep
+manhattan
+margarita
+martini
+gin and it
+old fashioned
+Sazerac
+screwdriver
+sidecar
+Scotch and soda
+sling
+sour
+stinger
+swizzle
+hot toddy
+zombie
+fizz
+Irish coffee
+cafe au lait
+drip coffee
+espresso
+cappuccino
+iced coffee
+instant coffee
+mocha
+mocha
+Turkish coffee
+chocolate milk
+cider
+hard cider
+scrumpy
+sweet cider
+perry
+rotgut
+cocoa
+juice
+fruit juice
+nectar
+cranberry juice
+grape juice
+grapefruit juice
+orange juice
+frozen orange juice
+pineapple juice
+lemon juice
+lime juice
+papaya juice
+tomato juice
+carrot juice
+V-8 juice
+fruit drink
+mate
+mulled wine
+soft drink
+pop
+birch beer
+bitter lemon
+cola
+cream soda
+ginger ale
+orange soda
+phosphate
+Coca Cola
+Pepsi
+root beer
+sarsaparilla
+tonic
+coffee bean
+coffee
+fruit punch
+milk punch
+mimosa
+pina colada
+punch
+cup
+wassail
+planter's punch
+White Russian
+May wine
+eggnog
+spruce beer
+rickey
+tea
+tea bag
+tea
+cuppa
+herb tea
+ice tea
+sun tea
+black tea
+green tea
+oolong
+water
+bottled water
+branch water
+drinking water
+soda water
+mineral water
+couscous
+ramekin
+vitamin pill
+soul food
+mold
+people
+collection
+book
+library
+agora
+interplanetary space
+interstellar space
+semidesert
+campsite
+cemetery
+business district
+crest
+flea market
+hemline
+hipline
+hole-in-the-wall
+littoral
+grassland
+mecca
+fairground
+pasture
+waterfront
+resort
+rough
+field
+veld
+zodiac
+alp
+Alpine glacier
+anthill
+ascent
+asterism
+bank
+bank
+bar
+basin
+beach
+honeycomb
+ben
+burrow
+butte
+canyon
+cave
+cavern
+cliff
+coast
+coastland
+continental glacier
+cove
+crag
+crater
+cultivated land
+dale
+descent
+downhill
+dune
+escarpment
+fireball
+floor
+fomite
+foothill
+foreland
+foreshore
+geological formation
+glacier
+gopher hole
+gorge
+grotto
+gully
+hail
+highland
+hill
+hillside
+hole
+iceberg
+icecap
+ice floe
+ice mass
+knoll
+kopje
+lakefront
+lakeside
+lather
+ledge
+lowland
+massif
+meander
+mountain
+mountainside
+mull
+natural elevation
+ocean floor
+oceanfront
+outcrop
+oxbow
+plain
+point
+pothole
+precipice
+promontory
+radiator
+range
+rangeland
+ravine
+reef
+ridge
+ridge
+rift valley
+ripple mark
+riverbank
+riverbed
+rock
+roof
+scablands
+seashore
+seaside
+shell
+shiner
+shore
+shoreline
+sinkhole
+ski slope
+slope
+snowcap
+soapsuds
+spume
+steep
+strand
+streambed
+sun
+swell
+talus
+tangle
+tor
+tor
+valley
+volcanic crater
+volcano
+waterside
+whinstone
+xenolith
+spiritual leader
+adventurer
+anomaly
+appointee
+benefactor
+commoner
+contadino
+discussant
+entertainer
+experimenter
+exponent
+face
+female
+inhabitant
+native
+native
+juvenile
+lover
+male
+mediator
+national
+peer
+recipient
+religionist
+sensualist
+traveler
+worker
+wrongdoer
+Black African
+Aryan
+Black
+Black woman
+White
+Semite
+Elamite
+white man
+WASP
+Nahuatl
+Caddo
+Chickasaw
+Cocopa
+Delaware
+Esselen
+Havasupai
+Kamia
+Kickapoo
+Kiliwa
+Malecite
+Mohican
+Penobscot
+Potawatomi
+Shasta
+Taracahitian
+Yana
+Yuma
+Gujarati
+Kashmiri
+Punjabi
+Slav
+gentile
+Jihadist
+Buddhist
+Eurasian
+Frank
+Afghan
+Albanian
+Algerian
+Altaic
+Angolan
+Bahamian
+Bahraini
+Barbadian
+Bulgarian
+Byelorussian
+Cameroonian
+Canadian
+Central American
+Congolese
+Cypriot
+Britisher
+Englishwoman
+Cantabrigian
+Ethiopian
+Finn
+Lithuanian
+Creole
+Gabonese
+Greek
+Haitian
+Malay
+Netherlander
+Iraqi
+Italian
+Japanese
+Jordanian
+Korean
+Kenyan
+Lao
+Lapp
+Latin American
+Lebanese
+Levantine
+Liberian
+Luxemburger
+Mexican
+Namibian
+New Zealander
+Nicaraguan
+Nigerian
+Hausa
+Omani
+Pakistani
+South American Indian
+Filipino
+Qatari
+Romanian
+Scandinavian
+Senegalese
+Slovene
+South African
+South American
+Sudanese
+Syrian
+Tanzanian
+Tibetan
+Togolese
+Tuareg
+Turki
+Ugandan
+Igbo
+Anglo-American
+Arkansan
+Coloradan
+Delawarean
+Floridian
+German American
+Illinoisan
+Mainer
+Minnesotan
+Nebraskan
+New Hampshirite
+New Jerseyan
+North Carolinian
+Pennsylvanian
+Vietnamese
+Gambian
+Guinean
+Yemeni
+Yugoslav
+Xhosa
+Zimbabwean
+Zulu
+Gemini
+Pisces
+abstainer
+companion
+accompanist
+accomplice
+acquaintance
+acquirer
+aerialist
+active
+actor
+actor
+adjutant
+admirer
+adulterer
+advocate
+affiliate
+agonist
+agriculturist
+air force officer
+alderman
+altar boy
+ambassador
+ambassador
+amputee
+anarchist
+ancestor
+ancient
+announcer
+announcer
+anti
+Anzac
+appointee
+appreciator
+archbishop
+archer
+army engineer
+army officer
+arrival
+articulator
+artilleryman
+artist's model
+assemblywoman
+asserter
+assignee
+assistant
+associate
+astronaut
+athlete
+attorney general
+auditor
+aunt
+authority
+aviator
+babu
+baby
+back
+backbencher
+baggage
+bairn
+baker
+balker
+ball carrier
+ballet dancer
+ballet master
+ball hawk
+balloonist
+ballplayer
+bullfighter
+banderillero
+matador
+picador
+bandsman
+bantamweight
+bartender
+base runner
+basketball player
+basketweaver
+bass
+bastard
+bat boy
+bather
+batman
+baton twirler
+beard
+Bedouin
+beekeeper
+beer drinker
+beldam
+believer
+best
+betrothed
+big shot
+billiard player
+biographer
+birth
+black belt
+bluestocking
+boatman
+bobby
+bodyguard
+boffin
+bootblack
+slugger
+cub
+bragger
+brawler
+brick
+bride
+bridesmaid
+brother-in-law
+Brummie
+buddy
+caddie
+calligrapher
+campaigner
+candidate
+captain
+captain
+captive
+cardinal
+cardiologist
+card player
+careerist
+caregiver
+caretaker
+caroler
+cashier
+catechist
+catechumen
+Catholicos
+cavalryman
+celebrant
+celebrant
+celebrity
+cellist
+centenarian
+centrist
+chameleon
+champion
+charmer
+cheerleader
+cheerleader
+chief of staff
+child
+child
+child
+chit
+choreographer
+cipher
+circus acrobat
+citizen
+city father
+civic leader
+civil rights leader
+cleaner
+clergyman
+cleric
+clerk
+climatologist
+climber
+clown
+coach
+coach
+cobbler
+colleen
+collegian
+color guard
+comer
+commanding officer
+commissioned officer
+commissioned military officer
+commissioner
+committee member
+compulsive
+computer user
+concert-goer
+confectioner
+Confederate
+confidant
+constable
+contralto
+copycat
+corporatist
+compromiser
+courtier
+cousin
+craftsman
+craftsman
+creature
+creep
+crown prince
+crown princess
+curate
+dad
+Dalai Lama
+dancer
+dancer
+clog dancer
+dancing-master
+darling
+deacon
+deliveryman
+demagogue
+demigod
+demonstrator
+department head
+deputy
+dermatologist
+descender
+designer
+detective
+developer
+diocesan
+disk jockey
+divorce lawyer
+doctor
+domestic partner
+dominus
+donna
+double
+draftsman
+dramatist
+dressmaker
+dribbler
+drinker
+drinker
+drug user
+drummer
+drunk
+drunkard
+dry
+dunker
+eager beaver
+econometrician
+economist
+editor
+egotist
+elder
+elder statesman
+elected official
+electrician
+emissary
+employee
+employer
+enchantress
+energizer
+enjoyer
+enlisted woman
+eparch
+Eskimo
+espionage agent
+esthetician
+etcher
+event planner
+executant
+exhibitionist
+extern
+extrovert
+facilitator
+fairy godmother
+falsifier
+fan
+fancier
+farm boy
+farmer
+farmhand
+father
+Father
+father-figure
+father-in-law
+featherweight
+federalist
+female offspring
+female child
+fire-eater
+fireman
+firstborn
+first lady
+first sergeant
+flak catcher
+flatmate
+flatterer
+flower girl
+flutist
+flyweight
+flyweight
+foe
+folk dancer
+follower
+football hero
+football player
+forefather
+foreign agent
+boss
+forger
+forward
+foster-mother
+foster-sister
+free agent
+free trader
+Freudian
+friar
+monk
+funambulist
+gagman
+gagman
+gainer
+gal
+gambler
+gamine
+gardener
+gendarme
+generator
+geologist
+girl
+girl wonder
+gladiator
+glassblower
+godchild
+golfer
+gondolier
+good old boy
+gouger
+graduate nurse
+grammarian
+granddaughter
+grandfather
+grandma
+grandparent
+grass widower
+great grandchild
+great granddaughter
+great grandparent
+great grandson
+Green Beret
+greeter
+grinner
+grocer
+groom
+grouch
+grunter
+guard
+guest
+guide
+guitarist
+gunnery sergeant
+guru
+guy
+gymnast
+gynecologist
+Gypsy
+hack
+hairdresser
+animal trainer
+hang glider
+hatmaker
+head nurse
+hearer
+heavyweight
+hedger
+heir
+herder
+heroine
+Herr
+highbrow
+high commissioner
+high priest
+hitter
+homeboy
+homegirl
+homeless
+honor guard
+hoper
+hornist
+horseman
+host
+house physician
+hugger
+hunk
+ex-husband
+hypnotist
+hypocrite
+ideologist
+important person
+incumbent
+inductee
+inferior
+infielder
+in-law
+inspector
+inspector general
+instigator
+internist
+interpreter
+investigator
+investor
+Ivy Leaguer
+Jat
+jezebel
+jilt
+jockey
+journalist
+judge
+judge advocate
+juggler
+junior
+jurist
+kachina
+keyboardist
+kingmaker
+king
+kin
+kink
+kinswoman
+kisser
+kneeler
+knower
+laborer
+Labourite
+lady
+lama
+lass
+Latin
+Latin
+Jehovah's Witness
+lawgiver
+lawman
+law student
+lawyer
+lector
+lector
+left-hander
+legionnaire
+licentiate
+lieutenant
+life
+lifeguard
+light heavyweight
+light heavyweight
+lightweight
+lightweight
+lightweight
+lineman
+line officer
+litigant
+Lord
+failure
+loyalist
+lumberman
+lutist
+machinist
+maenad
+magician
+mahatma
+maid
+major
+major
+maker
+adonis
+man
+man of action
+marcher
+marshal
+mascot
+mason
+masquerader
+master
+master of ceremonies
+mate
+mate
+mater
+matron
+mayor
+mayoress
+mechanical engineer
+medical officer
+medical practitioner
+medical scientist
+megalomaniac
+nonmember
+board member
+mender
+microeconomist
+middle-aged man
+middleweight
+midwife
+military leader
+military officer
+military policeman
+mill-hand
+minder
+minister
+minor leaguer
+mistress
+mistress
+mixed-blood
+model
+modeler
+Monegasque
+monetarist
+moneymaker
+Mongoloid
+monolingual
+monologist
+morris dancer
+mother
+mother
+mother figure
+mother-in-law
+motorcycle cop
+motorcyclist
+Mullah
+musher
+musician
+musicologist
+music teacher
+Muslimah
+mutterer
+nationalist
+neonate
+neutral
+neutralist
+New Dealer
+niece
+noncandidate
+noncommissioned officer
+nondriver
+nonsmoker
+noticer
+novitiate
+nurse
+nursling
+nymph
+nymphet
+oboist
+obscurantist
+observer
+obstetrician
+occultist
+officiant
+old boy
+old lady
+old man
+oldster
+old woman
+oligarch
+Olympian
+orator
+orderly
+organist
+organization man
+originator
+orphan
+orphan
+osteopath
+outfielder
+right-handed pitcher
+painter
+paleontologist
+pallbearer
+Panchen Lama
+Parliamentarian
+partaker
+part-timer
+party
+passenger
+pater
+patient
+patriarch
+patriot
+patron
+peacekeeper
+peddler
+penologist
+Pentecostal
+percussionist
+personal representative
+personification
+perspirer
+Peter Pan
+pet sitter
+Pharaoh
+pharmacist
+photojournalist
+physical therapist
+physicist
+picker
+pillar
+pitcher
+planner
+plasterer
+player
+pleaser
+pledger
+plenipotentiary
+plier
+plumber
+policyholder
+political scientist
+politician
+pool player
+postdoc
+prosthetist
+potboy
+poultryman
+practitioner
+prayer
+preceptor
+premature baby
+preserver
+president
+President of the United States
+priest
+Prince of Wales
+princess
+principal
+private
+probationer
+proctologist
+programmer
+propagandist
+propagator
+prosecutor
+protectionist
+pruner
+psycholinguist
+psychophysicist
+punter
+puppeteer
+pusher
+pusher
+quadruplet
+quarterback
+queen
+queen
+rabbi
+radiologic technologist
+radiologist
+rake
+ranch hand
+ranker
+rapper
+reader
+reading teacher
+recruit
+redhead
+reenactor
+registrar
+religious leader
+reporter
+representative
+reprobate
+rescuer
+reservist
+resident commissioner
+retailer
+retiree
+rheumatologist
+rich person
+rider
+riding master
+rifleman
+right-hander
+right-hand man
+rock star
+Mountie
+civil authority
+runner
+runner
+running back
+rustic
+sailor
+salesman
+salesperson
+sangoma
+saunterer
+schemer
+scholar
+scholiast
+schoolfriend
+schoolmaster
+scoutmaster
+scrambler
+screen actor
+sculptor
+second cousin
+second-rater
+secretary
+Secretary of Agriculture
+Secretary of State
+Secretary of the Interior
+secularist
+seeded player
+selfish person
+seller
+selling agent
+semifinalist
+seminarian
+senator
+separatist
+septuagenarian
+server
+serviceman
+sex symbol
+sexton
+sheik
+shepherd
+shipmate
+shot putter
+shyster
+sibling
+sick person
+singer
+sitar player
+sixth-former
+skeptic
+skidder
+skier
+sleeper
+smasher
+smith
+soccer player
+socialist
+socializer
+social scientist
+sociolinguist
+sociologist
+sodalist
+soldier
+songster
+soul mate
+sovereign
+sparring partner
+native speaker
+specialist
+spectator
+sphinx
+sport
+sprog
+square dancer
+squire
+staff member
+staff sergeant
+stammerer
+star
+stepparent
+steward
+stoker
+strategist
+stud
+stylist
+subordinate
+successor
+successor
+Sufi
+suffragette
+suitor
+sumo wrestler
+superior
+supermom
+surgeon
+surveyor
+sweeper
+sweetheart
+sylph
+sympathizer
+tactician
+tailback
+tanker
+Tarzan
+taxi dancer
+teacher
+teaching fellow
+technical sergeant
+technician
+television reporter
+term infant
+tenant
+tennis player
+termer
+terror
+testator
+theologian
+therapist
+thinker
+thrower
+tiler
+Timorese
+tinkerer
+Tory
+tourist
+trader
+trade unionist
+traffic cop
+trainer
+traitor
+transvestite
+tribesman
+trier
+trooper
+trumpeter
+twin
+Tyke
+understudy
+Unknown Soldier
+upstart
+upstart
+urchin
+utility man
+vacationer
+valedictorian
+valley girl
+vaulter
+very important person
+vibist
+vicar
+vicar
+vice president
+villager
+vintner
+violist
+visualizer
+voyager
+waffler
+waif
+wallah
+wanderer
+washer
+welder
+widow
+wife
+winger
+winner
+woman
+woman
+working girl
+workman
+worshiper
+wrecker
+wright
+writer
+young buck
+young Turk
+zoo keeper
+parhelion
+volva
+aquatic
+pecopteris
+pteridophyte
+fern
+fern ally
+cryptogam
+annual
+biennial
+perennial
+ephedra
+welwitschia
+cycad
+sago palm
+zamia
+ceratozamia
+dioon
+encephalartos
+macrozamia
+burrawong
+pine
+pinon
+nut pine
+bishop pine
+spruce pine
+black pine
+pitch pine
+pond pine
+stone pine
+Swiss pine
+Swiss mountain pine
+ancient pine
+white pine
+American white pine
+western white pine
+southwestern white pine
+limber pine
+whitebark pine
+yellow pine
+Jeffrey pine
+shore pine
+loblolly pine
+jack pine
+swamp pine
+red pine
+Scotch pine
+scrub pine
+Monterey pine
+bristlecone pine
+table-mountain pine
+knobcone pine
+Japanese red pine
+Japanese black pine
+Torrey pine
+larch
+American larch
+western larch
+European larch
+Siberian larch
+golden larch
+fir
+silver fir
+amabilis fir
+European silver fir
+white fir
+balsam fir
+Fraser fir
+lowland fir
+Alpine fir
+Santa Lucia fir
+cedar
+cedar of Lebanon
+deodar
+Atlas cedar
+spruce
+Norway spruce
+weeping spruce
+Engelmann spruce
+white spruce
+black spruce
+Sitka spruce
+oriental spruce
+Colorado spruce
+red spruce
+hemlock
+eastern hemlock
+Carolina hemlock
+mountain hemlock
+western hemlock
+douglas fir
+cedar
+cypress
+Arizona cypress
+Monterey cypress
+Mexican cypress
+Italian cypress
+incense cedar
+southern white cedar
+Oregon cedar
+yellow cypress
+Japanese cedar
+juniper berry
+incense cedar
+pahautea
+metasequoia
+arborvitae
+western red cedar
+American arborvitae
+Oriental arborvitae
+Wollemi pine
+araucaria
+monkey puzzle
+norfolk island pine
+new caledonian pine
+bunya bunya
+hoop pine
+kauri pine
+California nutmeg
+stinking cedar
+celery pine
+yellowwood
+podocarp
+yacca
+brown pine
+totara
+kahikatea
+rimu
+westland pine
+huon pine
+nagi
+miro
+matai
+Japanese umbrella pine
+yew
+Old World yew
+Pacific yew
+Japanese yew
+Florida yew
+New Caledonian yew
+ginkgo
+angiosperm
+dicot
+monocot
+floret
+flower
+bloomer
+wildflower
+inflorescence
+pistil
+carpophore
+cornstalk
+pollen tube
+gemma
+pericarp
+sporophyte
+oilseed
+hypanthium
+lip
+perianth
+custard apple
+cherimoya
+soursop
+sweetsop
+pawpaw
+ilang-ilang
+lancewood
+barberry
+Oregon grape
+Oregon grape
+mayapple
+allspice
+katsura tree
+laurel
+true laurel
+camphor tree
+cassia
+avocado
+laurel-tree
+sassafras
+California laurel
+anise tree
+magnolia
+southern magnolia
+umbrella tree
+cucumber tree
+saucer magnolia
+star magnolia
+sweet bay
+tulip tree
+moonseed
+water nymph
+European white lily
+lotus
+water chinquapin
+water-shield
+peony
+buttercup
+meadow buttercup
+water crowfoot
+lesser celandine
+lesser spearwort
+greater spearwort
+western buttercup
+creeping buttercup
+cursed crowfoot
+aconite
+baneberry
+baneberry
+pheasant's-eye
+anemone
+Alpine anemone
+Canada anemone
+thimbleweed
+wood anemone
+wood anemone
+snowdrop anemone
+rue anemone
+columbine
+meeting house
+blue columbine
+granny's bonnets
+marsh marigold
+clematis
+blue jasmine
+golden clematis
+scarlet clematis
+leather flower
+virgin's bower
+purple clematis
+rocket larkspur
+delphinium
+winter aconite
+hepatica
+goldenseal
+false rue anemone
+nigella
+pasqueflower
+meadow rue
+globeflower
+winter's bark
+sweet gale
+wax myrtle
+zebrawood
+legume
+peanut
+courbaril
+alpine clover
+hop clover
+crimson clover
+red clover
+white clover
+mimosa
+acacia
+wattle
+black wattle
+catechu
+silver wattle
+huisache
+golden wattle
+fever tree
+coralwood
+albizzia
+silk tree
+siris
+rain tree
+calliandra
+conacaste
+inga
+lead tree
+wild tamarind
+dogbane
+impala lily
+allamanda
+dita
+Nepal trumpet flower
+carissa
+periwinkle
+ivory tree
+oleander
+frangipani
+yellow oleander
+arum
+cuckoopint
+calamus
+alocasia
+amorphophallus
+anthurium
+jack-in-the-pulpit
+caladium
+wild calla
+taro
+golden pothos
+skunk cabbage
+monstera
+nephthytis
+arrow arum
+philodendron
+pistia
+pothos
+spathiphyllum
+skunk cabbage
+yautia
+calla lily
+duckweed
+aralia
+ginseng
+birthwort
+heartleaf
+corn cockle
+sandwort
+mountain sandwort
+rock sandwort
+thyme-leaved sandwort
+mouse-ear chickweed
+pink
+sweet William
+carnation
+china pink
+maiden pink
+cheddar pink
+button pink
+cottage pink
+fringed pink
+baby's breath
+coral necklace
+lychnis
+ragged robin
+scarlet lychnis
+mullein pink
+sandwort
+sandwort
+soapwort
+silene
+moss campion
+wild pink
+red campion
+white campion
+fire pink
+bladder campion
+corn spurry
+chickweed
+cowherb
+Hottentot fig
+livingstone daisy
+fig marigold
+New Zealand spinach
+amaranth
+cockscomb
+globe amaranth
+bloodleaf
+saltwort
+orach
+saltbush
+beet
+glasswort
+saltwort
+sand verbena
+bougainvillea
+four o'clock
+common four-o'clock
+California four o'clock
+sweet four o'clock
+desert four o'clock
+cockspur
+rattail cactus
+saguaro
+night-blooming cereus
+echinocactus
+hedgehog cactus
+golden barrel cactus
+hedgehog cereus
+epiphyllum
+barrel cactus
+night-blooming cereus
+chichipe
+mescal
+mescal button
+mammillaria
+feather ball
+garambulla
+nopal
+prickly pear
+cholla
+Christmas cactus
+night-blooming cereus
+crab cactus
+pokeweed
+portulaca
+red maids
+Carolina spring beauty
+spring beauty
+Virginia spring beauty
+siskiyou lewisia
+bitterroot
+flame flower
+caper
+spiderflower
+cress
+watercress
+stonecress
+garlic mustard
+alyssum
+rock cress
+winter cress
+yellow rocket
+hoary alison
+wild cabbage
+cabbage
+brussels sprout
+cauliflower
+broccoli
+kohlrabi
+turnip plant
+broccoli raab
+mustard
+bok choy
+rape
+rapeseed
+shepherd's purse
+wallflower
+sea kale
+draba
+wallflower
+western wall flower
+damask violet
+candytuft
+woad
+bladderpod
+sweet alyssum
+Malcolm stock
+Virginian stock
+stock
+bladderpod
+radish plant
+jointed charlock
+radish
+radish
+field mustard
+hedge mustard
+pennycress
+poppy
+Iceland poppy
+western poppy
+prickly poppy
+Iceland poppy
+oriental poppy
+corn poppy
+opium poppy
+prickly poppy
+celandine
+corydalis
+California poppy
+horn poppy
+golden cup
+blue poppy
+Welsh poppy
+matilija poppy
+wind poppy
+celandine poppy
+bleeding heart
+Dutchman's breeches
+squirrel corn
+composite
+compass plant
+everlasting
+achillea
+pink-and-white everlasting
+white snakeroot
+ageratum
+ragweed
+pearly everlasting
+mayweed
+yellow chamomile
+corn chamomile
+woolly daisy
+burdock
+African daisy
+blue-eyed African daisy
+marguerite
+silversword
+arnica
+heartleaf arnica
+Arnica montana
+artemisia
+mugwort
+sweet wormwood
+field wormwood
+wormwood sage
+aster
+wood aster
+heath aster
+bushy aster
+heath aster
+stiff aster
+goldilocks
+New England aster
+Michaelmas daisy
+sea aster
+prairie aster
+aromatic aster
+bog aster
+flat-topped white aster
+smooth aster
+southern aster
+starved aster
+willow aster
+balsamroot
+daisy
+bur marigold
+Swan River daisy
+calendula
+China aster
+thistle
+welted thistle
+musk thistle
+carline thistle
+safflower
+catananche
+dusty miller
+cornflower
+knapweed
+Barnaby's thistle
+chamomile
+chrysanthemum
+corn marigold
+crown daisy
+golden aster
+goldenbush
+chicory
+chicory
+plume thistle
+Canada thistle
+field thistle
+woolly thistle
+melancholy thistle
+brook thistle
+bull thistle
+blessed thistle
+mistflower
+horseweed
+coreopsis
+cosmos
+brass buttons
+hawk's-beard
+artichoke
+cardoon
+dahlia
+German ivy
+florist's chrysanthemum
+cape marigold
+leopard's-bane
+coneflower
+globe thistle
+brittlebush
+fireweed
+fleabane
+daisy fleabane
+orange daisy
+spreading fleabane
+seaside daisy
+Philadelphia fleabane
+showy daisy
+woolly sunflower
+dog fennel
+Joe-Pye weed
+boneset
+Joe-Pye weed
+blue daisy
+cotton rose
+gaillardia
+gazania
+African daisy
+desert sunflower
+cudweed
+gumweed
+goldenbush
+sneezeweed
+sunflower
+swamp sunflower
+common sunflower
+giant sunflower
+showy sunflower
+Maximilian's sunflower
+prairie sunflower
+Jerusalem artichoke
+strawflower
+heliopsis
+strawflower
+hawkweed
+cat's-ear
+inula
+marsh elder
+krigia
+goldfields
+tidytips
+hawkbit
+edelweiss
+oxeye daisy
+oxeye daisy
+shasta daisy
+blazing star
+African daisy
+tarweed
+sweet false chamomile
+pineapple weed
+daisybush
+cotton thistle
+butterweed
+American feverfew
+cineraria
+butterbur
+oxtongue
+hawkweed
+stevia
+fleabane
+coneflower
+Mexican hat
+long-head coneflower
+prairie coneflower
+coneflower
+black-eyed Susan
+cutleaved coneflower
+lavender cotton
+creeping zinnia
+golden thistle
+dusty miller
+butterweed
+sea wormwood
+milk thistle
+goldenrod
+meadow goldenrod
+Missouri goldenrod
+alpine goldenrod
+grey goldenrod
+Blue Mountain tea
+dyer's weed
+seaside goldenrod
+tall goldenrod
+sow thistle
+stevia
+stokes' aster
+marigold
+African marigold
+French marigold
+painted daisy
+pyrethrum
+feverfew
+dusty miller
+tansy
+dandelion
+dandelion green
+Mexican sunflower
+Easter daisy
+yellow salsify
+salsify
+meadow salsify
+scentless camomile
+coltsfoot
+ursinia
+crownbeard
+ironweed
+mule's ears
+cocklebur
+immortelle
+zinnia
+blazing star
+achene
+campanula
+creeping bellflower
+Canterbury bell
+tall bellflower
+clustered bellflower
+peach bells
+rampion
+tussock bellflower
+orchid
+orchis
+male orchis
+butterfly orchid
+showy orchis
+aerides
+arethusa
+bletia
+Bletilla striata
+brassavola
+spider orchid
+spider orchid
+caladenia
+calanthe
+grass pink
+calypso
+cattleya
+helleborine
+frog orchid
+coelogyne
+coral root
+cymbid
+lady's slipper
+moccasin flower
+common lady's-slipper
+ram's-head
+yellow lady's slipper
+California lady's slipper
+mountain lady's slipper
+marsh orchid
+common spotted orchid
+dendrobium
+disa
+phantom orchid
+butterfly orchid
+butterfly orchid
+epidendron
+helleborine
+Epipactis helleborine
+stream orchid
+rattlesnake plantain
+fragrant orchid
+short-spurred fragrant orchid
+fringed orchis
+frog orchid
+rein orchid
+white fringed orchis
+purple-fringed orchid
+ragged orchid
+prairie orchid
+purple fringeless orchid
+purple-fringed orchid
+Texas purple spike
+lizard orchid
+laelia
+liparis
+twayblade
+fen orchid
+lesser twayblade
+twayblade
+green adder's mouth
+masdevallia
+pansy orchid
+odontoglossum
+oncidium
+bee orchid
+fly orchid
+spider orchid
+Venus' slipper
+phaius
+moth orchid
+lesser butterfly orchid
+greater butterfly orchid
+Indian crocus
+pleurothallis
+pogonia
+butterfly orchid
+helmet orchid
+orange-blossom orchid
+sobralia
+ladies' tresses
+screw augur
+hooded ladies' tresses
+western ladies' tresses
+European ladies' tresses
+stanhopea
+stelis
+fly orchid
+vanda
+vanilla
+yam
+black bryony
+primrose
+English primrose
+cowslip
+oxlip
+polyanthus
+pimpernel
+cyclamen
+sowbread
+featherfoil
+loosestrife
+gooseneck loosestrife
+yellow pimpernel
+moneywort
+whorled loosestrife
+water pimpernel
+coralberry
+plumbago
+leadwort
+sea lavender
+gramineous plant
+grass
+shortgrass
+tallgrass
+herbage
+goat grass
+wheatgrass
+foxtail
+broom grass
+tall oat grass
+oat
+brome
+grama
+buffalo grass
+reed grass
+burgrass
+pampas grass
+orchard grass
+crabgrass
+barnyard grass
+yardgrass
+finger millet
+lyme grass
+wild rye
+plume grass
+fescue
+velvet grass
+creeping soft grass
+rye grass
+dallisgrass
+knotgrass
+fountain grass
+reed canary grass
+canary grass
+timothy
+bluegrass
+meadowgrass
+bluestem
+rye
+millet
+reed
+sorghum
+cordgrass
+rush grass
+St. Augustine grass
+grain
+wheat
+corn
+zoysia
+bamboo
+umbrella plant
+galingale
+nutgrass
+cotton grass
+spike rush
+pandanus
+bur reed
+grain
+gourd
+pumpkin
+summer squash
+yellow squash
+marrow
+cymling
+spaghetti squash
+winter squash
+acorn squash
+hubbard squash
+turban squash
+butternut squash
+winter crookneck
+cushaw
+prairie gourd
+bryony
+sweet melon
+cantaloupe
+winter melon
+net melon
+squirting cucumber
+bottle gourd
+luffa
+balsam apple
+balsam pear
+lobelia
+mallow
+musk mallow
+common mallow
+okra
+okra
+abelmosk
+velvetleaf
+hollyhock
+althea
+poppy mallow
+kenaf
+rose mallow
+cotton rose
+mahoe
+lacebark
+seashore mallow
+false mallow
+waxmallow
+pavonia
+ribbon tree
+bush hibiscus
+Indian mallow
+checkerbloom
+globe mallow
+tulipwood tree
+red silk-cotton tree
+cream-of-tartar tree
+baobab
+kapok
+durian
+Jamaican cherry
+sterculia
+bottle-tree
+flame tree
+flame tree
+kurrajong
+Chinese parasol tree
+red beech
+looking glass tree
+looking-glass plant
+silver tree
+cacao
+linden
+American basswood
+white basswood
+Japanese linden
+silver lime
+herb
+protea
+banksia
+smoke bush
+grevillea
+cushion flower
+macadamia
+prickly ash
+wheel tree
+scrub beefwood
+waratah
+waratah
+casuarina
+heath
+briarroot
+bearberry
+trailing arbutus
+salal
+huckleberry
+kalmia
+wild rosemary
+leucothoe
+alpine azalea
+sorrel tree
+fetterbush
+rhododendron
+coast rhododendron
+rosebay
+swamp azalea
+azalea
+cranberry
+blueberry
+diapensia
+shortia
+Australian heath
+native cranberry
+wintergreen
+pipsissewa
+one-flowered wintergreen
+Indian pipe
+pinesap
+beech
+copper beech
+American beech
+weeping beech
+Japanese beech
+chestnut
+American chestnut
+European chestnut
+Chinese chestnut
+Allegheny chinkapin
+Ozark chinkapin
+oak chestnut
+tanbark oak
+southern beech
+myrtle beech
+New Zealand beech
+black beech
+hard beech
+acorn
+oak
+live oak
+coast live oak
+white oak
+American white oak
+Arizona white oak
+swamp white oak
+European turkey oak
+canyon oak
+scarlet oak
+jack oak
+red oak
+Oregon white oak
+shingle oak
+bluejack oak
+California black oak
+American turkey oak
+laurel oak
+California white oak
+overcup oak
+bur oak
+scrub oak
+swamp chestnut oak
+Japanese oak
+chinquapin oak
+water oak
+durmast
+basket oak
+pin oak
+willow oak
+common oak
+post oak
+cork oak
+Spanish oak
+black oak
+southern live oak
+interior live oak
+birch
+yellow birch
+American white birch
+grey birch
+silver birch
+downy birch
+black birch
+sweet birch
+swamp birch
+alder
+common alder
+grey alder
+seaside alder
+white alder
+red alder
+smooth alder
+green alder
+hornbeam
+hop hornbeam
+hazelnut
+centaury
+prairie gentian
+gentian
+gentianella
+closed gentian
+explorer's gentian
+closed gentian
+great yellow gentian
+marsh gentian
+soapwort gentian
+striped gentian
+agueweed
+felwort
+fringed gentian
+spurred gentian
+olive tree
+olive
+fringe tree
+forestiera
+forsythia
+ash
+white ash
+swamp ash
+European ash
+Oregon ash
+black ash
+manna ash
+red ash
+blue ash
+mountain ash
+pumpkin ash
+Arizona ash
+jasmine
+winter jasmine
+common jasmine
+privet
+lilac
+kangaroo paw
+winter hazel
+fothergilla
+liquidambar
+iron tree
+walnut
+California black walnut
+butternut
+black walnut
+English walnut
+hickory
+pecan
+wing nut
+bush willow
+white mangrove
+brazil nut
+loosestrife
+purple loosestrife
+crape myrtle
+Queen's crape myrtle
+myrtle
+bayberry
+sour cherry
+Surinam cherry
+feijoa
+jaboticaba
+guava
+guava
+cattley guava
+gum tree
+eucalyptus
+flooded gum
+mallee
+red gum
+red gum
+river red gum
+snow gum
+alpine ash
+white mountain ash
+blue gum
+spotted gum
+lemon-scented gum
+mountain ash
+manna gum
+tupelo
+enchanter's nightshade
+willowherb
+fuchsia
+evening primrose
+common evening primrose
+sundrops
+Missouri primrose
+pomegranate
+mangrove
+daphne
+Medinilla magnifica
+deer grass
+canna
+banana
+dwarf banana
+Japanese banana
+plantain
+edible banana
+abaca
+Abyssinian banana
+common ginger
+galangal
+shellflower
+grains of paradise
+cardamom
+begonia
+tuberous begonia
+Christmas begonia
+angel-wing begonia
+rex begonia
+wax begonia
+dillenia
+poon
+calaba
+laurelwood
+clusia
+gamboge tree
+St John's wort
+common St John's wort
+great St John's wort
+creeping St John's wort
+klammath weed
+shrubby St John's wort
+St Peter's wort
+marsh St-John's wort
+mammee apple
+bower actinidia
+Chinese gooseberry
+papaya
+rockrose
+dipterocarp
+candlewood
+granadilla
+granadilla
+granadilla
+maypop
+Jamaica honeysuckle
+sweet calabash
+love-in-a-mist
+reseda
+viola
+violet
+field pansy
+dog violet
+horned violet
+two-eyed violet
+bird's-foot violet
+downy yellow violet
+long-spurred violet
+pale violet
+hedge violet
+nettle
+cannabis
+mulberry
+breadfruit
+jackfruit
+fig tree
+fig
+golden fig
+banyan
+pipal
+India-rubber tree
+mistletoe fig
+paper mulberry
+trumpetwood
+elm
+winged elm
+American elm
+smooth-leaved elm
+cedar elm
+witch elm
+Dutch elm
+water elm
+Chinese elm
+English elm
+Siberian elm
+slippery elm
+September elm
+rock elm
+hackberry
+European hackberry
+American hackberry
+sugarberry
+iridaceous plant
+bearded iris
+beardless iris
+orrisroot
+dwarf iris
+Dutch iris
+Florentine iris
+stinking iris
+German iris
+Japanese iris
+German iris
+Dalmatian iris
+Persian iris
+Dutch iris
+dwarf iris
+Spanish iris
+wandflower
+amaryllis
+blood lily
+daffodil
+jonquil
+liliaceous plant
+mountain lily
+Canada lily
+tiger lily
+Columbia tiger lily
+tiger lily
+Easter lily
+coast lily
+Turk's-cap
+Michigan lily
+leopard lily
+Turk's-cap
+wild leek
+Canada garlic
+daffodil garlic
+chives
+wild garlic
+garlic chive
+round-headed leek
+three-cornered leek
+kniphofia
+asparagus
+asparagus fern
+asphodel
+aspidistra
+mariposa
+globe lily
+sego lily
+camas
+dogtooth violet
+white dogtooth violet
+yellow adder's tongue
+European dogtooth
+fawn lily
+glacier lily
+avalanche lily
+fritillary
+mission bells
+mission bells
+crown imperial
+snake's head fritillary
+adobe lily
+tulip
+dwarf tulip
+lady tulip
+Tulipa gesneriana
+cottage tulip
+Darwin tulip
+gloriosa
+star-of-Bethlehem
+grape hyacinth
+common grape hyacinth
+tassel hyacinth
+scilla
+false asphodel
+butcher's broom
+bog asphodel
+hellebore
+squaw grass
+death camas
+herb Paris
+sarsaparilla
+clintonia
+false lily of the valley
+false lily of the valley
+Solomon's-seal
+bellwort
+pia
+American agave
+sisal
+maguey
+maguey
+Agave tequilana
+cabbage tree
+dracaena
+tuberose
+sansevieria
+Spanish bayonet
+Spanish bayonet
+Joshua tree
+Adam's needle
+bear grass
+Spanish dagger
+Our Lord's candle
+water shamrock
+butterfly bush
+yellow jasmine
+flax
+bonduc
+divi-divi
+mountain ebony
+cassia
+carob
+carob
+paloverde
+royal poinciana
+locust tree
+honey locust
+Kentucky coffee tree
+Jerusalem thorn
+palo verde
+senna
+wild senna
+sicklepod
+tamarind
+angelim
+kidney vetch
+rooibos
+milk vetch
+wild indigo
+dhak
+pea tree
+Moreton Bay chestnut
+butterfly pea
+Judas tree
+redbud
+western redbud
+chickpea
+chickpea
+glory pea
+butterfly pea
+blue pea
+crotalaria
+rosewood
+sissoo
+blackwood
+tick trefoil
+coral tree
+coral bean tree
+ceibo
+Indian coral tree
+cork tree
+goat's rue
+soy
+French honeysuckle
+vetchling
+wild pea
+everlasting pea
+lentil
+lentil
+prairie bird's-foot trefoil
+bird's foot trefoil
+lupine
+tree lupine
+wild lupine
+bluebonnet
+Texas bluebonnet
+medic
+Peruvian balsam
+sainfoin
+restharrow
+locoweed
+tumbleweed
+yam bean
+pea
+quira
+winged bean
+red sandalwood
+kudzu
+bristly locust
+black locust
+Japanese pagoda tree
+mescal bean
+kowhai
+jade vine
+hoary pea
+bush pea
+bird's foot trefoil
+gorse
+vetch
+broad bean
+snailflower
+cowpea
+cowpea
+asparagus bean
+palm
+sago palm
+feather palm
+fan palm
+palmetto
+grugru
+areca
+palmyra
+calamus
+fishtail palm
+wax palm
+coconut
+carnauba
+caranday
+talipot
+oil palm
+cabbage palm
+cabbage palm
+cohune palm
+date palm
+ivory palm
+raffia palm
+lady palm
+royal palm
+cabbage palm
+saw palmetto
+thatch palm
+key palm
+eriogonum
+rhubarb
+commelina
+spiderwort
+pineapple
+water hyacinth
+water plantain
+hydrilla
+waterweed
+tape grass
+pondweed
+arrow grass
+eelgrass
+rose
+hip
+banksia rose
+damask rose
+Cherokee rose
+musk rose
+agrimonia
+flowering quince
+coco plum
+cotoneaster
+quince
+mountain avens
+loquat
+avens
+apple tree
+apple
+wild apple
+crab apple
+wild crab
+Iowa crab
+medlar
+cinquefoil
+plum
+wild plum
+common plum
+bullace
+Canada plum
+apricot
+cherry
+wild cherry
+wild cherry
+sweet cherry
+capulin
+cherry laurel
+cherry plum
+sour cherry
+almond tree
+almond
+dwarf flowering almond
+fuji
+flowering almond
+bird cherry
+peach
+nectarine
+black cherry
+flowering cherry
+oriental cherry
+Japanese flowering cherry
+Sierra plum
+rosebud cherry
+Russian almond
+flowering almond
+chokecherry
+chokecherry
+Pyracantha
+pear
+fruit tree
+raspberry
+black raspberry
+salmonberry
+salmonberry
+wineberry
+mountain ash
+rowan
+rowanberry
+American mountain ash
+service tree
+spirea
+woodruff
+coffee
+cinchona
+bedstraw
+sweet woodruff
+Northern bedstraw
+yellow bedstraw
+wild madder
+hamelia
+lemonwood
+wild medlar
+abelia
+American fly honeysuckle
+Italian honeysuckle
+yellow honeysuckle
+Japanese honeysuckle
+Hall's honeysuckle
+woodbine
+trumpet honeysuckle
+European fly honeysuckle
+snowberry
+cranberry bush
+wayfaring tree
+guelder rose
+black haw
+weigela
+teasel
+common teasel
+fuller's teasel
+wild teasel
+scabious
+sweet scabious
+field scabious
+jewelweed
+geranium
+cranesbill
+wild geranium
+meadow cranesbill
+Richardson's geranium
+herb robert
+sticky geranium
+dove's foot geranium
+rose geranium
+fish geranium
+ivy geranium
+storksbill
+incense tree
+mahogany
+chinaberry
+neem
+silver ash
+common wood sorrel
+Bermuda buttercup
+creeping oxalis
+violet wood sorrel
+carambola
+milkwort
+citrus
+orange
+sour orange
+bergamot
+pomelo
+citron
+grapefruit
+mandarin
+tangerine
+clementine
+satsuma
+sweet orange
+temple orange
+tangelo
+lemon
+sweet lemon
+lime
+fraxinella
+kumquat
+cork tree
+trifoliate orange
+prickly ash
+bitterwood tree
+ailanthus
+wild mango
+nasturtium
+garden nasturtium
+bush nasturtium
+canarybird flower
+lignum vitae
+creosote bush
+caltrop
+willow
+osier
+white willow
+silver willow
+golden willow
+weeping willow
+pussy willow
+sallow
+almond willow
+crack willow
+prairie willow
+dwarf willow
+grey willow
+shining willow
+swamp willow
+bay willow
+purple willow
+Sitka willow
+dwarf grey willow
+common osier
+poplar
+balsam poplar
+white poplar
+black poplar
+cottonwood
+aspen
+quaking aspen
+American quaking aspen
+Canadian aspen
+sandalwood tree
+Loranthaceae
+mistletoe
+mistletoe
+soapberry
+soapberry vine
+longan
+litchi
+rambutan
+pachysandra
+bittersweet
+spindle tree
+wahoo
+strawberry bush
+maple
+silver maple
+sugar maple
+red maple
+moosewood
+Oregon maple
+dwarf maple
+mountain maple
+vine maple
+hedge maple
+Norway maple
+sycamore
+box elder
+Japanese maple
+Japanese maple
+holly
+bearberry
+inkberry
+American holly
+cashew
+laurel sumac
+mango
+pistachio
+terebinth
+mastic
+sumac
+pepper tree
+Brazilian pepper tree
+hog plum
+mombin
+poison ash
+poison ivy
+varnish tree
+horse chestnut
+buckeye
+ebony
+persimmon
+Japanese persimmon
+American persimmon
+date plum
+buckthorn
+star apple
+satinleaf
+balata
+sapodilla
+marmalade tree
+styrax
+carnivorous plant
+pitcher plant
+common pitcher plant
+hooded pitcher plant
+huntsman's horn
+tropical pitcher plant
+sundew
+Venus's flytrap
+Australian pitcher plant
+sedum
+pinwheel
+hortensia
+fall-blooming hydrangea
+carpenteria
+deutzia
+philadelphus
+saxifrage
+yellow mountain saxifrage
+meadow saxifrage
+purple saxifrage
+star saxifrage
+astilbe
+dwarf astilbe
+spirea
+bergenia
+bridal wreath
+alumroot
+woodland star
+prairie star
+miterwort
+parnassia
+false alumroot
+foamflower
+pickaback plant
+currant
+gooseberry
+plane tree
+London plane
+American sycamore
+oriental plane
+California sycamore
+Arizona sycamore
+phlox
+moss pink
+acanthus
+black-eyed Susan
+catalpa
+desert willow
+calabash
+borage
+anchusa
+Spanish elm
+Chinese forget-me-not
+hound's-tongue
+hound's-tongue
+blueweed
+puccoon
+Virginia bluebell
+garden forget-me-not
+forget-me-not
+comfrey
+convolvulus
+bindweed
+dodder
+dichondra
+cypress vine
+moonflower
+wild potato vine
+red morning-glory
+man-of-the-earth
+Japanese morning glory
+imperial Japanese morning glory
+achimenes
+episcia
+gloxinia
+kohleria
+African violet
+streptocarpus
+waterleaf
+yellow bells
+nemophila
+baby blue-eyes
+scorpionweed
+fiesta flower
+basil thyme
+giant hyssop
+bugle
+creeping bugle
+erect bugle
+pyramid bugle
+wood mint
+calamint
+wild basil
+coleus
+country borage
+painted nettle
+hemp nettle
+ground ivy
+pennyroyal
+hyssop
+dead nettle
+white dead nettle
+henbit
+English lavender
+French lavender
+spike lavender
+dagga
+lion's-ear
+motherwort
+origanum
+horehound
+lemon balm
+corn mint
+water-mint
+bergamot mint
+horsemint
+peppermint
+spearmint
+apple mint
+pennyroyal
+molucca balm
+monarda
+bee balm
+horsemint
+bee balm
+lemon mint
+catmint
+basil
+phlomis
+Jerusalem sage
+physostegia
+plectranthus
+patchouli
+mountain mint
+rosemary
+clary sage
+purple sage
+cancerweed
+common sage
+meadow clary
+clary
+pitcher sage
+Mexican mint
+wild sage
+savory
+skullcap
+blue pimpernel
+hedge nettle
+hedge nettle
+germander
+thyme
+common thyme
+wild thyme
+blue curls
+bladderwort
+butterwort
+common unicorn plant
+figwort
+snapdragon
+false foxglove
+calceolaria
+Indian paintbrush
+blue-eyed Mary
+foxglove
+common foxglove
+yellow foxglove
+gerardia
+toadflax
+golden-beard penstemon
+shrubby penstemon
+balloon flower
+rock penstemon
+cascade penstemon
+veronica
+field speedwell
+brooklime
+corn speedwell
+brooklime
+germander speedwell
+water speedwell
+common speedwell
+thyme-leaved speedwell
+nightshade
+potato vine
+potato vine
+potato tree
+belladonna
+bush violet
+lady-of-the-night
+angel's trumpet
+angel's trumpet
+red angel's trumpet
+night jasmine
+tree tomato
+thorn apple
+henbane
+matrimony vine
+Christmasberry
+mandrake
+apple of Peru
+cupflower
+petunia
+large white petunia
+hybrid petunia
+cape gooseberry
+tomatillo
+tomatillo
+salpiglossis
+chalice vine
+verbena
+lantana
+white mangrove
+black mangrove
+teak
+spurge
+sun spurge
+petty spurge
+medusa's head
+wild spurge
+snow-on-the-mountain
+cypress spurge
+leafy spurge
+poinsettia
+wood spurge
+naboom
+crown of thorns
+croton
+castor-oil plant
+spurge nettle
+Para rubber tree
+cassava
+cassava
+candlenut
+slipper spurge
+camellia
+fool's parsley
+dill
+angelica
+chervil
+cow parsley
+wild celery
+astrantia
+caraway
+water hemlock
+hemlock
+cumin
+wild carrot
+eryngo
+sea holly
+fennel
+cow parsnip
+lovage
+sweet cicely
+water fennel
+wild parsnip
+parsley
+sanicle
+dogwood
+common white dogwood
+red osier
+silky cornel
+common European dogwood
+bunchberry
+cornelian cherry
+kapuka
+valerian
+red valerian
+filmy fern
+bristle fern
+flowering fern
+crape fern
+crepe fern
+climbing fern
+scented fern
+adder's tongue
+grape fern
+flowering fern
+powdery mildew
+Dutch elm fungus
+ergot
+dead-man's-fingers
+earthball
+stalked puffball
+false truffle
+slime mold
+white fungus
+downy mildew
+white rust
+pythium
+Phytophthora infestans
+truffle
+coral fungus
+tooth fungus
+lichen
+lecanora
+beard lichen
+horsehair lichen
+reindeer moss
+crottle
+Iceland moss
+fungus
+true fungus
+basidiomycete
+mushroom
+agaric
+mushroom
+mushroom
+toadstool
+horse mushroom
+meadow mushroom
+shiitake
+scaly lentinus
+royal agaric
+false deathcap
+fly agaric
+death cap
+blushing mushroom
+destroying angel
+chanterelle
+jack-o-lantern fungus
+inky cap
+shaggymane
+milkcap
+fairy-ring mushroom
+oyster mushroom
+Pholiota aurea
+nameko
+Pholiota squarrosa
+Stropharia rugoso-annulata
+gill fungus
+Entoloma lividum
+Entoloma aprile
+Chlorophyllum molybdites
+lepiota
+parasol mushroom
+poisonous parasol
+Lepiota rhacodes
+American parasol
+Lepiota clypeolaria
+blewits
+sandy mushroom
+Tricholoma sejunctum
+man-on-a-horse
+Tricholoma pardinum
+deer mushroom
+straw mushroom
+Volvariella bombycina
+Clitocybe clavipes
+Clitocybe dealbata
+Clitocybe irina
+winter mushroom
+mycelium
+sac fungus
+ascomycete
+Clavicipitaceae
+yeast
+Aspergillus fumigatus
+brown root rot fungus
+discomycete
+Sarcoscypha coccinea
+Caloscypha fulgens
+Aleuria aurantia
+blood cup
+common morel
+Disciotis venosa
+Verpa
+black morel
+Morchella crassipes
+Morchella semilibera
+false morel
+lorchel
+gyromitra
+gasteromycete
+stinkhorn
+puffball
+earthstar
+bird's-nest fungus
+polypore
+bracket fungus
+Albatrellus ovinus
+hen-of-the-woods
+Polyporus squamosus
+beefsteak fungus
+agaric
+bolete
+Boletus chrysenteron
+Boletus edulis
+Boletus luridus
+Boletus pallidus
+Boletus pulverulentus
+Fuscoboletinus paluster
+Fuscoboletinus serotinus
+old-man-of-the-woods
+jelly fungus
+witches' butter
+Tremella foliacea
+Jew's-ear
+rust
+smut
+covered smut
+loose smut
+cornsmut
+Sphacelotheca
+head smut
+bunt
+flag smut fungus
+felt fungus
+waxycap
+Cortinarius armillatus
+Cortinarius mutabilis
+Cortinarius semisanguineus
+Cortinarius violaceus
+mold
+mildew
+verticillium
+monilia
+candida
+green smut fungus
+dry rot
+houseplant
+succulent
+cultivar
+weed
+wort
+aril
+sporophyll
+sorus
+sorus
+lignum
+deciduous plant
+poisonous plant
+vine
+tendril
+snag
+tree
+timber tree
+arbor
+bean tree
+pollard
+sapling
+shade tree
+conifer
+angiospermous tree
+spice tree
+bonsai
+subshrub
+bramble
+liana
+desert plant
+mesophyte
+marsh plant
+root
+prop root
+stolon
+cladode
+scape
+umbel
+petiole
+flower cluster
+raceme
+cyme
+ear
+fruit
+seed
+bean
+nut
+kernel
+berry
+aggregate fruit
+simple fruit
+drupe
+pome
+pod
+husk
+buckthorn
+buckthorn berry
+cascara buckthorn
+coffeeberry
+redberry
+Christ's-thorn
+fox grape
+muscadine
+vinifera
+Boston ivy
+true pepper
+peperomia
+frond
+bract
+crenate leaf
+umbrella fern
+polypody
+licorice fern
+grey polypody
+leatherleaf
+rock polypody
+common polypody
+strap fern
+basket fern
+golden polypody
+staghorn fern
+felt fern
+grass fern
+spleenwort
+black spleenwort
+bird's nest fern
+ebony spleenwort
+walking fern
+green spleenwort
+lobed spleenwort
+hart's-tongue
+scale fern
+scolopendrium
+chain fern
+davallia
+bracken
+shield fern
+fragrant cliff fern
+wood fern
+male fern
+marginal wood fern
+lady fern
+silvery spleenwort
+holly fern
+bladder fern
+silvery spleenwort
+oak fern
+limestone fern
+ostrich fern
+hart's-tongue
+sensitive fern
+Christmas fern
+holly fern
+leather fern
+woodsia
+golden fern
+maidenhair
+common maidenhair
+American maidenhair fern
+brittle maidenhair
+annual fern
+lip fern
+lace fern
+bamboo fern
+hand fern
+cliff brake
+silver fern
+golden fern
+spider brake
+ribbon fern
+horsetail
+common horsetail
+swamp horsetail
+scouring rush
+marsh horsetail
+wood horsetail
+club moss
+earthtongue
+mountain fern
+New York fern
+Massachusetts fern
+beech fern
+Armillaria ponderosa
+honey mushroom
+milkweed
+swamp milkweed
+purple silkweed
+showy milkweed
+poison milkweed
+butterfly weed
+whorled milkweed
+stapelia
+stephanotis
+equilateral
+pencil
+plane figure
+line
+bulb
+convex shape
+cylinder
+round shape
+heart
+polygon
+convex polygon
+concave polygon
+closed curve
+S-shape
+wave
+extrados
+hook
+envelope
+cone
+circle
+scallop
+helix
+triangle
+acute triangle
+obtuse triangle
+right triangle
+scalene triangle
+parallel
+star
+pentagon
+hexagon
+octagon
+spherical polygon
+convex polyhedron
+bell
+groove
+bulge
+bow
+crescent
+balance
+spheroid
+toroid
+column
+barrel
+pipe
+bolus
+rim
+wrinkle
+crevice
+roulette
+tree
+block
+ovoid
+tetrahedron
+regular polyhedron
+tail
+tongue
+wedge
+keel
+ragweed pollen
+charcoal
+rock
+bricks and mortar
+choline
+concrete
+culture medium
+inositol
+linoleum
+pantothenic acid
+paper
+blacktop
+paving
+roughcast
+spackle
+wattle and daub
+stucco
+tear gas
+linseed
+vitamin
+fat-soluble vitamin
+water-soluble vitamin
+vitamin A
+B-complex vitamin
+vitamin B1
+vitamin B12
+vitamin B2
+vitamin B6
+vitamin Bc
+niacin
+vitamin D
+vitamin E
+biotin
+vitamin K
+vitamin P
+vitamin C
+virus
+filovirus
+herpes simplex
+papovavirus
+coccus
+dory
+metatherian
+process
+plume
+gate
+durables
+box
+place
+lace
+flower arrangement
+article
+link
+ingot
+alcove
+butt
+coil
+strip
+paving stone
+insert
+landing
+linen
+nameplate
+mat
+membrane
+colors
+centerpiece
+prism
+tracery
+vaulting
+rim
+truck bed
+bed
+hackney
+trench
+mattress
+spout
+glassware
+graduate
+pike
+silverware
+pendant
+trimming
+neck
+creation
+macintosh
+exit
+plaster
+grove
+earring
+photocopy
+flatware
+shard
+pneumatic tire
+hose
+volatile storage
+lifeline
+ring
+way
+component
+hindrance
+kite
+chock
+small stuff
+well
+cabin
+ring
+suppressor
+finger hole
+fin
+laundry
+butt
+effigy
+skin
+violet
+coloration
+braid
+nerve cell
+bone cell
+neural structure
+external body part
+skeletal structure
+axis
+conference call
+scene
+letter
+communication
+sign
+performance
+visual communication
+set
+park
+wilderness
+stop
+municipality
+dump
+biogeographical region
+outside
+quarter
+side
+limit
+country
+globule
+extraterrestrial object
+turf
+surface
+atmosphere
+cape
+celestial body
+trough
+wetland
+Celt
+Frenchman
+Belgian
+honoree
+ignoramus
+mountaineer
+analyst
+musician
+hiker
+founder
+Scout
+stockman
+chess player
+corporate executive
+reliever
+cognitive scientist
+administrator
+photographer's model
+decoder
+batter
+elder
+clumsy person
+jobholder
+compiler
+convict
+folk writer
+foster-child
+borrower
+general officer
+newlywed
+Chinese
+hired help
+colonel
+beautician
+depressive
+naval officer
+kinsman
+connoisseur
+agent
+churchgoer
+humorist
+wayfarer
+protege
+bridge partner
+registrar
+taxpayer
+destroyer
+psychotic
+powerhouse
+owner
+nun
+female sibling
+skater
+swimmer
+rester
+vulgarian
+male offspring
+presiding officer
+amateur
+enrollee
+daredevil
+saxophonist
+digger
+pedaler
+user
+supremacist
+nonvascular organism
+agamete
+bud
+floral leaf
+coil
+purslane
+kale
+oxeye
+rice
+sugarcane
+fiber
+ornamental
+cup
+false nettle
+agapanthus
+aloe
+day lily
+coronilla
+indigo
+coral pea
+bean
+Juneberry
+blackberry
+gardenia
+mistletoe
+smoke tree
+silver bell
+corn salad
+garden plant
+veil
+leaflet
+hard fern
+whisk fern
+hoya
+measure
+natural shape
+bend
+straight line
+conic section
+square
+quadrilateral
+insulating material
+earth
+matter
+propulsion
+action
+activity
+poxvirus
+down
+hair
+web
+channel
+graphic art
+military installation
+device
+track
+padding
+angular shape
+sheet metal
+communication
+message
+written communication
+cake
+ordering
+breeding ground
+settlement
+thing
+path
+visionary
+explorer
+calculator
+tomato
+subfigure
+sphere
+waste
+solid
+residency
+passage
+tube
+body
+mechanism
+sprout
+attribute
+animal material
+psychological feature
+process
+relation
+molding
+bed
+layer
+pit
+cotton
+flowering shrub
+stalk
+line
+extremity
+embroidery
+sewing stitch
+nerve fiber
+specialist
+governor
+runner
+painting
+depository
+district
+critic
+leaf
+cord
+bowling pin
+businessperson
+resident
+bush clover
+pipe
+transportation system
+side
+English person
+American
+intruder
+novice
+attacker
+chemist
+learner
+boxer
+composer
+visitor
+messenger
+troublemaker
+fishnet
+individualist
+idler
+signer
+commissioned naval officer
+suspect
+hunter
+plant part
+matchweed
+feather
+blennioid fish
+weight
+eater
+simpleton
+accountant
+collector
+flagellate
+disciple
+painter
+Hindu
+Indian lettuce
+manzanita
+rhizopod
+Indian
+philosopher
+businessman
+hanging
+deck
+Lady
+sedge
+area
+sculpin
+agent
+believer
+old man
+miner
+Jew
+point
+butterfish
+Dravidian
+goosefoot
+carving
+pipe
+country
+adviser
+beneficiary
+deserter
+fugitive
+Englishman
+innocent
+conservative
+deputy
+submarine
+official
+switch
+phagocyte
+center
+Russian
+biologist
+plantain
+center
+driver
+enthusiast
+chaplain
+young person
+bittercress
+nest
+photographer
+Austronesian
+mathematician
+hawthorn
+simple leaf
+opening
+erica
+migrant
+necklace tree
+husband
+pen
+prisoner
+administrator
+swimmer
+hibiscus
+hole
+accessory
+lunatic
+beard
+Christian
+prostitute
+Hokan
+peer
+periwinkle
+shrublet
+ornithischian
+angle
+tree fern
+region
+visually impaired person
+onion
+star
+German
+servant
+primitive
+anthropologist
+connection
+board
+diplomat
+model
+victim
+model
+bugbane
+loop
+workshop
+handicapped person
+broom
+slab
+red blood cell
+bacteria
+archosaur
+marker
+capsicum
+work surface
+inquirer
+air plant
+band
+fruiting body
+elder
+polemonium
+end
+gangster
+oxalis
+publicist
+lock
+shell bean
+union representative
+field
+agent
+geographic point
+rush
+bluejacket
+instrument of execution
+fiduciary
+witch hazel
+polyhedron
+financier
+hydraulic brake
+plaque
+water line
+Iroquois
+track
+camp
+vagrant
+andromeda
+speculator
+mesquite
+roentgenogram
+skin cell
+oppressor
+puzzle
+nonreligious person
+stairway
+protective covering
+secretary
+rock brake
+lettuce
+bulb
+rule
+absentee
+police sergeant
+bark
+infantryman
+drum
+Malaysian
+smith
+unpleasant woman
+love grass
+mullein
+barley
+branchiopod crustacean
+neurogliacyte
+soprano
+bent
+superior
+bureaucrat
+meddler
+conversationalist
+companion
+stall
+wild ginger
+watercourse
+Scot
+epithelial cell
+applicant
+dissenter
+gravida
+indentation
+board
+crossing
+West Indian
+branch
+wild onion
+hyacinth
+wisteria
+tobacco
+nut
+harpsichord
+mecopteran
+book
+dropseed
+agricultural laborer
+drilling bit
+frustum
+unmarried woman
+sagebrush
+muscle cell
+trillium
+aquatic fern
+walk
+body
+architectural ornament
+pilot
+Baptist
+dock
+columnist
+circuit board
+seaweed
+domestic
+actress
+picture
+woodworker
+fork
+lorikeet
+cookout
+pea
+cane
+celestial point
+passageway
+striker
+Irish person
+Sioux
+donor
+Hindu
+building block
+compound leaf
+drift
+arbutus
+slave
+caprimulgiform bird
+undergraduate
+dining-room attendant
+minstrel
+hellebore
+cricketer
+foundation
+weakling
+strawberry
+edge
+wallboard
+liquid crystal display
+permanent magnet
+field corn
+Indonesian
+weave
+sword fern
+informant
+drawing
+box
+tile
+cowboy
+coral reef
+fisherman
+panic grass
+stratum
+cabinet minister
+partisan
+primary color
+well
+Bantu
+blond
+visual property
+section
+director
+red raspberry
+common bean
+reproductive cell
+drain
+book
+Cross
+amorpha
+condition
+front
+ground pine
+remains
+vault
+Oriental
+foreigner
+conduit
+tumbler
+smoker
+barrister
+axis
+belt
+access
+builder
+paved surface
+forest
+tuber
+yard
+treasurer
+pauper
+white
+sill
+file
+tunnel
+dock
+tineid
+purplish red
+signal
+fixture
+spring
+highway
+adhesive tape
+social group
+sister
+expressway
+pass
+gathering
+weather
+woodwork
+thoroughfare
+bryophyte
+academician
+bed linen
+toilet
+male sibling
+baseball
+animal virus
+eubacteria
+soft-finned fish
+lizard
+coil
+chamber
+representation
+plate
+decoration
+workplace
+object
+land
+Protestant
+European
+African
+unpleasant person
+religious person
+communicator
+expert
+official
+criminal
+supplier
+leader
+intellectual
+member
+adult
+deceiver
+man
+performer
+religious
+relative
+holder
+speaker
+skilled worker
+linguist
+libertine
+customer
+shrub
+plant tissue
+woody plant
+aquatic plant
+vascular plant
+reproductive structure
+body part

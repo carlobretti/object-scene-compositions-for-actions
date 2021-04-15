@@ -1,0 +1,365 @@
+aeródromo
+cabine de avião.
+terminal do aeroporto
+alcova
+beco
+anfiteatro
+arcade de diversões
+parque de diversões
+prédio de apartamentos ao ar livre
+aquário
+aqueduto
+videogames
+arco
+escavação arqueológica
+arquivo
+arena hóquei
+desempenho da arena
+arena rodeio.
+base do exército
+galeria de arte
+escola de artes
+estúdio de arte.
+artistas loft.
+linha de montagem
+campo atlético ao ar livre
+público de átrio
+sótão
+auditório
+auto fábrica
+showroom auto.
+ermo
+padaria
+exterior do balcão
+interior da varanda
+poço de bola
+salão de baile
+floresta de bambu
+cofre de banco
+salão de banquetes.
+barra
+celeiro
+barndoor
+campo de beisebol
+porão
+corte de basquete indoor
+banheiro
+bazar indoor
+bazar ao ar livre
+de praia
+casa de praia.
+salão de beleza
+bedchamber
+quarto
+jardim de cerveja
+salão de cerveja
+atracar
+laboratório de biologia
+boardwalk
+convés do barco
+boathouse
+livraria
+cabine interior
+jardim botânico
+janela de arco indoor
+boliche alley.
+anel de boxe.
+ponte
+fachada de construção
+praça de touros
+câmara funerária
+interior do ônibus
+estação de ônibus indoor
+açougue
+butte.
+cabine ao ar livre
+cantina
+acampamento
+campus
+canal natural
+canal urbano
+loja de doces
+canyon.
+interior do carro
+carrossel
+castelo
+catacumb up
+cemitério
+chalé
+laboratório de química
+quarto childs.
+interior da igreja
+igreja ao ar livre
+sala de aula
+quarto limpo
+penhasco
+armário de roupa
+loja de roupas
+costa
+cockpit.
+cafeteria
+sala de informática
+centro de conferência
+sala de conferencia
+local de construção
+campo de milho
+curral
+corredor
+cabana
+tribunal
+pátio
+riacho
+fenda
+faixa de pedestre
+barragem
+delicatessen
+loja de departamento
+areia do deserto
+vegetação do deserto
+estrada deserta
+lanchonete ao ar livre
+sala de jantar
+sala de jantar
+discoteca
+porta ao ar livre
+dormitório
+centro da cidade
+provador
+entrada de automóveis
+farmácia
+porta do elevador
+lobby elevador
+eixo de elevador
+embaixada
+sala de maquinas
+hall de entrada
+escadaador indoor
+escavação
+loja de tecidos
+fazenda
+restaurante fast food
+campo cultivado
+campo selvagem
+estrada de campo
+saída de incêndio
+corpo de bombeiros
+tanque de peixes
+mercado de pulgas indoor
+loja florista indoor
+praça de alimentação
+campo de futebol
+broadleaf da floresta
+caminho da floresta
+estrada da floresta
+jardim formal
+fonte
+galley.
+garagem indoor
+garagem ao ar livre
+posto de gasolina
+exterior do gazebo
+general store indoor
+loja geral ao ar livre
+loja de presentes
+geleira
+campo de golfe
+estufa interna
+estufa ao ar livre
+gruta
+ginásio indoor
+hangar indoor
+hangar ao ar livre
+porto
+loja de hardware.
+hayfield
+heliporto
+rodovia
+escritório em casa
+cinema em casa
+hospital
+quarto de hospital
+primavera quente
+hotel ao ar livre
+quarto de hotel
+lar
+hunting lodge outdoor.
+sorveteria
+bloco de gelo
+plataforma de gelo
+pista de patinação no gelo interior
+rinca de patinação no gelo ao ar livre
+iceberg.
+iglu
+área industrial
+inn ao ar livre
+ilhota
+jacuzzi indoor
+cela de prisão
+jardim japonês
+joalheria
+junkyard
+kasbah.
+canil ao ar livre
+sala de aula do jardim de infância
+cozinha
+lagoa
+lago natural
+aterro
+deck de pouso
+lavanderia
+grama
+sala de conferência.
+câmara legislativa
+indoor da biblioteca
+biblioteca ao ar livre
+farol
+sala de estar
+carregando dock
+salão
+câmara de bloqueio
+vestiário
+mansão
+casa manufaturada
+mercado interno
+mercado ao ar livre
+pântano
+ginásio das artes marciais
+mausoléu
+medina.
+mezanino
+moat water.
+mesquita ao ar livre
+motel
+montanha
+caminho da montanha
+montanha nevado
+teatro de cinema indoor
+museu indoor
+museu ao ar livre
+estúdio de música
+museu de história natural
+berçário
+casa de repouso
+casa de oast.
+oceano
+escritório
+prédio comercial
+cubículos de escritório
+plataforma de petróleo
+sala de operação
+pomar
+pit de orquestra
+pagode
+palácio
+despensa
+parque
+garagem de estacionamento indoor
+garagem de estacionamento ao ar livre
+estacionamento
+pasto
+pátio
+pavilhão
+pet shop.
+farmacia
+cabine de telefone
+laboratório de física
+área de piquenique
+cais
+pizzaria
+parque infantil
+sala de jogos
+praça
+lago
+varanda
+passeio
+pub indoor
+racecário
+raça
+jangada
+ferrovia
+floresta tropical
+recepção
+sala de recreação
+oficina
+bairro residencial
+restaurante
+cozinha do restaurante
+restaurante patio.
+arrozal
+rio
+arco do rock.
+jardim do telhado
+ponte de corda
+ruína
+pista
+caixa de areia
+sauna
+escola
+museu de ciências
+sala de servidores
+cabana
+loja de calçados
+vitrine
+shopping indoor indoor
+banho
+estância de esqui
+pista de esqui
+céu
+arranha-céu
+favela
+snowfield
+campo de futebol
+estábulo
+baseball estádio
+futebol do estádio
+futebol estádio
+estágio interno
+estágio ao ar livre
+escadaria
+despensa
+rua
+plataforma da estação de metrô
+supermercado
+sushi bar
+pântano
+buraco de natação
+piscina interior
+piscina exterior
+sinagoga ao ar livre
+sala de televisão.
+estúdio de televisão.
+templo ásia
+sala do trono
+estande de bilhete
+jardim topiary.
+torre
+loja de brinquedos
+interior do trem
+plataforma da estação de trem
+exploração agrícola de árvores
+casa da árvore
+trincheira
+tundra
+oceano subaquático profundo
+despensa
+vale
+horta
+escritório dos veterinários.
+viaduto
+vila
+vinhedo
+vulcão
+corte de voleibol ao ar livre
+sala de espera
+parque aquático
+torre de água
+cascata
+buraco regador.
+aceno
+barra molhada
+campo de trigo
+parque eólico
+moinho de vento
+jardim
+albergue jovem
+jardim zen

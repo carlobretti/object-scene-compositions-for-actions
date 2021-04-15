@@ -1,0 +1,3 @@
+.ipynb_checkpoints
+*.bin
+data/ucf-101/videos

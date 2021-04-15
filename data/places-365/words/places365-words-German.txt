@@ -1,0 +1,365 @@
+flugplatz
+flugzeugkabine
+flughafenterminal
+alkoven
+gasse
+amphitheater
+spielhalle
+freizeitpark
+wohnung gebäude im freien.
+aquarium
+aquädukt
+arkade
+bogen
+archäologische ausgrabung
+archiv
+arena hockey.
+arena performance.
+arena rodeo.
+armeestützpunkt
+kunstgalerie
+kunstschule
+kunstatelier
+künstler loft.
+fließband
+athletisches feld im freien.
+atrium public.
+dachboden
+auditorium
+auto fabrik.
+auto showroom.
+ödland
+bäckerei
+balkon außen
+balkoninnenraum
+bällebad
+ballsaal
+bambuswald
+bank tresor
+festsaal
+bar
+scheune
+scheunentor
+baseballfeld
+keller
+basketballplatz innen.
+badezimmer
+basar indoor.
+basar im freien.
+strand
+strandhaus
+schönheitssalon
+schlafgemach
+schlafzimmer
+biergarten
+bierhalle
+liegeplatz
+biologie-labor
+promenade
+bootsdeck
+bootshaus
+buchhandlung
+kabine innen
+botanischer garten
+bogenfenster innen.
+kegelbahn
+boxring
+brücke
+gebäudefassade.
+borring
+grabkammer
+businnenraum
+bushaltestelle indoor.
+metzgerei
+butte
+kabine im freien.
+cafeteria
+campingplatz
+campus
+kanal natürlich
+kanal urban
+süßigkeitenladen
+schlucht
+autoinnenraum
+karussell
+schloss
+katakombe
+friedhof
+chalet
+chemielabor
+kinderzimmer
+kirche innen
+kirche im freien.
+klassenzimmer
+sauberes zimmer
+cliff
+wandschrank
+bekleidungsgeschäft
+küste
+cockpit
+café
+computerraum
+konferenzzentrum
+konferenzraum
+baustelle
+maisfeld
+corral.
+gang
+hütte
+gerichtsgebäude
+hof
+bach
+gletscherspalte
+querschrank
+damm
+delikatessen
+kaufhaus
+wüstensand
+wüstenvegetation.
+wüstenstraße
+diner im freien.
+speisesaal
+esszimmer
+diskothek
+tür im freien.
+schlafsaal
+innenstadt
+umkleideraum
+auffahrt
+drogerie
+aufzugstür
+aufzugshalle
+fahrstuhlschacht
+botschaft
+maschinenraum
+eingangshalle
+rolltreppe indoor.
+ausgrabung
+stoffgeschäft
+bauernhof
+fastfood-restaurant
+feld kultiviert.
+feld wild
+feldstraße
+notausgang
+feuerwehr
+fischteich
+flohmarkt innen.
+florist shop indoor.
+fressmeile
+fußballfeld
+waldleiter
+waldpfad
+waldstraße
+formeller garten
+brunnen
+galeere
+garage innen
+garage im freien.
+tankstelle
+pavillon-außenansicht
+allgemeiner laden in innenräumen.
+allgemeiner laden im freien.
+geschenkeladen
+gletscher
+golfplatz
+gewächshaus innen.
+gewächshaus im freien.
+grotte
+gymnasium indoor.
+hangar indoor.
+hangar im freien.
+hafen
+baumarkt
+hayfield.
+heliport
+autobahn
+heimbüro
+heimkino
+krankenhaus
+krankenhauszimmer
+heiße quelle
+hotel im freien.
+hotelzimmer
+haus
+jagdhütte im freien.
+eisdiele
+eisscholle
+eisschiff
+eislauf rink innen
+eislaufen rink im freien
+eisberg
+iglu
+industriegebiet
+inn im freien.
+inselchen
+jacuzzi indoor.
+gefängniszelle
+japanischer garten
+juwelier
+junkwippe
+kasbah.
+kennel im freien.
+kindergarten-klassenzimmer.
+küche
+lagune
+natürliche see.
+deponie
+landedeck
+waschsalon
+rasen
+hörsaal
+gesetzgebungskammer
+bibliothek innen
+bibliothek im freien.
+leuchtturm
+wohnzimmer
+laderampe
+empfangshalle
+sperrkammer
+umkleideraum
+villa
+haus gefertigt
+markt innen.
+markt im freien.
+sumpf
+kampfkunst-fitnessstudio
+mausoleum
+medina
+zwischenstock
+wasser wasser
+moschee im freien.
+motel
+berg
+bergpfad
+berg snowy.
+kino innen.
+museum indoor.
+museum im freien.
+musik studio
+naturkundemuseum
+kindergarten
+altenheim
+trockenschuppen
+ozean
+büro
+bürogebäude
+bürokabinen
+ölbohrinsel
+operationssaal
+obstgarten
+orchestergraben
+pagode
+palast
+speisekammer
+park
+parkgarage innen
+parkgarage im freien.
+parkplatz
+weide
+terrasse
+pavillon
+tierhandlung
+apotheke
+telefonzelle
+physik-labor
+picknick bereich
+seebrücke
+pizzeria
+spielplatz
+spielzimmer
+plaza
+teich
+veranda
+promenade
+pub innen.
+rennbahn
+rennwagen
+floß
+bahngleis
+regenwald
+rezeption
+erholungsraum
+reparaturwerkstatt
+wohnviertel
+restaurant
+küche küche
+restaurant-terrasse.
+reisfeld
+fluss
+rockbogen
+dachgarten
+hängebrücke
+zugrunde richten
+runway
+sandkasten
+sauna
+schulhaus
+wissenschaftsmuseum
+serverraum
+schuppen
+schuhladen
+schaufenster
+einkaufszentrum install.
+dusche
+skigebiet
+skipiste
+himmel
+wolkenkratzer
+slum
+schneefeld
+fussballplatz
+stabil
+stadion baseball.
+stadion fußball
+stadium-fußball
+bühne innen.
+bühne im freien.
+treppe
+lagerraum
+straße
+u-bahnstation-plattform
+supermarkt
+sushi-bar
+sumpf
+schwimmloch
+schwimmbad indoor.
+schwimmbad im freien.
+synagoge im freien.
+fernsehzimmer
+fernsehstudio.
+tempelasien.
+thronsaal
+ticketschalter
+topiary garden.
+turm
+spielzeugladen
+bahninnenraum
+bahnhofsplattform
+baumfarm
+baumhaus
+graben
+tundra.
+unterwasserermeer tief
+allzweckraum
+senke
+gemüsegarten
+tierarztbüro.
+viadukt
+dorf
+weinberg
+vulkan
+volleyballplatz im freien.
+wartezimmer
+wasserpark
+wasserturm
+wasserfall
+wasserstelle
+welle
+nassleiste
+weizenfeld
+windpark
+windmühle
+hof
+jugendherberge
+zen garten

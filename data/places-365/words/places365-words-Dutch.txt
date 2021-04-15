@@ -1,0 +1,365 @@
+vliegveld
+vliegtuigcabine
+luchthaventerminal
+prieel
+steeg
+amfitheater
+amusementshal
+attractiepark
+appartement bouwen buiten
+aquarium
+aquaduct
+arcade
+boog
+archeologische opgraving
+archief
+arena hockey
+arena-prestaties
+arena rodeo
+leger basis
+kunstgallerij
+kunstschool
+kunststudio
+kunstenaars loft
+lopende band
+atletisch veld buiten
+atrium publiek
+vliering
+auditorium
+auto-fabriek
+auto-showroom
+badlands
+bakkerij
+balkon buitenkant
+balkon interieur
+ballenbak
+balzaal
+bamboo bos
+bank kluis
+banketzaal
+bar
+schuur
+schuurdeur
+honkbal veld
+kelder
+basketbalveld binnen
+badkamer
+bazaar binnen
+bazaar buiten
+strand
+strandhuis
+schoonheidssalon
+bedchamber
+slaapkamer
+biertuin
+bierzaal
+ligplaats
+biologie laboratorium
+promenade
+boot dek
+botenhuis
+boekwinkel
+stand
+botanische tuin
+boog raam binnen
+bowlingbaan
+boksring
+brug
+bouwende gevel
+arena
+begrafeniskamer
+businrichting
+busstation binnen
+slagerij
+butte
+cabine buiten
+cafetaria
+camping
+campus
+kanaal natuurlijk
+kanaal stedelijk
+snoepwinkel
+ravijn
+auto-interieur
+carrousel
+kasteel
+catacomb
+begraafplaats
+chalet
+scheikunde lab
+kinderkamer
+kerk binnen
+kerk buiten
+klas
+schone kamer
+klif
+kast
+kledingwinkel
+kust
+cockpit
+coffeeshop
+computer kamer
+conferentiecentrum
+vergaderruimte
+bouwplaats
+maïsveld
+corral
+gang
+huisje
+gerechtsgebouw
+binnenplaats
+kreek
+spleten
+zebrapad
+dam
+delicatessen
+warenhuis
+woestijnzand
+woestijnvegetatie
+woestijn
+diner buiten
+eetkamer
+eetkamer
+discotheque
+deuropening buiten
+studentenkamer
+binnenstad
+kleedkamer
+oprit
+drogisterij
+liftdeur
+lobby
+lift schacht
+ambassade
+machinekamer
+entreehal
+roltrap binnen
+uitgraving
+stoffenwinkel
+boerderij
+fastfood restaurant
+gebouwde veld
+veld
+veldweg
+nooduitgang
+brandweerkazerne
+visvijver
+vlooienmarkt binnen
+bloemist winkel binnen
+voedselbank
+voetbalveld
+bos broadleaf
+boadpad
+bosweg
+formele tuin
+fontein
+kombuis
+garage binnen
+garage outdoor
+benzinestation
+gazebo buitenkant
+general winkel binnen
+algemeen store outdoor
+cadeauwinkel
+gletsjer
+golfbaan
+kas
+kas buiten
+grot
+gymnasium binnen
+hangar indoor
+hangar buiten
+haven
+ijzerhandel
+hayfield
+heliport
+snelweg
+thuiskantoor
+thuisbioscoop
+ziekenhuis
+ziekenzaal
+warme lente
+hotel buiten
+hotelkamer
+huis
+jachthuis buiten
+ijssalon
+ijsschots
+ijs plank
+schaatsbaan binnenshuis
+schaatsbaan openlucht
+ijsberg
+iglo
+industriegebied
+herberg
+eiland
+jacuzzi binnen
+gevangeniscel
+japanse tuin
+juwelier
+junkyard
+kasbah
+kennel buiten
+kleuterschoolklaslokaal
+keuken-
+lagune
+meer natuurlijk
+stortplaats
+landingsdek
+wasserette
+gazon
+collegezaal
+wetgevingskamer
+bibliotheek binnen
+bibliotheek buiten
+vuurtoren
+woonkamer
+laad-dock
+lobby
+slotkamer
+kleedkamer
+herenhuis
+fabricage home
+markt binnen
+market buiten
+moeras
+martial arts gym
+mausoleum
+medina
+mezzanine
+moatwater
+moskee buiten
+motel
+berg-
+bergpad
+bergen sneeuw
+bioscoop binnen
+museum binnen
+museum buiten
+muziek studio
+natuurlijk geschiedenismuseum
+kinderkamer
+verzorgingstehuis
+oasthuis
+oceaan
+kantoor
+kantoorgebouw
+kantoorcabines
+oilrig
+operatiekamer
+boomgaard
+orkestbak
+pagode
+paleis
+pantry
+park
+parkeergarage binnen
+parkeergarage buiten
+parkeerplaats
+weiland
+patio
+paviljoen
+dierenwinkel
+apotheek
+telefooncel
+natuurkundelaboratorium
+picknickplaats
+pier
+pizzeria
+speelplaats
+speelkamer
+plein
+vijver
+veranda
+promenade
+pub binnen
+racecourse
+racebaan
+vlot
+spoorlijn
+regenwoud
+ontvangst
+recreatie ruimte
+herstelwinkel
+woonwijk
+restaurant
+restaurantkeuken
+restaurant patio
+rijstveld
+rivier-
+rotsboog
+tuin op het dak
+touwbrug
+ruïneren
+landingsbaan
+zandbak
+sauna
+schoolgebouw
+wetenschapsmuseum
+server ruimte
+schuur
+schoenenwinkel
+winkel voorkant
+winkelcentrum binnen
+douche
+skigebied
+skipiste
+lucht
+wolkenkrabber
+sloppenwijk
+sneeuwfield
+voetbalveld
+stal
+stadion honkbal
+stadion-voetbal
+stadion-voetbal
+fase binnen
+fase outdoor
+trappenhuis
+opslagruimte
+straat
+metrostation platform
+supermarkt
+sushi bar
+moeras
+zwemgat
+zwembad binnen
+zwembad buiten
+synagoge openlucht
+televisieruimte
+televisiestudio
+temple asia
+troonzaal
+loket
+topiary garden
+toren
+speelgoedwinkel
+treinbinnenland
+treinstationplatform
+boomboerderij
+boomhut
+greppel
+toendra
+onderwater oceaan diep
+bijkeuken
+vallei
+moestuin
+dierenartsenkantoor
+viaduct
+dorp
+wijngaard
+vulkaan
+volleybalveld buiten
+wachtkamer
+waterpark
+watertoren
+waterval
+afvoer
+golf
+natte bar
+tarwe veld
+windmolenpark
+windmolen
+werf
+jeugdherberg
+zentuin

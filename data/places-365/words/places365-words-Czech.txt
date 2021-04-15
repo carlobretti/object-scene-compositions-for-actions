@@ -1,0 +1,365 @@
+letiště
+kabina letadla
+letištní terminál
+výklenek
+alej
+amfiteátr
+hrací automat
+zábavní park
+bytový dům venkovní
+akvárium
+akvadukt
+pasáž
+oblouk
+archeologické vykopávky
+archiv
+arena hokej.
+výkon areny
+arena rodeo.
+armádní základna
+galerie umění
+umělecká škola
+umělecké studio
+umělci podkroví
+montážní linka
+sportovní pole venkovní
+atrium veřejné
+podkroví
+hlediště
+auto factory.
+auto showroom
+badlands.
+pekárna shop
+balkon exteriér
+balkon interior
+míč pit
+taneční sál
+bambusový les
+bankovní trezor
+hodovní síň
+bar
+stodola
+vrata
+basebalové hřiště
+suterén
+basketbalový hřiště indoor.
+koupelna
+bazar indoor.
+bazaar venkovní
+pláž
+dům na pláží
+kosmetický salon
+ložnice
+ložnice
+pivní zahrádka
+pivní hala
+kotviště
+laboratoř biologie
+boardwalk.
+palubec lodi
+boathouse.
+knihkupectví
+booth indoor.
+botanická zahrada
+bow okno indoor.
+bowlingová ulička
+boxovací ring
+most
+stavební fasáda
+aréna
+pohřební komora
+autobusový interiér
+autobusová stanice indoor.
+řeznictví
+butte.
+kabina venkovní
+jídelna
+kemp
+kampust
+kanál přírodní
+canal urban.
+cukrárna
+kaňon
+interiér auta
+kolotoč
+hrad
+katakomby
+hřbitov
+chalupa
+chemická laboratoř
+dětský pokoj
+církev indoor.
+kostel venkovní
+třída
+čistý pokoj
+útes
+skříň
+obchod s oblečením
+pobřeží
+kokpit
+kavárna
+počítačová učebna
+konferenční centrum
+konferenční místnost
+staveniště
+kukuřičné pole
+crut
+koridor
+chalupa
+soud
+nádvoří
+creek.
+rozsedlina
+crosswalk.
+přehrada
+lahůdky
+obchodní dům
+pouštní písek
+pouštní vegetace
+pouštní silnice
+diner venkovní
+jídelna
+jídelna
+diskotéka
+dveřní venkovní
+studenstký pokoj
+downtown.
+šatna
+příjezdová cesta
+lékárna
+výtah dveře
+výtah lobby.
+výtah hřídel
+ambasáda
+strojovna
+vstupní hala
+eskalátor indoor.
+vykopávka
+tkanina obchod
+farma
+restaurace rychlého občerstvení
+pole pěstované
+polní divoký
+polní cesta
+hasičský útěk
+požární stanice
+rybník
+bleší trh indoor.
+květinářství obchod indoor.
+potravinový soud
+fotbalové hřiště
+les blesk
+lesní cesta
+lesní silnice
+formální zahrada
+kašna
+lodní kuchyně
+garáže indoor.
+garáž venkovní
+čerpací stanice
+exteriér altánu
+obecný obchod indoor.
+obecný obchod venkovní
+dárkový obchod
+ledovec
+kurz golfu
+skleníkový vnitřní
+skleník venkovní
+jeskyně
+gymnázium indoor.
+hangár vnitřní
+hangár venkovní
+přístav
+železářství
+hayfield.
+heliport
+dálnice
+domácí kancelář
+domácí kino
+nemocnice
+nemocniční pokoj
+teplé jaro
+hotel outdoor.
+hotelový pokoj
+dům
+lovecký lodge outdoor.
+zmrzlinárna
+ledová kra
+ledová police
+krytý kluziště
+kluziště bruslení venkovní
+ledovec
+iglú
+průmyslová oblast
+inn venkovní
+ostrůvek
+jacuzzi indoor.
+vězeňská cela
+japonská zahrada
+klenotnictví
+skládka
+kasbah.
+chovatelská linka venkovní
+třída mateřské školy
+kuchyně
+laguna
+jezero přírodní
+landfill.
+přistávací palubu
+prádelna
+trávník
+přednášková místnost
+legislativní komora
+knihovna indoor.
+knihovna venkovní
+maják
+obývací pokoj
+nakládaci dok
+lobby
+zámková komora
+šatna
+sídlo
+vyrobeno domov
+trh indoor.
+trh venkovní
+bažina
+martial arts gym
+mauzoleum
+medina.
+mezipatro
+voda voda
+mešita venkovní
+motel
+hora
+horská cesta
+horské zasněžené
+kino indoor.
+muzeum indoor.
+muzeum venkovní
+hudební studio
+muzeum přírodní historie
+školka
+pečovatelský domov
+oast house.
+oceán
+kancelář
+kancelářská budova
+kancelářské skříně
+ropná plošina
+operační sál
+ovocný sad
+orchestřiště
+pagoda
+palác
+spíž
+park
+parkovací garáž indoor.
+parkovací garáž venkovní
+parkoviště
+pastvina
+patio
+pavilon
+zverimex
+lékárna
+telefonní budka
+laboratoř fyziky
+areál pro piknik
+molo
+pizzerie
+hřiště
+hrací místnost
+náměstí
+rybník
+veranda
+promenáda
+hospoda vnitřní
+závodní dráha
+závodní dráha
+vor
+železniční trať
+deštný prales
+recepce
+rekreační místnost
+opravna
+obytné sousedství
+restaurace
+restaurace kuchyně
+restaurace patio.
+rýže paddy
+řeka
+rockový oblouk
+střešní zahrada
+lanový most
+zřícenina
+přistávací dráha
+pískoviště
+sauna
+školní dům
+muzeum vědy
+serverovna
+kůlna
+obchod s obuví
+shopfront.
+nákupní centrum indoor.
+sprcha
+lyžařský areál
+sjezdovka
+nebe
+mrakodrap
+slum
+snowfield.
+fotbalové hřiště
+stabilní
+stadion baseball.
+stadion fotbal
+stadion fotbal
+stage indoor.
+stage outdoor.
+schodiště
+komora
+ulice
+platforma stanice metra
+supermarket
+sushi bar
+bažina
+plavání díra
+bazén indoor.
+bazén venkovní
+synagoga venkovní
+televizní místnost
+televizní studio
+chrám asie.
+trůnový pokoj
+stánek s lístky
+topiární zahrada
+věž
+hračkářství
+vnitřní vlak
+platforma vlakového nádraží
+farmaři stromu
+dům na stromě
+příkop
+tundra
+podvodní oceán deep.
+pokojová místnost
+údolí
+zeleninová zahrada
+veterináři office
+viadukt
+vesnice
+vinice
+sopka
+volejbalový kurt venkovní
+čekárna
+vodní park
+vodárenská věž
+vodopád
+zalévání díry
+mávat
+mokrý bar
+pšeničné pole
+větrná farma
+větrný mlýn
+yard
+hostel pro mladé
+zen garden.

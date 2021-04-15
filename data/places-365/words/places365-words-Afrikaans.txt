@@ -1,0 +1,365 @@
+vliegveld
+vliegtuigkajuit
+lughawe terminal
+alcove
+steeg
+amfiteater
+vermaaklike arcade
+pretpark
+woonstel gebou buite
+akwarium
+akwaduk
+arcade
+boog
+argeologiese uitgrawing
+argief
+arena hokkie
+arena prestasie
+arena rodeo
+weermagbasis
+kunsgallery
+kunsskool
+art studio
+kunstenaars hok
+monteerlyn
+atletiese veld buite
+atrium publiek
+solder
+ouditorium
+auto fabriek
+outomatiese vertoonlokaal
+badlands
+bakkery shop
+balkon buite
+balkon binneland
+bal put
+balsaal
+bamboes bos
+bank kluis
+banket saal
+verbod
+skuur
+barndoor
+baseball veld
+kelder
+basketbal hof binne
+badkamer
+bazaar binnenshuis
+bazaar buitelug
+strand
+strandhuis
+skoonheidsalon
+slaapkamer
+slaapkamer
+biertuin
+bier saal
+kneerder
+biologie laboratorium
+promoens
+boot dek
+boothouse
+boekwinkel
+booth indoor
+botaniese tuin
+boog venster binne
+bowling alley
+boksring
+brug
+boufasade
+bulring
+begrafniskamer
+bus binneland
+busstasie binne
+slagters winkel
+butte
+kajuit buite
+kafeteria
+kampeerplek
+kampus
+kanaal natuurlik
+kanaal stedelik
+lekkergoed winkel
+afgrond
+motorbinne
+warousel
+kasteel
+katakomb
+begraafplaas
+chalet
+chemie lab
+childs room
+kerk binne
+kerk buitelug
+klaskamer
+skoon kamer
+krans
+kas
+klerewinkel
+kus
+kajuit
+koffiewinkel
+rekenaarkamer
+konferensiesentrum
+konferensie kamer
+bouterrein
+koringveld
+korrel
+gang
+kothuis
+hof
+binnehof
+kaan
+crevasse
+kruispad
+dam
+delicatessen
+departement store
+woestyn sand
+woestynplantegroei
+woestynpad
+diner outdoor
+eetsaal
+eetkamer
+diskoto
+deurlegging buite
+dorm kamer
+sentrum
+aantrekkamer
+oprit
+apteek
+hysbakdeur
+hysbak lobby
+hysbak skag
+ambassade
+enjinkamer
+ingangsportaal
+roltrap binnenshuise
+uitgrawing
+stofwinkel
+plaas
+kitskos restaurant
+veld verbou
+veld wild
+veldpad
+brandtrap
+brandweerstasie
+visvang
+vlooimark binne
+bloemiste winkel binnenshuis
+voedselhof
+sokker veld
+bos breëblaar
+bospad
+bospad
+formele tuin
+fontein
+kameel
+garage binne
+garage buite
+vulstasie
+gazebo buite
+algemene winkel binne
+algemene winkel buite
+geskenk winkel
+gletser
+gholfbaan
+kweekhuis binne
+kweekhuis buite
+grotto
+gimnasium indoor
+hangar binne
+hangar buite
+hawe
+hardeware winkel
+hooefield
+heliport
+snelweg
+huis kantoor
+tuisteater
+hospitaal
+hospitaalkamer
+warm lente
+hotel buite
+hotelkamer
+huis
+jag lodge buitelug
+roomyswinkel
+ysfloe
+ys rak
+ysskaatsbaan binnenshuis
+ys skating rink buite
+ysberg
+igloe
+industriele gebied
+inn buite
+eiland
+jacuzzi binne
+tronk sel
+japannese tuin
+jewelry shop
+junkyard
+kasbah
+kennel buitelug
+kleuterskool klaskamer
+kombuis
+strandmeer
+lake natural
+storting
+landingsdek
+selfdienwassery
+grasperk
+lesinglokaal
+wetgewende kamer
+biblioteek binne
+biblioteek buitelug
+vuurtoring
+sitkamer
+laai stasie
+drukgroep
+sluit kamer
+aantrekkamer
+huis
+vervaardigde huis
+mark binnenshuis
+mark buite
+moeras
+martial arts gym
+mausoleum
+medina
+mezzanine
+moat water
+moskee buitelug
+motel
+berg
+bergpad
+berg sneeu
+movie theatre indoor
+museum binne
+museum buite
+musiek studio
+natuurlike geskiedenis museum
+kwekery
+verpleeginrigting
+oast huis
+oseaan
+kantoor
+kantoorgebou
+kantoorhulpmiddels
+olie-tuig
+operasie kamer
+orgard
+orkes put
+pagoda
+paleis
+spens
+parkeer
+parkeergarage binne
+parkeergarage buitelug
+parkeerterrein
+weiveld
+stoep
+paviljoen
+troeteldier winkel
+apteek
+foonhokkie
+fisika laboratorium
+piekniekarea
+seehoof
+pizzeria
+speelgrond
+speelkamer
+plaza
+dam
+stoep
+wandelpad
+kroeg binne
+renbaan
+renbaan
+vlot
+spoorwegspoor
+reënwoud
+ontvangstoonbank
+ontspanningslokaal
+herstel winkel
+residensiële buurt
+restaurant
+restaurant kombuis
+restaurant patio
+rysveld
+rivier
+rock arch
+daktuin
+rope brug
+ruïne
+aanloopbaan
+sandbox
+sauna
+skoolhuis
+wetenskap museum
+bediener kamer
+skuur
+skoenwinkel
+winkelfront
+shopping mall indoor
+reënbui
+ski-oord
+ski-helling
+lug
+wolkekrabber
+agterbuurt
+sneesveld
+sokkerveld
+stal
+stadion baseball
+stadion sokker
+stadion sokker
+stadium binne
+stadium buite
+trap
+stoorkamer
+straat
+metro station platform
+supermark
+sushi bar
+moeras
+swemgat
+swembad binne
+swembad buite
+sinagoge outdoor
+televisie kamer
+televisie studio
+tempel asië
+troon kamer
+kaartjieskantoor
+topiêre tuin
+toring
+speelgoed winkel
+trein binneland
+treinstasieplatform
+boomplaas
+boom huis
+loopgraaf
+toendra
+onderwater ocean deep
+utility room
+vallei
+groentetuin
+veeartse kantoor
+viaduct
+dorpie
+druiweboord
+vulkaan
+volleyball hof buite
+wagkamer
+waterpark
+water toring
+waterval
+gietergat
+wuif
+nat staaf
+koringveld
+windplaas
+windmeul
+terrein
+jeughostel
+zen garden
