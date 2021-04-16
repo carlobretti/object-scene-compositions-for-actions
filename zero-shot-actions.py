@@ -109,7 +109,8 @@ class ZeroShotActionClassifier(object):
 
             all_records.append(record)
 
-        pd.DataFrame(all_records).sort_index(axis=1).to_csv(f"results/{mode}_object_scene_action.csv")
+        os.system("mkdir -p results")
+        pd.DataFrame(all_records).sort_index(axis=1).to_csv(f"results/top_object_scene_action.csv")
 
         # Gather video predictions.
         predictions = np.zeros(len(self.videos), dtype=int)
@@ -136,7 +137,7 @@ class ZeroShotActionClassifier(object):
                     # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
                     # action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j])/len(top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j])/len(top_scenes[j]) )/2
 
-                    # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
+                    # ""normalized"" average, take the two scores, multiply them by the respective k, add them up and divide by 2
                     action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j])*len(top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j])*len(top_scenes[j]) )/2
 
 
@@ -217,6 +218,7 @@ if __name__ == "__main__":
                 "acc":acc}
     print(f"Setting: [mode:{args.mode} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, s:{args.seed}, l:{args.language}]: acc: {acc:.4f}")
 
+
     results_path = "results/accuracies.csv"
     df = pd.read_csv(results_path, index_col=0) if os.path.exists(results_path) else pd.DataFrame(columns = results.keys())
     df = df.append(results, ignore_index=True)
@@ -226,11 +228,11 @@ if __name__ == "__main__":
     if args.nr_test_actions==101:
         plt.rcParams["figure.figsize"] = (70,70)
         cm = confusion_matrix(ty, tp, normalize = "true")
-        pd.DataFrame(cm, index = model.actions, columns = model.actions).to_csv(f'{args.mode}_{args.topk_objects}obj_{args.topk_scenes}_sce_{args.language}_lang.csv')
+        pd.DataFrame(cm, index = model.actions, columns = model.actions).to_csv(f'results/{args.mode}_{args.topk_objects}_obj_{args.topk_scenes}_sce_{args.language}_lang.csv')
         disp = ConfusionMatrixDisplay(confusion_matrix=cm,
                                         display_labels= model.actions)
         disp.plot(xticks_rotation='vertical')
-        plt.savefig(f'results/{args.mode}_{args.topk_objects}obj_{args.topk_scenes}_sce_{args.language}_lang.png')
+        plt.savefig(f'results/{args.mode}_{args.topk_objects}_obj_{args.topk_scenes}_sce_{args.language}_lang.png')
 
 
         # Store accuracy per action and top objects/scenes.
@@ -238,5 +240,5 @@ if __name__ == "__main__":
         accs = np.stack((model.actions,accs), axis = -1)
         accs = [{"action_name": result[0], "accuracy": result[1]} for result in accs]
         accs_df = pd.DataFrame(accs)
-        top_sc_df = pd.read_csv(f"results/{args.mode}_object_scene_action.csv", index_col = 0)
-        pd.merge(accs_df, top_sc_df).sort_values("accuracy").to_csv(f"results/{args.mode}_object_scene_action.csv")
+        top_sc_df = pd.read_csv(f"results/top_object_scene_action.csv", index_col = 0)
+        pd.merge(accs_df, top_sc_df).sort_values("accuracy").to_csv(f"results/{args.mode}_{args.topk_objects}_obj_{args.topk_scenes}_accuracyperaction.csv")

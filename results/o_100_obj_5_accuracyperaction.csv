@@ -1,0 +1,102 @@
+,action_name,accuracy,top_object_0,top_object_1,top_object_2,top_object_3,top_object_4,top_scene_0,top_scene_1,top_scene_2,top_scene_3,top_scene_4
+100,YoYo,0.0,gat,homegirl,dun,homeboy,takin,childs room,japanese garden,rice paddy,sushi bar,kindergarden classroom
+71,PushUps,0.0,pull,tamp,button,ratchet,down,assembly line,lock chamber,ball pit,wave,elevator door
+70,Punch,0.0,punch,punch,haymaker,pack,pack,boxing ring,watering hole,ice cream parlor,ice shelf,ball pit
+69,PullUps,0.0,pull,hook,hook,hook,hook,ball pit,rope bridge,lock chamber,assembly line,clean room
+68,PommelHorse,0.0,horse,horse,horseman,dressage,equine,barn,arena rodeo,corral,pasture,racecourse
+28,FieldHockeyPenalty,0.0,field,field,soccer,lacrosse,football,soccer field,football field,baseball field,arena hockey,field road
+60,PlayingDhol,0.0,violin,flute,bagpipe,tambourine,harmonium,music studio,arena hockey,football field,soccer field,orchestra pit
+30,FrisbeeCatch,0.0,catch,Frisbee,ball,ball,ball,ball pit,volleyball court outdoor,soccer field,baseball field,fire escape
+20,CleanAndJerk,0.0,cleaner,well,well,well,mess,clean room,wet bar,engine room,underwater ocean deep,lake natural
+31,FrontCrawl,0.0,front,back,back,back,down,elevator door,porch,doorway outdoor,ball pit,engine room
+57,PizzaTossing,0.0,pizza,pasta,lasagna,meatball,flatbread,pizzeria,fastfood restaurant,sushi bar,restaurant kitchen,ice cream parlor
+34,HammerThrow,0.0,hammer,hammer,hammer,monkey-wrench,wrench,ball pit,lock chamber,rope bridge,rock arch,fire escape
+56,ParallelBars,0.0,parallel,bar,bar,bar,strip,bar,sushi bar,wet bar,street,rope bridge
+39,HighJump,0.0,jumping,level,jumper,jumper,spike,rope bridge,bow window indoor,escalator indoor,cliff,underwater ocean deep
+51,Lunges,0.0,dumbbell,barbell,cartwheel,leg,leg,ball pit,elevator door,rope bridge,martial arts gym,bowling alley
+43,IceDancing,0.0,ice,skating,dancer,dancer,rink,ice skating rink outdoor,ice skating rink indoor,ice floe,ice cream parlor,ice shelf
+44,JavelinThrow,0.0,javelin,thrower,grenade,monkey-wrench,dart,ball pit,baseball field,athletic field outdoor,bow window indoor,football field
+59,PlayingDaf,0.0,piano,violin,clarinet,lute,bongo,soccer field,orchestra pit,football field,music studio,synagogue outdoor
+73,RockClimbingIndoor,0.0,rock,rock,climber,crag,mountain,rock arch,mountain,cliff,crevasse,canyon
+23,CricketShot,0.0,cricket,cricket,cricketer,wicket,wicket,bowling alley,football field,ball pit,baseball field,soccer field
+89,TableTennisShot,0.0,tennis,table,table,volleyball,volleyball,volleyball court outdoor,basketball court indoor,bow window indoor,ball pit,swimming pool outdoor
+95,UnevenBars,0.0,bar,bar,bar,rough,brittle,wet bar,bar,sushi bar,ice skating rink indoor,ice skating rink outdoor
+92,ThrowDiscus,0.0,javelin,thrower,monkey-wrench,hammer,hammer,ball pit,athletic field outdoor,baseball field,bow window indoor,wheat field
+90,TaiChi,0.0,guan,gong,,tam,koto,zen garden,martial arts gym,japanese garden,pagoda,temple asia
+18,BreastStroke,0.0,nipple,chest,surgery,heart,neck,swimming hole,hospital,nursing home,elevator shaft,canal natural
+9,BenchPress,0.0,bench,press,press,press,dumbbell,conference center,conference room,ball pit,locker room,volleyball court outdoor
+85,StillRings,0.0,still,ring,ring,remains,bell,boxing ring,jewelry shop,rope bridge,waiting room,phone booth
+12,BlowDryHair,0.0,dry,hair,dryer,wig,skin,wet bar,hot spring,shower,beauty salon,desert sand
+46,JumpRope,0.0,rope,jumping,bungee,parachute,ledge,rope bridge,cliff,ball pit,raft,bow window indoor
+82,SkyDiving,0.0,dive,swimming,dove,blue,blue,sky,underwater ocean deep,swimming hole,ocean,water tower
+76,SalsaSpin,0.0,salsa,guacamole,tostada,enchilada,hummus,ball pit,bowling alley,ballroom,ice cream parlor,sushi bar
+47,JumpingJack,0.008130081300813009,jumping,jack,jack,jack,jack,rope bridge,swimming hole,ball pit,cliff,landing deck
+72,Rafting,0.009009009009009009,canoe,kayak,raft,snorkeling,fly-fishing,river,raft,canyon,hunting lodge outdoor,swimming pool outdoor
+81,Skijet,0.01,jet,skiing,snowboard,skier,snowmobile,ski resort,ski slope,airplane cabin,chalet,hunting lodge outdoor
+17,BoxingSpeedBag,0.014925373134328358,boxing,bag,bag,bag,duffel,boxing ring,martial arts gym,bowling alley,ball pit,shoe shop
+55,Nunchucks,0.015151515151515152,saber,sword,broadsword,machete,quarterstaff,martial arts gym,bowling alley,boxing ring,arcade,rope bridge
+24,CuttingInKitchen,0.01818181818181818,kitchen,bathroom,room,cupboard,edge,kitchen,restaurant kitchen,living room,dining room,clean room
+98,WallPushups,0.023076923076923078,wall,wall,sandbag,dumbbell,ledge,rock arch,rope bridge,alcove,doorway outdoor,martial arts gym
+45,JugglingBalls,0.024793388429752067,ball,ball,ball,juggler,croquet,ball pit,soccer field,bowling alley,swimming hole,baseball field
+83,SoccerJuggling,0.027210884353741496,soccer,football,juggler,volleyball,volleyball,stadium soccer,soccer field,football field,stadium football,basketball court indoor
+35,Hammering,0.02857142857142857,hammer,hammer,hammer,bludgeon,chisel,watering hole,lock chamber,swimming hole,elevator door,ball pit
+1,ApplyLipstick,0.03508771929824561,lipstick,eyeliner,mascara,eyeshadow,lip-gloss,drugstore,ice cream parlor,beauty salon,clothing store,wet bar
+37,HandstandWalking,0.036036036036036036,walk,cartwheel,walker,walker,walker,escalator indoor,crosswalk,rope bridge,doorway outdoor,swimming hole
+96,VolleyballSpiking,0.0603448275862069,volleyball,volleyball,soccer,tennis,softball,volleyball court outdoor,soccer field,basketball court indoor,stadium soccer,football field
+8,BasketballDunk,0.06870229007633588,basketball,basketball,dunker,backboard,backboard,basketball court indoor,volleyball court outdoor,arena hockey,athletic field outdoor,soccer field
+36,HandstandPushups,0.078125,dumbbell,cartwheel,barbell,gymnast,hula-hoop,martial arts gym,rope bridge,boxing ring,shower,sushi bar
+78,Shotput,0.08333333333333333,javelin,thrower,judo,athlete,vaulter,athletic field outdoor,baseball field,basketball court indoor,football field,soccer field
+50,LongJump,0.08396946564885496,jumping,down,walk,hurdle,rope,rope bridge,waiting room,underwater ocean deep,cliff,hot spring
+38,HeadMassage,0.10884353741496598,head,head,therapist,neck,body,shower,sauna,ice cream parlor,beauty salon,jacuzzi indoor
+74,RopeClimbing,0.11764705882352941,rope,climber,ledge,bungee,jumping,rope bridge,crevasse,cliff,rock arch,staircase
+19,BrushingTeeth,0.1450381679389313,tooth,tooth,brush,toothbrush,floss,clean room,bathroom,watering hole,canal natural,childs room
+16,BoxingPunchingBag,0.18404907975460122,boxing,boxer,boxer,punch,punch,boxing ring,martial arts gym,stadium baseball,arena hockey,swimming hole
+97,WalkingWithDog,0.2032520325203252,dog,walk,leash,puppy,pup,kennel outdoor,pet shop,beach house,shopping mall indoor,street
+3,BabyCrawling,0.22727272727272727,baby,baby,crib,crib,bassinet,nursery,childs room,shower,playroom,hospital room
+7,Basketball,0.23134328358208955,basketball,basketball,volleyball,volleyball,soccer,basketball court indoor,volleyball court outdoor,stadium soccer,stadium football,soccer field
+4,BalanceBeam,0.24074074074074073,balance,balance,beam,light,steelyard,rope bridge,bank vault,bridge,elevator shaft,bow window indoor
+67,PoleVault,0.26174496644295303,vault,pole,vault,pole,vaulting,bank vault,barn,lock chamber,doorway outdoor,ice shelf
+49,Knitting,0.2682926829268293,knit,shawl,sweater,workbasket,afghan,coffee shop,jewelry shop,fabric store,gift shop,beer garden
+66,PlayingViolin,0.27,violin,piano,cello,clarinet,flute,music studio,orchestra pit,soccer field,volleyball court outdoor,football field
+42,HulaHoop,0.296,hula-hoop,trampoline,gymnastics,tetherball,basketball,basketball court indoor,volleyball court outdoor,ball pit,windmill,rope bridge
+52,MilitaryParade,0.296,soldier,reservist,marshal,colonel,regalia,army base,museum outdoor,church outdoor,bazaar outdoor,airfield
+65,PlayingTabla,0.2972972972972973,sitar,violin,flute,guitar,harmonium,music studio,soccer field,football field,orchestra pit,baseball field
+62,PlayingGuitar,0.34375,guitar,violin,piano,harmonica,banjo,music studio,soccer field,football field,stadium soccer,orchestra pit
+54,MoppingFloor,0.38181818181818183,floor,floor,floor,upstairs,linoleum,basement,clean room,throne room,dressing room,kitchen
+13,BlowingCandles,0.3944954128440367,candle,shofar,torch,wick,snuffer,wind farm,fire escape,shower,bow window indoor,fire station
+33,Haircut,0.4,hairdresser,hair,beard,beard,stylist,beauty salon,shower,clothing store,laundromat,bathroom
+14,BodyWeightSquats,0.4107142857142857,weight,weight,body,body,body,martial arts gym,shed,boxing ring,sauna,train interior
+48,Kayaking,0.41134751773049644,kayak,snorkeling,water-skiing,canoe,fly-fishing,swimming pool outdoor,river,swimming pool indoor,hunting lodge outdoor,swimming hole
+21,CliffDiving,0.4492753623188406,cliff,dive,precipice,ledge,snorkeling,cliff,underwater ocean deep,swimming hole,rope bridge,ocean
+99,WritingOnBoard,0.47368421052631576,board,board,board,drawing,blackboard,art school,computer room,landing deck,boat deck,television room
+22,CricketBowling,0.5179856115107914,cricket,cricket,cricketer,wicket,wicket,bowling alley,stadium baseball,football field,baseball field,stadium soccer
+5,BandMarching,0.535483870967742,band,band,drummer,guitarist,bandsman,music studio,rock arch,orchestra pit,army base,stadium football
+53,Mixing,0.5367647058823529,mixer,mixer,recording,mash,blender,music studio,dressing room,chemistry lab,art studio,physics laboratory
+29,FloorGymnastics,0.544,gymnastics,floor,floor,floor,gymnast,gymnasium indoor,ballroom,basketball court indoor,volleyball court outdoor,escalator indoor
+40,HorseRace,0.5483870967741935,horse,horse,racing,thoroughbred,thoroughbred,racecourse,corral,arena rodeo,barn,railroad track
+88,Swing,0.549618320610687,swing,pendulum,ball,ball,ball,ball pit,rope bridge,porch,bowling alley,golf course
+77,ShavingBeard,0.5527950310559007,beard,beard,hair,razor,shaver,ice cream parlor,shower,beauty salon,wet bar,ice skating rink outdoor
+25,Diving,0.5666666666666667,dive,swimming,snorkeling,snorkel,snorkel,underwater ocean deep,swimming hole,swimming pool outdoor,swimming pool indoor,ocean
+84,SoccerPenalty,0.5766423357664233,soccer,handball,handball,football,lacrosse,stadium soccer,soccer field,stadium football,football field,arena hockey
+93,TrampolineJumping,0.5882352941176471,trampoline,jumping,bungee,gymnastics,swimming,swimming pool indoor,swimming pool outdoor,swimming hole,playground,escalator indoor
+27,Fencing,0.5945945945945946,fence,epee,singlestick,archery,gazebo,roof garden,topiary garden,gazebo exterior,lawn,athletic field outdoor
+0,ApplyEyeMakeup,0.6137931034482759,makeup,eyeliner,eyeshadow,mascara,lipstick,beauty salon,drugstore,ice cream parlor,candy store,clothing store
+94,Typing,0.6323529411764706,keyboard,typewriter,computer,laptop,mouse,computer room,waiting room,loading dock,office cubicles,server room
+2,Archery,0.6344827586206897,archery,archer,crossbow,longbow,rifle,hunting lodge outdoor,bow window indoor,volleyball court outdoor,athletic field outdoor,martial arts gym
+61,PlayingFlute,0.7225806451612903,flute,violin,clarinet,piano,harp,music studio,soccer field,orchestra pit,football field,volleyball court outdoor
+91,TennisSwing,0.7409638554216867,tennis,swing,badminton,golf,croquet,volleyball court outdoor,basketball court indoor,ball pit,swimming pool outdoor,golf course
+26,Drumming,0.7453416149068323,drum,drum,drummer,percussionist,bongo,music studio,martial arts gym,art studio,rock arch,orchestra pit
+80,Skiing,0.762962962962963,skiing,skier,snowboard,sledding,tobogganing,ski resort,ski slope,ice skating rink outdoor,mountain snowy,chalet
+79,SkateBoarding,0.8333333333333334,skate,skate,skating,skateboard,skateboarding,ice skating rink outdoor,ice skating rink indoor,ski resort,art school,ski slope
+32,GolfSwing,0.8489208633093526,golf,swing,golfer,putter,croquet,golf course,ball pit,swimming hole,volleyball court outdoor,baseball field
+87,Surfing,0.8492063492063492,surfing,skateboarding,snorkeling,beach,web,beach,ocean,swimming pool outdoor,wave,swimming pool indoor
+10,Biking,0.8582089552238806,bicycling,cycling,bicycle,motorcycling,skiing,mountain,mountain path,mountain snowy,swimming pool outdoor,ice skating rink outdoor
+75,Rowing,0.8759124087591241,rowing,boathouse,scull,swimming,canoe,boathouse,swimming pool indoor,boat deck,swimming pool outdoor,swimming hole
+64,PlayingSitar,0.8789808917197452,sitar,guitar,violin,harmonica,harmonium,music studio,football field,soccer field,orchestra pit,stadium soccer
+58,PlayingCello,0.8902439024390244,cello,violin,piano,clarinet,oboe,music studio,orchestra pit,soccer field,volleyball court outdoor,ice skating rink outdoor
+6,BaseballPitch,0.8933333333333333,baseball,baseball,softball,softball,bat,stadium baseball,baseball field,stadium soccer,stadium football,soccer field
+63,PlayingPiano,0.8952380952380953,piano,violin,clarinet,guitar,cello,music studio,orchestra pit,soccer field,volleyball court outdoor,basketball court indoor
+86,SumoWrestling,0.9137931034482759,sumo,wrestling,boxing,judo,boxer,boxing ring,arena hockey,martial arts gym,arena rodeo,volleyball court outdoor
+15,Bowling,0.967741935483871,cricket,cricket,croquet,wicket,wicket,bowling alley,ball pit,ice skating rink indoor,ice skating rink outdoor,swimming hole
+41,HorseRiding,0.9817073170731707,horse,horse,riding,rider,ride,arena rodeo,barn,pasture,wind farm,corral
+11,Billiards,1.0,shuffleboard,racquetball,racquetball,poolroom,croquet,arcade,amusement arcade,swimming pool indoor,swimming pool outdoor,recreation room
