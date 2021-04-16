@@ -5,12 +5,16 @@
 import os
 import sys
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 import argparse
 import configparser
+from   datetime import datetime
 from   six.moves import cPickle as pickle
 from   scipy.spatial.distance import cosine
 from   scipy.stats import beta
 from   nltk.corpus import wordnet as wn
+from   sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 #
 # Obtain action score for scenes and objects
@@ -74,11 +78,13 @@ class ZeroShotActionClassifier(object):
         self.videos = self.videos[teidxs]
         self.aidxs  = self.aidxs[teidxs]
 
-        # Find top objects per action.
+        # Find top objects and scenes per action.
         top_objects = []
         a2oscores = []
         top_scenes = []
         a2sscores = []
+        all_records = []
+
         for i in range(len(test_actions)):
             a2os = self.a2x_scores(test_actions, i, languages, "o")
             a2oscores.append(a2os)
@@ -87,17 +93,23 @@ class ZeroShotActionClassifier(object):
 
             a2ss = self.a2x_scores(test_actions, i, languages, "s")
             a2sscores.append(a2ss)
-            oidxs = np.argsort(a2ss)[-topk_scenes:]
-            top_scenes.append(oidxs)
-            # Print top scoring objects for each action.
-            #wnids = [c.strip() for c in open("../../data/imagenet/wnids-12988.txt")]
-            #oidxs = np.argsort(a2op)[::-1]
-            #print(self.actions[test_actions[i]], end=": ")
-            #for j in range(5):
-            #    print(wn._synset_from_pos_and_offset('n',int(wnids[oidxs[j]][1:])).lemma_names()[0], end=", ")
-            #print()
+            sidxs = np.argsort(a2ss)[-topk_scenes:]
+            top_scenes.append(sidxs)
 
+            # Save top scoring objects and scenes for each action.
+            wnids = [c.strip() for c in open("data/imagenet/wnids-12988.txt")]
+            scenes = [c.strip() for c in open("data/places-365/words/places365-words-English.txt")]
+            allsidxs = np.argsort(a2ss)[::-1]
+            alloidxs = np.argsort(a2os)[::-1]
+            record = {}
+            record["action_name"] = self.actions[test_actions[i]]
+            for j in range(5):
+                record[f"top_scene_{j}"] = scenes[allsidxs[j]]
+                record[f"top_object_{j}"] = wn.synset_from_pos_and_offset('n',int(wnids[alloidxs[j]][1:])).lemma_names()[0]
 
+            all_records.append(record)
+
+        pd.DataFrame(all_records).sort_index(axis=1).to_csv(f"results/{mode}_object_scene_action.csv")
 
         # Gather video predictions.
         predictions = np.zeros(len(self.videos), dtype=int)
@@ -118,8 +130,19 @@ class ZeroShotActionClassifier(object):
                 elif mode == "s":
                     action_scores[j] = video_action_score(sceavgfeat, a2sscores[j], top_scenes[j])
                 elif mode == "os":
-                    raise NotImplementedError
-                    action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j]))/2
+                    # # simplest average, take the two scores, add them up and divide by 2
+                    # action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j]))/2
+
+                    # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
+                    # action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j])/len(top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j])/len(top_scenes[j]) )/2
+
+                    # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
+                    action_scores[j] = (video_action_score(objavgfeat, a2oscores[j], top_objects[j])*len(top_objects[j]) + video_action_score(sceavgfeat, a2sscores[j], top_scenes[j])*len(top_scenes[j]) )/2
+
+
+                    # # smart, semantically-aware average
+                    # raise NotImplementedError
+
 
             # Select highest scoring action.
             predictions[i] = np.argmax(action_scores)
@@ -127,14 +150,13 @@ class ZeroShotActionClassifier(object):
 
         # Map predictions to correct labels.
         predictions = test_actions[predictions]
-        print(predictions.shape)
         return self.aidxs, predictions
 
     #
     #
     #
     def a2x_scores(self, actions, actionindex, languages, x):
-        languages = languages.split("-")#list(self.a2o_ft.keys())
+        languages = languages.split("-")
         x_priors = self.a2o_ft[languages[0]][actions[actionindex]] if x == "o" else self.a2s_ft[languages[0]][actions[actionindex]]
         # Deal with scenes/objects/actions with no (Working) word embedding.
         x_priors[np.isnan(x_priors)] = -10
@@ -168,6 +190,9 @@ if __name__ == "__main__":
     # Parse arguments.
     args   = parse_args()
 
+    if args.mode not in ["s","o", "os"]:
+        raise ValueError("Mode used, can be Objects (o); Scenes (s); Objects and scenes (os)")
+
     # Initialize zero-shot classifier.
     model = ZeroShotActionClassifier(args.configfile)
 
@@ -181,8 +206,37 @@ if __name__ == "__main__":
 
     # Print the results.
     acc = np.mean(ty == tp)
+
+    results = { "datetime": datetime.now().isoformat(' ', 'seconds'),
+                "mode":args.mode,
+                "t":args.nr_test_actions,
+                "kobj":args.topk_objects,
+                "ksce":args.topk_scenes,
+                "s":args.seed,
+                "l":args.language,
+                "acc":acc}
     print(f"Setting: [mode:{args.mode} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, s:{args.seed}, l:{args.language}]: acc: {acc:.4f}")
-    # Print accuracy per action.
-    #print model.actions
-    #accs = np.bincount(ty[ty==tp], minlength=len(model.actions)) / np.bincount(ty, minlength=len(model.actions))
-    #print(accs)
+
+    results_path = "results/accuracies.csv"
+    df = pd.read_csv(results_path, index_col=0) if os.path.exists(results_path) else pd.DataFrame(columns = results.keys())
+    df = df.append(results, ignore_index=True)
+    df.to_csv(results_path)
+
+    # Print confusion matrix
+    if args.nr_test_actions==101:
+        plt.rcParams["figure.figsize"] = (70,70)
+        cm = confusion_matrix(ty, tp, normalize = "true")
+        pd.DataFrame(cm, index = model.actions, columns = model.actions).to_csv(f'{args.mode}_{args.topk_objects}obj_{args.topk_scenes}_sce_{args.language}_lang.csv')
+        disp = ConfusionMatrixDisplay(confusion_matrix=cm,
+                                        display_labels= model.actions)
+        disp.plot(xticks_rotation='vertical')
+        plt.savefig(f'results/{args.mode}_{args.topk_objects}obj_{args.topk_scenes}_sce_{args.language}_lang.png')
+
+
+        # Store accuracy per action and top objects/scenes.
+        accs = np.bincount(ty[ty==tp], minlength=len(model.actions)) / np.bincount(ty, minlength=len(model.actions))
+        accs = np.stack((model.actions,accs), axis = -1)
+        accs = [{"action_name": result[0], "accuracy": result[1]} for result in accs]
+        accs_df = pd.DataFrame(accs)
+        top_sc_df = pd.read_csv(f"results/{args.mode}_object_scene_action.csv", index_col = 0)
+        pd.merge(accs_df, top_sc_df).sort_values("accuracy").to_csv(f"results/{args.mode}_object_scene_action.csv")

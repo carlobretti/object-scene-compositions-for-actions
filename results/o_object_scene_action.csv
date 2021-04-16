@@ -1,0 +1,51 @@
+,action_name,top_object_0,top_object_1,top_object_2,top_object_3,top_object_4,top_scene_0,top_scene_1,top_scene_2,top_scene_3,top_scene_4
+0,ApplyLipstick,lipstick,eyeliner,mascara,eyeshadow,lip-gloss,drugstore,ice cream parlor,beauty salon,clothing store,wet bar
+1,Archery,archery,archer,crossbow,longbow,rifle,hunting lodge outdoor,bow window indoor,volleyball court outdoor,athletic field outdoor,martial arts gym
+2,BabyCrawling,baby,baby,crib,crib,bassinet,nursery,childs room,shower,playroom,hospital room
+3,BalanceBeam,balance,balance,beam,light,steelyard,rope bridge,bank vault,bridge,elevator shaft,bow window indoor
+4,BandMarching,band,band,drummer,guitarist,bandsman,music studio,rock arch,orchestra pit,army base,stadium football
+5,BaseballPitch,baseball,baseball,softball,softball,bat,stadium baseball,baseball field,stadium soccer,stadium football,soccer field
+6,BodyWeightSquats,weight,weight,body,body,body,martial arts gym,shed,boxing ring,sauna,train interior
+7,BoxingSpeedBag,boxing,bag,bag,bag,duffel,boxing ring,martial arts gym,bowling alley,ball pit,shoe shop
+8,BrushingTeeth,tooth,tooth,brush,toothbrush,floss,clean room,bathroom,watering hole,canal natural,childs room
+9,CleanAndJerk,cleaner,well,well,well,mess,clean room,wet bar,engine room,underwater ocean deep,lake natural
+10,CliffDiving,cliff,dive,precipice,ledge,snorkeling,cliff,underwater ocean deep,swimming hole,rope bridge,ocean
+11,Drumming,drum,drum,drummer,percussionist,bongo,music studio,martial arts gym,art studio,rock arch,orchestra pit
+12,GolfSwing,golf,swing,golfer,putter,croquet,golf course,ball pit,swimming hole,volleyball court outdoor,baseball field
+13,HammerThrow,hammer,hammer,hammer,monkey-wrench,wrench,ball pit,lock chamber,rope bridge,rock arch,fire escape
+14,Hammering,hammer,hammer,hammer,bludgeon,chisel,watering hole,lock chamber,swimming hole,elevator door,ball pit
+15,HandstandWalking,walk,cartwheel,walker,walker,walker,escalator indoor,crosswalk,rope bridge,doorway outdoor,swimming hole
+16,HeadMassage,head,head,therapist,neck,body,shower,sauna,ice cream parlor,beauty salon,jacuzzi indoor
+17,HighJump,jumping,level,jumper,jumper,spike,rope bridge,bow window indoor,escalator indoor,cliff,underwater ocean deep
+18,HorseRiding,horse,horse,riding,rider,ride,arena rodeo,barn,pasture,wind farm,corral
+19,HulaHoop,hula-hoop,trampoline,gymnastics,tetherball,basketball,basketball court indoor,volleyball court outdoor,ball pit,windmill,rope bridge
+20,IceDancing,ice,skating,dancer,dancer,rink,ice skating rink outdoor,ice skating rink indoor,ice floe,ice cream parlor,ice shelf
+21,JavelinThrow,javelin,thrower,grenade,monkey-wrench,dart,ball pit,baseball field,athletic field outdoor,bow window indoor,football field
+22,JugglingBalls,ball,ball,ball,juggler,croquet,ball pit,soccer field,bowling alley,swimming hole,baseball field
+23,JumpRope,rope,jumping,bungee,parachute,ledge,rope bridge,cliff,ball pit,raft,bow window indoor
+24,JumpingJack,jumping,jack,jack,jack,jack,rope bridge,swimming hole,ball pit,cliff,landing deck
+25,Kayaking,kayak,snorkeling,water-skiing,canoe,fly-fishing,swimming pool outdoor,river,swimming pool indoor,hunting lodge outdoor,swimming hole
+26,LongJump,jumping,down,walk,hurdle,rope,rope bridge,waiting room,underwater ocean deep,cliff,hot spring
+27,MilitaryParade,soldier,reservist,marshal,colonel,regalia,army base,museum outdoor,church outdoor,bazaar outdoor,airfield
+28,Mixing,mixer,mixer,recording,mash,blender,music studio,dressing room,chemistry lab,art studio,physics laboratory
+29,Nunchucks,saber,sword,broadsword,machete,quarterstaff,martial arts gym,bowling alley,boxing ring,arcade,rope bridge
+30,PlayingCello,cello,violin,piano,clarinet,oboe,music studio,orchestra pit,soccer field,volleyball court outdoor,ice skating rink outdoor
+31,PlayingDaf,piano,violin,clarinet,lute,bongo,soccer field,orchestra pit,football field,music studio,synagogue outdoor
+32,PlayingFlute,flute,violin,clarinet,piano,harp,music studio,soccer field,orchestra pit,football field,volleyball court outdoor
+33,PlayingPiano,piano,violin,clarinet,guitar,cello,music studio,orchestra pit,soccer field,volleyball court outdoor,basketball court indoor
+34,PlayingViolin,violin,piano,cello,clarinet,flute,music studio,orchestra pit,soccer field,volleyball court outdoor,football field
+35,PoleVault,vault,pole,vault,pole,vaulting,bank vault,barn,lock chamber,doorway outdoor,ice shelf
+36,PushUps,pull,tamp,button,ratchet,down,assembly line,lock chamber,ball pit,wave,elevator door
+37,RopeClimbing,rope,climber,ledge,bungee,jumping,rope bridge,crevasse,cliff,rock arch,staircase
+38,Rowing,rowing,boathouse,scull,swimming,canoe,boathouse,swimming pool indoor,boat deck,swimming pool outdoor,swimming hole
+39,SkateBoarding,skate,skate,skating,skateboard,skateboarding,ice skating rink outdoor,ice skating rink indoor,ski resort,art school,ski slope
+40,Skiing,skiing,skier,snowboard,sledding,tobogganing,ski resort,ski slope,ice skating rink outdoor,mountain snowy,chalet
+41,Skijet,jet,skiing,snowboard,skier,snowmobile,ski resort,ski slope,airplane cabin,chalet,hunting lodge outdoor
+42,SkyDiving,dive,swimming,dove,blue,blue,sky,underwater ocean deep,swimming hole,ocean,water tower
+43,SoccerPenalty,soccer,handball,handball,football,lacrosse,stadium soccer,soccer field,stadium football,football field,arena hockey
+44,StillRings,still,ring,ring,remains,bell,boxing ring,jewelry shop,rope bridge,waiting room,phone booth
+45,TaiChi,guan,gong,nan,tam,koto,zen garden,martial arts gym,japanese garden,pagoda,temple asia
+46,TennisSwing,tennis,swing,badminton,golf,croquet,volleyball court outdoor,basketball court indoor,ball pit,swimming pool outdoor,golf course
+47,Typing,keyboard,typewriter,computer,laptop,mouse,computer room,waiting room,loading dock,office cubicles,server room
+48,UnevenBars,bar,bar,bar,rough,brittle,wet bar,bar,sushi bar,ice skating rink indoor,ice skating rink outdoor
+49,WallPushups,wall,wall,sandbag,dumbbell,ledge,rock arch,rope bridge,alcove,doorway outdoor,martial arts gym
