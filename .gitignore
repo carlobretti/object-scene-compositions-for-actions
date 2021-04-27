@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 *.bin
 data/ucf-101/videos
+fasttext-imagenet12988places365pairs-*
+a2ospairs_ft_imagenet12988places365pairs_*
