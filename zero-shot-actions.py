@@ -77,6 +77,8 @@ class ZeroShotActionClassifier(object):
         self.a2o_ft = {}
         self.a2s_ft = {}
         self.a2ospairs_ft = {}
+        self.o2o_ft = {}
+        self.s2s_ft = {}
         for language in languages:
             a2oftfile = parser.get('actions', f'a2oft_{language}')
             self.a2o_ft[language] = np.load(a2oftfile)
@@ -84,11 +86,15 @@ class ZeroShotActionClassifier(object):
             self.a2s_ft[language] = np.load(a2sftfile)
             a2ospairsftfile = parser.get('actions', f'a2ospairsft_{language}')
             self.a2ospairs_ft[language] = np.load(a2ospairsftfile)
+            o2oftfile = parser.get('actions', f'o2oft_{language}')
+            self.o2o_ft[language] = np.load(o2oftfile)
+            s2sftfile = parser.get('actions', f's2sft_{language}')
+            self.s2s_ft[language] = np.load(s2sftfile)
 
     #
     # Predict the class of each test action.
     #
-    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, aggregate, mode, languages):
+    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, xdiscr, adiscr, aggregate, mode, languages):
         # Set seed and randomly select test actions.
         np.random.seed(seed)
         aa = np.arange(len(self.actions))
@@ -109,15 +115,17 @@ class ZeroShotActionClassifier(object):
         top_x = defaultdict(list)
         # all_records = []
 
+        dweights = [xdiscr, adiscr]
+
         for i in range(len(test_actions)):
             if mode in ["o", "os", "or"] and aggregate != "paired":
-                a2os = self.a2x_scores(test_actions, i, languages, "o")
+                a2os = self.a2x_scores(test_actions, i, languages, dweights, "o")
                 a2xscores["a2oscores"].append(a2os)
                 oidxs = np.argsort(a2os)[-topk_objects:]
                 top_x["top_objects"].append(oidxs)
 
             if mode in ["s", "os", "or"] and aggregate != "paired":
-                a2ss = self.a2x_scores(test_actions, i, languages, "s")
+                a2ss = self.a2x_scores(test_actions, i, languages, dweights, "s")
                 a2xscores["a2sscores"].append(a2ss)
                 sidxs = np.argsort(a2ss)[-topk_scenes:]
                 top_x["top_scenes"].append(sidxs)
@@ -129,7 +137,7 @@ class ZeroShotActionClassifier(object):
                 top_x["top_objsce"].append(osidxs)
 
             if mode == "os" and aggregate == "paired":
-                a2ospairss = self.a2x_scores(test_actions, i, languages, "osp")
+                a2ospairss = self.a2x_scores(test_actions, i, languages, dweights, "osp")
                 a2xscores["a2ospairscores"].append(a2ospairss)
                 osidxs = np.argsort(a2ospairss)[-topk_objsce:]
                 top_x["top_objscepairs"].append(osidxs)
@@ -207,7 +215,7 @@ class ZeroShotActionClassifier(object):
 
                     try:
                         # hacky way of doing this by hardcoding the default value for kobj and ksce
-                        if accs_df[f"o_{args.aggregate}a_{args.topk_objects}kobj_5ksce_{args.topk_objsce}kobjsce_accuracy"][self.aidxs[i]] >= accs_df[f"s_{args.aggregate}a_100kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_accuracy"][self.aidxs[i]]:
+                        if accs_df[f"o_{args.aggregate}a_{args.topk_objects}kobj_5ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.language}l_accuracy"][self.aidxs[i]] >= accs_df[f"s_{args.aggregate}a_100kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.language}l_accuracy"][self.aidxs[i]]:
                             action_scores[j] = video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])
                         else:
                             action_scores[j] = video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])
@@ -223,17 +231,34 @@ class ZeroShotActionClassifier(object):
         predictions = test_actions[predictions]
         return self.aidxs, predictions
 
+
+    def a2x_discriminate(self, actions, actionindex, languages, x_priors, a2x_ft, x2x, dweights):
+        # action-based discrimination prior
+        if dweights[0] > 0:
+            tmpa2x = a2x_ft[languages[0]].copy()
+            other_actions = np.setdiff1d(actions, [actions[actionindex]])
+            entropies = x_priors - np.max(tmpa2x[other_actions,:], axis=0)
+            x_priors = x_priors + entropies * dweights[0]
+        # x-based discrimination prior
+        if dweights[1] > 0:
+            entropies = x_priors - (np.mean(x2x[languages[0]], axis=0) ** 0.5)
+            x_priors = x_priors + entropies * dweights[1]
+        return x_priors
+
     #
     #
     #
-    def a2x_scores(self, actions, actionindex, languages, x):
+    def a2x_scores(self, actions, actionindex, languages, dweights, x):
         languages = languages.split("-")
         if x == "o":
             x_priors = self.a2o_ft[languages[0]][actions[actionindex]]
+            x_priors = self.a2x_discriminate(actions, actionindex, languages, x_priors, self.a2o_ft, self.o2o_ft, dweights)
         elif x == "s":
             x_priors = self.a2s_ft[languages[0]][actions[actionindex]]
+            x_priors = self.a2x_discriminate(actions, actionindex, languages, x_priors, self.a2s_ft, self.s2s_ft, dweights)
         elif x == "osp":
             x_priors = self.a2ospairs_ft[languages[0]][actions[actionindex]]
+            # not sure about having an object-scenepair x object-scenepair matrix of size (4m x 4m)
         # Deal with scenes/objects/actions with no (Working) word embedding.
         x_priors[np.isnan(x_priors)] = -10
         for i in range(1, len(languages)):
@@ -259,6 +284,8 @@ def parse_args():
     parser.add_argument("--kobj", dest="topk_objects", help="Top k objects per action", default=100, type=int)
     parser.add_argument("--ksce", dest="topk_scenes", help="Top k scenes per action", default=5, type=int)
     parser.add_argument("--kobjsce", dest="topk_objsce", help="Top k objects and scenes per action", default=100, type=int)
+    parser.add_argument("--xdiscr", dest="xdiscr", help="x-based (object/scene) discrimination, should be either 1 or 0", default=0, type=int)
+    parser.add_argument("--adiscr", dest="adiscr", help="action-based discrimination, should be either 1 or 0", default=0, type=int)
     parser.add_argument("-s", dest="seed", help="Random seed", default=100, type=int)
     parser.add_argument("-m", dest="mode", help="Mode used, can be Objects (o); Scenes (s); Objects and scenes (os); Objects and scenes oracle (or)", default="o", type=str)
     parser.add_argument("-a", dest="aggregate", help="Way of aggregating scores used in Objects and scenes (os) mode", default="NA", type=str)
@@ -290,6 +317,8 @@ if __name__ == "__main__":
                             topk_objects = args.topk_objects,
                             topk_scenes = args.topk_scenes,
                             topk_objsce = args.topk_objsce,
+                            xdiscr = args.xdiscr,
+                            adiscr = args.adiscr,
                             aggregate = args.aggregate,
                             mode = args.mode,
                             languages = args.language)
@@ -304,10 +333,12 @@ if __name__ == "__main__":
                 "kobj":args.topk_objects,
                 "ksce":args.topk_scenes,
                 "kobjsce": args.topk_objsce,
+                "xdiscr": args.xdiscr,
+                "adiscr": args.adiscr,
                 "s":args.seed,
                 "l":args.language,
                 "acc":acc}
-    print(f"Setting: [mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, s:{args.seed}, l:{args.language}]: acc: {acc:.4f}")
+    print(f"Setting: [mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, s:{args.seed}, l:{args.language}]: acc: {acc:.4f}")
     # print(classification_report(ty, tp, target_names = model.actions))
 
     results_path = "results/accuracies.csv"
@@ -320,14 +351,14 @@ if __name__ == "__main__":
         # plotting out confusion matrices
         plt.rcParams["figure.figsize"] = (70,70)
         cm = confusion_matrix(ty, tp, normalize = "true")
-        pd.DataFrame(cm, index = model.actions, columns = model.actions).to_csv(f'results/{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_confmatrix.csv')
+        pd.DataFrame(cm, index = model.actions, columns = model.actions).to_csv(f'results/{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.language}l_confmatrix.csv')
         disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels= model.actions)
         disp.plot(xticks_rotation='vertical')
-        plt.savefig(f'results/{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_confmatrix.png')
+        plt.savefig(f'results/{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.language}l_confmatrix.png')
 
 
         # Store accuracy per action and top objects/scenes.
-        colname = f"{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_accuracy"
+        colname = f"{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.language}l_accuracy"
         accs = np.bincount(ty[ty==tp], minlength=len(model.actions)) / np.bincount(ty, minlength=len(model.actions))
         accs = np.stack((model.actions,accs), axis = -1)
         accs = [{"action_name": line[0], colname: line[1]} for line in accs]
