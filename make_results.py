@@ -2,26 +2,21 @@ import os
 from tqdm import tqdm
 
 seeds = [1,2,3,4,5]
-# nr_test_actions = [101,20,50]
-nr_test_actions = [101]
-# modes = ["o", "s", "os", "or"]
+nr_test_actions = [101,20,50]
+
+modes = ["o", "s", "os", "or"]
 topk_objects = [10,50,100]
 topk_scenes = [3,5,10]
 # aggregates = ['simple', 'normalized', 'weighted', 'combined', 'paired']
-# aggregates = ['weighted', 'combined', 'paired']
-# topk_objsce = [50,100,300,500,700,1000]
+aggregates = ['weighted', 'combined', 'paired']
+topk_objsce = [50,100,300,500,700,1000,1500,2000,2500]
 
-modes = ["os"]
-aggregates = ['paired']
-topk_objsce = [2000]
 
 lambdas = [0.25, 0.75, 1]
-# xdiscrs = [0,1]
-# adiscrs = [0,1]
-# languages = ["English", "English-Dutch"]
-languages = ["English"]
-xdiscrs = [0]
-adiscrs = [0]
+xdiscrs = [0,1]
+adiscrs = [0,1]
+languages = ["English", "English-Dutch"]
+
 
 for t in tqdm(nr_test_actions, desc = "nr_test_actions"):
     for s in tqdm(seeds, desc = "seeds"):
@@ -44,6 +39,8 @@ for t in tqdm(nr_test_actions, desc = "nr_test_actions"):
                                 elif aggregate in ["combined", "paired"]:
                                     for kobjsce in topk_objsce:
                                         if aggregate == "paired":
+                                            if xdiscr == 1:
+                                                break
                                             for lam in lambdas:
                                                 os.system(f"python zero-shot-actions.py -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobjsce {kobjsce} --xdiscr {xdiscr} --adiscr {adiscr} --lambda {lam}")
                                         else:

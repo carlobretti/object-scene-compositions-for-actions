@@ -5,17 +5,18 @@
 import os
 import sys
 import numpy as np
+import scipy as sp
+import scipy.spatial.distance
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
 import configparser
 from   datetime import datetime
 from   six.moves import cPickle as pickle
-from   scipy.spatial.distance import cdist
-from   scipy.stats import beta
 from   nltk.corpus import wordnet as wn
 from   sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
-from collections import defaultdict
+from   collections import defaultdict
+from   math import prod
 
 ### FROM https://github.com/cgnorthcutt/forum-diversification/blob/master/mmr_experiment/mmr.py arXiv:2002.12457v1
 ### implementation of https://doi.org/10.1145/290941.291025
@@ -122,6 +123,7 @@ class ZeroShotActionClassifier(object):
         # Directories and videos.
         self.objfeatdir = parser.get('actions', 'objectscores')
         self.scefeatdir = parser.get('actions', 'scenescores')
+        self.os2os_file = parser.get('actions', 'ospairs2ospairs_filename')
         self.videos  = parser.get('actions', 'videofile')
         self.ext     = parser.get('actions', 'objscefilename')
         self.videos  = [l.strip().split()[0] for l in open(self.videos)]
@@ -141,6 +143,7 @@ class ZeroShotActionClassifier(object):
         self.o2o_ft = {}
         self.s2s_ft = {}
         self.o2s_ft = {}
+        self.ospairs2ospairs_pos = {}
         for language in languages:
             if mode in ["o", "os", "or"] and aggregate != "paired":
                 a2oftfile = parser.get('actions', f'a2oft_{language}')
@@ -190,6 +193,8 @@ class ZeroShotActionClassifier(object):
 
         dweights = [adiscr, xdiscr]
 
+
+
         for i in range(len(test_actions)):
             if mode in ["o", "os", "or"] and aggregate != "paired":
                 a2os = self.a2x_scores(test_actions, i, languages, dweights, "o")
@@ -219,35 +224,41 @@ class ZeroShotActionClassifier(object):
                     # # attempt at diversifying topk
                     topq_objsce = topk_objsce*5
                     osidxs = np.argsort(a2ospairss)[-topq_objsce:]
+                    firstlang = languages.split("-")[0]
 
-                    lang = languages.split("-")[0]
+                    # # # FAILED ATTEMPT
+                    # # # This was an attempt at making things faster by storing ospairs2ospairs as a sparse matrix and filling it up, so that it would only be a matter of reading it from a file
+                    # # # however, reading from large files is also really slow and and the file size became too big to handle, so good bye
+                    #
+                    # path = f'{self.ospairs2ospairs_pos[firstlang]}action{i+1}/{self.os2os_file}'
+                    # ospairs2ospairs = sp.sparse.load_npz(path).tocsc()
+                    # similarities = ospairs2ospairs[np.array(osidxs).reshape((-1,1)), osidxs]
+                    # print(similarities.nnz,"\t", prod(similarities.shape))
+                    # if similarities.nnz != prod(similarities.shape):
+                    #     distances = sp.spatial.distance.cdist(self.ospairs_ft[firstlang][osidxs],self.ospairs_ft[firstlang][osidxs], "cosine")
+                    #     similarities = 1-distances
+                    #     print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
+                    #     ospairs2ospairs[np.array(osidxs).reshape((-1,1)), osidxs] = similarities
+                    #     print(f"assigned similarities {datetime.now().isoformat(' ', 'seconds')}")
+                    #     sp.sparse.save_npz(path, ospairs2ospairs.tocoo())
+                    #     print(f"saved progress at action {i+1}/{nr_test_actions} {datetime.now().isoformat(' ', 'seconds')}")
+                    # else:
+                    #     similarities = similarities.toarray()
+                    # # # END FAILED ATTEMPT
 
-                    
-
-                    distances = cdist(self.ospairs_ft[lang][osidxs], self.ospairs_ft[lang][osidxs], metric = "cosine")
-
-                    # # my approach, not particularly smart
-                    # weights = np.abs(np.eye(distances.shape[0])-1)
-                    # distances = np.average(distances, weights = weights, axis = 0)
-                    # # by doing this, I multiply for each pair the similarity to the action and the distance of that pair from all the other pairs in the top-q
-                    # a2ospairss = np.multiply(a2ospairss[osidxs], distances)
-                    # # and then I effectively take the topk
-                    # ids = np.argsort(a2ospairss)[-topk_objsce:]
-
+                    similarities = 1 - sp.spatial.distance.cdist(self.ospairs_ft[firstlang][osidxs],self.ospairs_ft[firstlang][osidxs], "cosine")
+                    print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
                     # # MMR approach
                     # # values for lambda from arXiv:2002.12457v1
-                    similarities = 1-distances
                     ids = mmr(pairwise_matrix = similarities, w = a2ospairss[osidxs], K = topk_objsce, lam = lam)
 
                     top_x["top_objscepairs"].append(osidxs[ids])
-
 
         ## TEMP
         ## TRY TO CLEAR OUT SOME MEMORY FROM UNUSED VARIABLES
         self.a2o_ft = {}
         self.a2s_ft = {}
         self.a2ospairs_ft = {}
-        self.ospairs_ft = {}
         ## TEMP
 
             # # Save top scoring objects and scenes for each action.
@@ -344,9 +355,12 @@ class ZeroShotActionClassifier(object):
     def a2x_discriminate(self, actions, actionindex, languages, x_priors, a2x_ft, x2x, dweights):
         # action-based discrimination prior
         if dweights[0] > 0:
+            # print(f"started actionbased discrimination for action {actionindex}\t{datetime.now().isoformat(' ', 'seconds')}")
             other_actions = np.setdiff1d(actions, [actions[actionindex]])
             entropies = x_priors - np.max(a2x_ft[languages[0]][other_actions,:], axis=0)
+            # entropies = x_priors - np.max(a2x_ft[languages[0]][other_actions,:], axis=0)
             x_priors = x_priors + entropies * dweights[0]
+            # print(f"finished actionbased discrimination for action {actionindex}\t{datetime.now().isoformat(' ', 'seconds')}")
         # x-based discrimination prior
         if dweights[1] > 0:
             entropies = x_priors - (np.mean(x2x[languages[0]], axis=0) ** 0.5)
@@ -376,7 +390,7 @@ class ZeroShotActionClassifier(object):
             elif x == "s":
                 new_priors = self.a2s_ft[languages[i]][actions[actionindex]]
             elif x == "osp":
-                raise NotImplementedError("Using more than one language with -m os -a paired would take too long given my memory restrictions")
+                # raise NotImplementedError("Using more than one language with -m os -a paired would take too long given my memory restrictions")
                 new_priors = self.a2ospairs_ft[languages[i]][actions[actionindex]]
             new_priors[np.isnan(new_priors)] = -10
             x_priors += new_priors
@@ -417,8 +431,8 @@ if __name__ == "__main__":
     if args.mode == "os":
         if args.aggregate not in ['simple', 'normalized', 'weighted', 'combined', 'paired']:
             raise ValueError("When using os mode an aggregation method needs to be specified.\n Can be 'simple', 'normalized', 'weighted', 'combined', 'paired'")
-        if (args.aggregate == "paired") & ((((args.xdiscr +args.xdiscr) >= 1)) | ((len(args.language.split("-"))>1))):
-            raise NotImplementedError("cannot use x-based discrimination or more than one language with -m os -a paired")
+        if (args.aggregate == "paired") & (args.xdiscr == 1) :
+            raise NotImplementedError("cannot use x-based discrimination with -m os -a paired")
 
     if (args.lam < 0):
         raise ValueError("Lambda must be between 0 and 1")
