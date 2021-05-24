@@ -247,7 +247,7 @@ class ZeroShotActionClassifier(object):
                     # # # END FAILED ATTEMPT
 
                     similarities = 1 - sp.spatial.distance.cdist(self.ospairs_ft[firstlang][osidxs],self.ospairs_ft[firstlang][osidxs], "cosine")
-                    print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
+                    # print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
                     # # MMR approach
                     # # values for lambda from arXiv:2002.12457v1
                     ids = mmr(pairwise_matrix = similarities, w = a2ospairss[osidxs], K = topk_objsce, lam = lam)
