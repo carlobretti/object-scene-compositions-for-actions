@@ -17,6 +17,7 @@ from   nltk.corpus import wordnet as wn
 from   sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 from   collections import defaultdict
 from   math import prod
+from tqdm import tqdm
 
 ### FROM https://github.com/cgnorthcutt/forum-diversification/blob/master/mmr_experiment/mmr.py arXiv:2002.12457v1
 ### implementation of https://doi.org/10.1145/290941.291025
@@ -195,7 +196,7 @@ class ZeroShotActionClassifier(object):
 
 
 
-        for i in range(len(test_actions)):
+        for i in tqdm(range(len(test_actions)), desc = "computing topks for actions"):
             if mode in ["o", "os", "or"] and aggregate != "paired":
                 a2os = self.a2x_scores(test_actions, i, languages, dweights, "o")
                 a2xscores["a2oscores"].append(a2os)
@@ -285,9 +286,9 @@ class ZeroShotActionClassifier(object):
             results_peraction_path = "results/accuracies_per_action.csv"
             accs_df = pd.read_csv(results_peraction_path, index_col = 0)
         # oracle
-        for i in range(len(self.videos)):
-            print("Video %d/%d\r" %(i+1, len(self.videos)), end="")
-            sys.stdout.flush()
+        for i in  tqdm(range(len(self.videos)), desc = "Scoring videos"):
+            # print("Video %d/%d\r" %(i+1, len(self.videos)), end="")
+            # sys.stdout.flush()
 
             # Load object/scene scores.
             vidfile = self.videos[i].split("/")[-1][:-4]
@@ -345,7 +346,7 @@ class ZeroShotActionClassifier(object):
 
             # Select highest scoring action.
             predictions[i] = np.argmax(action_scores)
-        print()
+        # print()
 
         # Map predictions to correct labels.
         predictions = test_actions[predictions]

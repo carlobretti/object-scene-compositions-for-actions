@@ -8,15 +8,17 @@ modes = ["o", "s", "os", "or"]
 topk_objects = [10,50,100]
 topk_scenes = [3,5,10]
 # aggregates = ['simple', 'normalized', 'weighted', 'combined', 'paired']
-aggregates = ['weighted', 'combined', 'paired']
-topk_objsce = [50,100,300,500,700,1000,1500,2000,2500]
+# aggregates = ['weighted', 'combined', 'paired']
+aggregates = ['weighted', 'paired']
+topk_objsce = [100,200,300,400,500]
 
 
-lambdas = [0.25, 0.75, 1]
-xdiscrs = [0,1]
-adiscrs = [0,1]
+lambdas = [0.75, 1]
+# xdiscrs = [0,1]
+# adiscrs = [0,1]
 languages = ["English", "English-Dutch"]
-
+xdiscrs = [0]
+adiscrs = [0]
 
 for t in tqdm(nr_test_actions, desc = "nr_test_actions"):
     for s in tqdm(seeds, desc = "seeds"):
