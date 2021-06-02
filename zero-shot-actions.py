@@ -122,9 +122,9 @@ class ZeroShotActionClassifier(object):
         parser.read(configfile)
 
         # Directories and videos.
+        self.configfile = configfile
         self.objfeatdir = parser.get('actions', 'objectscores')
         self.scefeatdir = parser.get('actions', 'scenescores')
-        self.os2os_file = parser.get('actions', 'ospairs2ospairs_filename')
         self.videos  = parser.get('actions', 'videofile')
         self.ext     = parser.get('actions', 'objscefilename')
         self.videos  = [l.strip().split()[0] for l in open(self.videos)]
@@ -143,8 +143,7 @@ class ZeroShotActionClassifier(object):
         self.ospairs_ft = {}
         self.o2o_ft = {}
         self.s2s_ft = {}
-        self.o2s_ft = {}
-        self.ospairs2ospairs_pos = {}
+        # self.o2s_ft = {}
         for language in languages:
             if mode in ["o", "os", "or"] and aggregate != "paired":
                 a2oftfile = parser.get('actions', f'a2oft_{language}')
@@ -190,7 +189,7 @@ class ZeroShotActionClassifier(object):
 
         a2xscores = defaultdict(list)
         top_x = defaultdict(list)
-        # all_records = []
+
 
         dweights = [adiscr, xdiscr]
 
@@ -227,28 +226,8 @@ class ZeroShotActionClassifier(object):
                     osidxs = np.argsort(a2ospairss)[-topq_objsce:]
                     firstlang = languages.split("-")[0]
 
-                    # # # FAILED ATTEMPT
-                    # # # This was an attempt at making things faster by storing ospairs2ospairs as a sparse matrix and filling it up, so that it would only be a matter of reading it from a file
-                    # # # however, reading from large files is also really slow and and the file size became too big to handle, so good bye
-                    #
-                    # path = f'{self.ospairs2ospairs_pos[firstlang]}action{i+1}/{self.os2os_file}'
-                    # ospairs2ospairs = sp.sparse.load_npz(path).tocsc()
-                    # similarities = ospairs2ospairs[np.array(osidxs).reshape((-1,1)), osidxs]
-                    # print(similarities.nnz,"\t", prod(similarities.shape))
-                    # if similarities.nnz != prod(similarities.shape):
-                    #     distances = sp.spatial.distance.cdist(self.ospairs_ft[firstlang][osidxs],self.ospairs_ft[firstlang][osidxs], "cosine")
-                    #     similarities = 1-distances
-                    #     print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
-                    #     ospairs2ospairs[np.array(osidxs).reshape((-1,1)), osidxs] = similarities
-                    #     print(f"assigned similarities {datetime.now().isoformat(' ', 'seconds')}")
-                    #     sp.sparse.save_npz(path, ospairs2ospairs.tocoo())
-                    #     print(f"saved progress at action {i+1}/{nr_test_actions} {datetime.now().isoformat(' ', 'seconds')}")
-                    # else:
-                    #     similarities = similarities.toarray()
-                    # # # END FAILED ATTEMPT
-
                     similarities = 1 - sp.spatial.distance.cdist(self.ospairs_ft[firstlang][osidxs],self.ospairs_ft[firstlang][osidxs], "cosine")
-                    # print(f"computed similarities {datetime.now().isoformat(' ', 'seconds')}")
+
                     # # MMR approach
                     # # values for lambda from arXiv:2002.12457v1
                     ids = mmr(pairwise_matrix = similarities, w = a2ospairss[osidxs], K = topk_objsce, lam = lam)
@@ -336,7 +315,7 @@ class ZeroShotActionClassifier(object):
 
                     try:
                         # hacky way of doing this by hardcoding the default value for kobj and ksce
-                        if accs_df[f"o_{aggregate}a_{topk_objects}kobj_5ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_accuracy"][self.aidxs[i]] >= accs_df[f"s_{aggregate}a_100kobj_{topk_scenes}ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_accuracy"][self.aidxs[i]]:
+                        if accs_df[f"{self.configfile}_o_{aggregate}a_{topk_objects}kobj_5ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_accuracy"][self.aidxs[i]] >= accs_df[f"{self.configfile}_s_{aggregate}a_100kobj_{topk_scenes}ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_accuracy"][self.aidxs[i]]:
                             action_scores[j] = video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])
                         else:
                             action_scores[j] = video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])
@@ -404,7 +383,7 @@ class ZeroShotActionClassifier(object):
 #
 def parse_args():
     parser = argparse.ArgumentParser(description="Zero-shot actions from objects and scenes")
-    parser.add_argument("-c", dest="configfile", help="Configuration file", default="ucf-101.config", type=str)
+    parser.add_argument("-c", dest="configfile", help="Configuration file", default="ucf-101-ft.config", type=str)
     parser.add_argument("-t", dest="nr_test_actions", help="Number of test actions", default=50, type=int)
     parser.add_argument("--kobj", dest="topk_objects", help="Top k objects per action", default=100, type=int)
     parser.add_argument("--ksce", dest="topk_scenes", help="Top k scenes per action", default=5, type=int)
@@ -458,6 +437,7 @@ if __name__ == "__main__":
     acc = np.mean(ty == tp)
 
     results = { "datetime": datetime.now().isoformat(' ', 'seconds'),
+                "configfile":args.configfile,
                 "mode":args.mode,
                 "a": args.aggregate,
                 "t":args.nr_test_actions,
@@ -470,7 +450,7 @@ if __name__ == "__main__":
                 "s":args.seed,
                 "l":args.language,
                 "acc":acc}
-    print(f"Setting: [mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, lambda:{args.lam}, s:{args.seed}, l:{args.language}]: \tacc: {acc:.4f}")
+    print(f"Setting: [configfile:{args.configfile}, mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, lambda:{args.lam}, s:{args.seed}, l:{args.language}]: \tacc: {acc:.4f}")
 
     os.makedirs("results/confusion_matrix", exist_ok = True)
     os.makedirs("results/classification_report", exist_ok = True)
@@ -481,7 +461,7 @@ if __name__ == "__main__":
 
     # Print confusion matrix
     if args.nr_test_actions==101:
-        root_name = f"{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
+        root_name = f"{args.configfile}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports
         plt.rcParams["figure.figsize"] = (70,70)

@@ -4,3 +4,6 @@ data/ucf-101/videos
 fasttext-imagenet12988places365pairs-*
 a2ospairs_ft_imagenet12988places365pairs_*
 o2o_ft_imagenet12988_*
+sbert-imagenet12988places365pairs-*
+a2ospairs_sbert_imagenet12988places365pairs_*
+o2o_sbert_imagenet12988_*
