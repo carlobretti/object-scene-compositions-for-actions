@@ -242,7 +242,7 @@ class ZeroShotActionClassifier(object):
         ## TEMP
 
             # # Save top scoring objects and scenes for each action.
-            # wnids = [c.strip() for c in open("data/imagenet/wnids-12988.txt")]
+            # objects = [c.strip() for c in open("data/imagenet/wordlist-split-12988.txt")]
             # scenes = [c.strip() for c in open("data/places-365/words/places365-words-English.txt")]
             # allsidxs = np.argsort(a2ss)[::-1]
             # alloidxs = np.argsort(a2os)[::-1]
@@ -265,12 +265,13 @@ class ZeroShotActionClassifier(object):
             results_peraction_path = "results/accuracies_per_action.csv"
             accs_df = pd.read_csv(results_peraction_path, index_col = 0)
         # oracle
-        for i in  tqdm(range(len(self.videos)), desc = "Scoring videos"):
+        for i in tqdm(range(len(self.videos)), desc = "Scoring videos"):
             # print("Video %d/%d\r" %(i+1, len(self.videos)), end="")
             # sys.stdout.flush()
 
             # Load object/scene scores.
-            vidfile = self.videos[i].split("/")[-1][:-4]
+            # vidfile = self.videos[i].split("/")[-1][:-4]
+            vidfile = self.videos[i]
             objavgfeat = np.load(self.objfeatdir + vidfile + self.ext)
             sceavgfeat = np.load(self.scefeatdir + vidfile + self.ext)
 
@@ -383,11 +384,11 @@ class ZeroShotActionClassifier(object):
 #
 def parse_args():
     parser = argparse.ArgumentParser(description="Zero-shot actions from objects and scenes")
-    parser.add_argument("-c", dest="configfile", help="Configuration file", default="ucf-101-ft.config", type=str)
+    parser.add_argument("-c", dest="configfile", help="Configuration file", default="ucf-101-fasttext.config", type=str)
     parser.add_argument("-t", dest="nr_test_actions", help="Number of test actions", default=50, type=int)
     parser.add_argument("--kobj", dest="topk_objects", help="Top k objects per action", default=100, type=int)
     parser.add_argument("--ksce", dest="topk_scenes", help="Top k scenes per action", default=5, type=int)
-    parser.add_argument("--kobjsce", dest="topk_objsce", help="Top k objects and scenes per action", default=100, type=int)
+    parser.add_argument("--kobjsce", dest="topk_objsce", help="Top k objects and scenes per action", default=250, type=int)
     parser.add_argument("--xdiscr", dest="xdiscr", help="x-based (object/scene) discrimination, should be either 1 or 0", default=0, type=int)
     parser.add_argument("--adiscr", dest="adiscr", help="action-based discrimination, should be either 1 or 0", default=0, type=int)
     parser.add_argument("-s", dest="seed", help="Random seed", default=100, type=int)
@@ -460,7 +461,7 @@ if __name__ == "__main__":
     df.to_csv(results_path)
 
     # Print confusion matrix
-    if args.nr_test_actions==101:
+    if (args.nr_test_actions==101 or args.nr_test_actions==400):
         root_name = f"{args.configfile}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports
