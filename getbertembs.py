@@ -1,18 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
 
+import os
 
-get_ipython().system('pip install -U sentence-transformers')
+os.system('pip install -U sentence-transformers')
 
-
-# In[1]:
 
 
 from scipy.spatial.distance import cdist
 from sentence_transformers import SentenceTransformer
-import os
 import numpy as np
 
 

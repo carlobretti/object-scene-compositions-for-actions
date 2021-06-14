@@ -7,5 +7,3 @@ wget -r -np -nH --cut-dirs=5 -P data/kinetics/objectscores/ -R "index.html*" htt
 cd auxiliaryscripts
 bash renameavgfiles.sh
 cd ..
-python getfasttextembs.py
-python getbertembs.py

@@ -3,18 +3,14 @@
 
 
 
-
-get_ipython().system('pip install fasttext')
-
+import os
+os.system('pip install fasttext')
 
 import fasttext.util
 import fasttext
 import numpy as np
 from numpy import linalg as LA
-import os
 from scipy.spatial.distance import cdist
-
-
 
 
 langs = {"en":"English"}
