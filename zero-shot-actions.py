@@ -90,22 +90,7 @@ def video_action_score_paired(obj_scores, sce_scores, action_x_scores, top_objsc
 
     osidxs = np.array([list(divmod(top_objscepair, n_s)) for top_objscepair in top_objscepairs])
     pairs_scores = np.multiply(obj_scores[osidxs[:,0]], sce_scores[osidxs[:,1]])
-    # pairs_scores = np.add(obj_scores[oidxs], sce_scores[sidxs])
-
-    # # "semantic similarity" prior for pairs I guess?
-    # o2spairs_sim = np.take(o2s, top_objscepairs)
-    # pairs_scores = np.multiply(o2spairs_sim,pairs_scores)
-
-
     return np.dot(pairs_scores, action_x_scores[top_objscepairs])
-
-#
-# # attempt at normalizing?
-# # divide by sum of probability of the topk most related xs?
-# # # divide by sum of probability of the topk most prominent xs (so for each video the most probable objects?)?
-# def video_action_score_normalized(x_scores, action_x_scores, top_x):
-#     return np.dot(x_scores[top_x]/np.sum(x_scores[top_x]), action_x_scores[top_x])
-# # # attempt
 
 #
 # Zero-shot action classification class.
@@ -153,11 +138,6 @@ class ZeroShotActionClassifier(object):
             if mode == "os" and aggregate == "paired":
                 a2ospairsftfile = parser.get('actions', f'a2ospairsft_{language}')
                 self.a2ospairs_ft[language] = np.load(a2ospairsftfile)
-                # # turn on if you wanna use semantic similarity between objects and scenes in a pair as a weight
-                # # possibly add as a flag
-                # o2sftfile = parser.get('actions', f'o2sft_{language}')
-                # self.o2s_ft[language] = np.load(o2sftfile)
-
                 ospairsftfile = parser.get('actions', f'ospairsft_{language}')
                 self.ospairs_ft[language] = np.load(ospairsftfile)
             if xdiscr > 0:
@@ -169,7 +149,7 @@ class ZeroShotActionClassifier(object):
     #
     # Predict the class of each test action.
     #
-    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, xdiscr, adiscr, aggregate, mode, lam, languages):
+    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, xdiscr, adiscr, aggregate, mode, lam, languages, store_preds):
         # Set seed and randomly select test actions.
         np.random.seed(seed)
         aa = np.arange(len(self.actions))
@@ -233,12 +213,7 @@ class ZeroShotActionClassifier(object):
 
                     top_x["top_objscepairs"].append(osidxs[ids])
 
-        ## TEMP
-        ## TRY TO CLEAR OUT SOME MEMORY FROM UNUSED VARIABLES
-        self.a2o_ft = {}
-        self.a2s_ft = {}
-        self.a2ospairs_ft = {}
-        ## TEMP
+
 
             # # Save top scoring objects and scenes for each action.
             # objects = [c.strip() for c in open("data/imagenet/wordlist-split-12988.txt")]
@@ -253,7 +228,6 @@ class ZeroShotActionClassifier(object):
 
             # all_records.append(record)
 
-        # os.system("mkdir -p results")
         # pd.DataFrame(all_records).sort_index(axis=1).to_csv(f"results/top_object_scene_action.csv")
 
         # Gather video predictions.
@@ -264,12 +238,10 @@ class ZeroShotActionClassifier(object):
             results_peraction_path = "results/accuracies_per_action.csv"
             accs_df = pd.read_csv(results_peraction_path, index_col = 0)
         # oracle
-        for i in tqdm(range(len(self.videos)), desc = "Scoring videos"):
-            # print("Video %d/%d\r" %(i+1, len(self.videos)), end="")
-            # sys.stdout.flush()
 
+        video_action_scores = []
+        for i in tqdm(range(len(self.videos)), desc = "Scoring videos"):
             # Load object/scene scores.
-            # vidfile = self.videos[i].split("/")[-1][:-4]
             vidfile = self.videos[i]
             objavgfeat = np.load(self.objfeatdir + vidfile + self.ext)
             sceavgfeat = np.load(self.scefeatdir + vidfile + self.ext)
@@ -305,9 +277,6 @@ class ZeroShotActionClassifier(object):
                         # without o2s passed
                         action_scores[j] = video_action_score_paired(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j])
 
-
-                    # # smart, semantically-aware average
-                    # raise NotImplementedError
                 elif mode == "or":
                     # oracle mode
                     # take a peek at the truth label of the video and pick whether to use the score from the object-only or scene-only based model
@@ -322,10 +291,14 @@ class ZeroShotActionClassifier(object):
                     except KeyError as e:
                         print(str(e))
                         raise KeyError("To use the oracle (mode or), you need to have first run both in mode s and mode o with the same kobj and ksce configuration")
-
+            if store_preds:
+                video_action_scores.append(action_scores)
             # Select highest scoring action.
             predictions[i] = np.argmax(action_scores)
-        # print()
+
+        if (store_preds and mode != "or"):
+            preds_path = f"{self.configfile}_{mode}_{aggregate}a_{topk_objects}kobj_{topk_scenes}ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_preds"
+            np.save(f"results/video_action_scores/{preds_path}", np.array(video_action_scores))
 
         # Map predictions to correct labels.
         predictions = test_actions[predictions]
@@ -374,7 +347,6 @@ class ZeroShotActionClassifier(object):
                 new_priors = self.a2ospairs_ft[languages[i]][actions[actionindex]]
             new_priors[np.isnan(new_priors)] = -10
             x_priors += new_priors
-        #x_priors /= len(languages)
         return x_priors
 
 
@@ -395,6 +367,7 @@ def parse_args():
     parser.add_argument("-a", dest="aggregate", help="Way of aggregating scores used in Objects and scenes (os) mode", default="NA", type=str)
     parser.add_argument("--lambda", dest="lam", help="Value for Lambda used to generate diverse top k. Must be between 0 and 1. If lambda is set to 1, no diversity is injected, otherwise, the lower lambda is, the more diverse the top k", default="1", type=float)
     parser.add_argument("-l", dest="language", help="Used language", default="English", type=str)
+    parser.add_argument("--store_preds", dest="store_preds", help="Whether to save video action scores or not, can be yes (1) or no (0)", default=0, type=int)
     args = parser.parse_args()
     return args
 
@@ -431,7 +404,8 @@ if __name__ == "__main__":
                             aggregate = args.aggregate,
                             mode = args.mode,
                             lam = args.lam,
-                            languages = args.language)
+                            languages = args.language,
+                            store_preds = args.store_preds)
 
     # Print the results.
     acc = np.mean(ty == tp)
@@ -460,7 +434,7 @@ if __name__ == "__main__":
     df.to_csv(results_path)
 
     # Print confusion matrix
-    if (args.nr_test_actions==101 or args.nr_test_actions==400):
+    if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10):
         root_name = f"{args.configfile}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports

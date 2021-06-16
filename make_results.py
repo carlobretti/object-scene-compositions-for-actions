@@ -15,6 +15,7 @@ lambdas = [0.75, 1]
 languages = ["English"]
 xdiscrs = [0]
 adiscrs = [0]
+store_predss = [0]
 
 def grid(   configfiles,
             nr_test_actions,
@@ -27,45 +28,47 @@ def grid(   configfiles,
             lambdas,
             languages,
             xdiscrs,
-            adiscrs):
+            adiscrs,
+            store_predss):
     for c in tqdm(configfiles, desc = "configfiles"):
         for t in tqdm(nr_test_actions, desc = "nr_test_actions"):
             for s in tqdm(seeds, desc = "seeds"):
-                for l in languages:
-                    for xdiscr in xdiscrs:
-                        for adiscr in adiscrs:
-                            for m in tqdm(modes, desc = "modes"):
-                                if m == "o":
-                                    for kobj in topk_objects:
-                                        os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --kobj {kobj} --xdiscr {xdiscr} --adiscr {adiscr}")
-                                elif m == "s":
-                                    for ksce in topk_scenes:
-                                        os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr}")
-                                elif m == "os":
-                                    for aggregate in aggregates:
-                                        if aggregate in ['simple', 'normalized', 'weighted']:
-                                            for kobj in topk_objects:
-                                                for ksce in topk_scenes:
-                                                    os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr}")
-                                        elif aggregate in ["combined", "paired"]:
-                                            for kobjsce in topk_objsce:
-                                                if aggregate == "paired":
-                                                    if xdiscr == 1:
-                                                        break
-                                                    for lam in lambdas:
-                                                        os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobjsce {kobjsce} --xdiscr {xdiscr} --adiscr {adiscr} --lambda {lam}")
-                                                else:
-                                                    os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobjsce {kobjsce} --xdiscr {xdiscr} --adiscr {adiscr}")
-                                elif m == "or":
-                                    for kobj in topk_objects:
+                for store_preds in store_predss:
+                    for l in languages:
+                        for xdiscr in xdiscrs:
+                            for adiscr in adiscrs:
+                                for m in tqdm(modes, desc = "modes"):
+                                    if m == "o":
+                                        for kobj in topk_objects:
+                                            os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --kobj {kobj} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
+                                    elif m == "s":
                                         for ksce in topk_scenes:
-                                            os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr}")
+                                            os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
+                                    elif m == "os":
+                                        for aggregate in aggregates:
+                                            if aggregate in ['simple', 'normalized', 'weighted']:
+                                                for kobj in topk_objects:
+                                                    for ksce in topk_scenes:
+                                                        os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
+                                            elif aggregate in ["combined", "paired"]:
+                                                for kobjsce in topk_objsce:
+                                                    if aggregate == "paired":
+                                                        if xdiscr == 1:
+                                                            break
+                                                        for lam in lambdas:
+                                                            os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobjsce {kobjsce} --xdiscr {xdiscr} --adiscr {adiscr} --lambda {lam} --store_preds {store_preds}")
+                                                    else:
+                                                        os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobjsce {kobjsce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
+                                    elif m == "or":
+                                        for kobj in topk_objects:
+                                            for ksce in topk_scenes:
+                                                os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
 
-                if t == 101 or t == 400: # we don't need to iterate over seeds when we're selecting all the actions
+                if t == 10 or t == 101 or t == 400: # we don't need to iterate over seeds when we're selecting all the actions
                     break
 
-# make results for UCF-101
-grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs)
+# # make results for UCF-101
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
 configfiles = ["kinetics-sbert.config", "kinetics-fasttext.config"]
 nr_test_actions = [400,25,100]
@@ -73,5 +76,13 @@ topk_objects = [100]
 topk_scenes = [5]
 topk_objsce = [250]
 
-# make results for kinetics
-grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs)
+# # make results for kinetics
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+
+# # make results for ucf-sports
+configfiles = ["ucf-sports-sbert.config", "ucf-sports-fasttext.config"]
+modes = ["o", "s", "os"]
+topk_objsce = [10,50,100,250,500]
+nr_test_actions = [10]
+store_predss=[1]
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)

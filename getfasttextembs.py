@@ -34,8 +34,9 @@ def custom_get_sentence_vector(ft, text):
     avged = np.mean([vec/norm if norm>0 else vec for vec, norm in zip(vecs,norms)], axis = 0)
     return avged
 
-# generate and store embeddings for all labels for the three datasets
-for dataset in ["imagenet", "places-365", "ucf-101", "kinetics"]:
+# generate and store embeddings for all labels for the five datasets
+# for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports"]:
+for dataset in ["ucf-sports"]:
     ds_folder = f"data/{dataset}/"
     ds_wd_folder = ds_folder+"words/"
     ds_ft_folder = ds_folder+"fasttext/"
@@ -56,18 +57,18 @@ for dataset in ["imagenet", "places-365", "ucf-101", "kinetics"]:
 
 
 # generate and store embeddings for object-scene label pairs for the three datasets
-for lang_short, lang in langs.items():
-
-    imagenet_vecs = np.load(f"data/imagenet/fasttext/fasttext-imagenet12988-{lang}.npy")
-    places_vecs = np.load(f"data/places-365/fasttext/fasttext-places365-{lang}.npy")
-
-    ds_ft_folder = "data/imagenet_places/fasttext/"
-    os.system(f"mkdir -p {ds_ft_folder}")
-
-    # averaging the embedding for object and for scene without dividing by norm
-    embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
-
-    np.save(ds_ft_folder+f"fasttext-imagenet12988places365pairs-{lang}.npy", embeddings)
+# for lang_short, lang in langs.items():
+#
+#     imagenet_vecs = np.load(f"data/imagenet/fasttext/fasttext-imagenet12988-{lang}.npy")
+#     places_vecs = np.load(f"data/places-365/fasttext/fasttext-places365-{lang}.npy")
+#
+#     ds_ft_folder = "data/imagenet_places/fasttext/"
+#     os.system(f"mkdir -p {ds_ft_folder}")
+#
+#     # averaging the embedding for object and for scene without dividing by norm
+#     embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
+#
+#     np.save(ds_ft_folder+f"fasttext-imagenet12988places365pairs-{lang}.npy", embeddings)
 
 
 #
@@ -77,7 +78,17 @@ def wtv_mapping(wtv1, wtv2):
     wtvmap = cdist(wtv1, wtv2, metric = "cosine")
     return 1 - wtvmap
 
-for ds1, ds2 in [("imagenet", "places-365"), ("ucf-101", "places-365"), ("ucf-101", "imagenet"), ("kinetics", "places-365"), ("kinetics", "imagenet"), ("imagenet", "imagenet"), ("places-365", "places-365")]:
+# for ds1, ds2 in [("imagenet", "places-365"),
+#                  ("ucf-101", "places-365"),
+#                  ("ucf-101", "imagenet"),
+#                  ("kinetics", "places-365"),
+#                  ("kinetics", "imagenet"),
+#                  ("ucf-sports", "places-365"),
+#                  ("ucf-sports", "imagenet"),
+#                  ("imagenet", "imagenet"),
+#                  ("places-365", "places-365")]:
+for ds1, ds2 in [("ucf-sports", "places-365"),
+                 ("ucf-sports", "imagenet")]:
     ds1_ft_folder = f"data/{ds1}/fasttext/"
     ds2_ft_folder = f"data/{ds2}/fasttext/"
 
@@ -90,16 +101,17 @@ for ds1, ds2 in [("imagenet", "places-365"), ("ucf-101", "places-365"), ("ucf-10
 
         emb2emb = wtv_mapping(ds1_emb, ds2_emb)
 
-        corr = {"imagenet12988":"o", "places365":"s", "ucf101":"a", "kinetics":"a"}
+        corr = {"imagenet12988":"o", "places365":"s", "ucf101":"a", "kinetics":"a", "ucfsports":"a"}
 
         np.save(ds1_ft_folder+f"{corr[ds1]}2{corr[ds2]}_ft_{ds2}_{lang}.npy", emb2emb)
 
 
 
 # computing pairwise similarity for object-scene pairs and actions
-for dataset in ["kinetics", "ucf-101"]:
+# for dataset in ["kinetics", "ucf-101", "ucf-sports"]:
+for dataset in ["ucf-sports"]:
     for lang_short, lang in langs.items():
-        a = "ucf101" if dataset == "ucf-101" else dataset
+        a = dataset.replace("-", "") if (dataset == "ucf-101" or dataset == "ucf-sports") else dataset
         ds1_emb = np.load(f"data/{dataset}/fasttext/fasttext-{a}-{lang}.npy")
         ds2_emb = np.load(f"data/imagenet_places/fasttext/fasttext-imagenet12988places365pairs-{lang}.npy")
 
