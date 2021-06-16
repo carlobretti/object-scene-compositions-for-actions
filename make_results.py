@@ -67,7 +67,7 @@ def grid(   configfiles,
 # make results for UCF-101
 grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs)
 
-configfiles = ["kinetics-fasttext.config", "kinetics-sbert.config"]
+configfiles = ["kinetics-sbert.config", "kinetics-fasttext.config"]
 nr_test_actions = [400,25,100]
 topk_objects = [100]
 topk_scenes = [5]

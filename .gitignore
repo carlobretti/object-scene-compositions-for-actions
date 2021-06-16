@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 *.bin
+*.bin.gz
 data/ucf-101/videos
 data/kinetics/objectscores
 data/kinetics/scenescores

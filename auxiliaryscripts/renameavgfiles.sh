@@ -16,7 +16,7 @@ for folder in "$path"/*; do
     subfoldername=${subfolder##*/}
 
     # rename path/folder/subfoldername to path/folder/folder_filename
-    mv "$path"/"$foldername"/"$subfoldername"/avg-features.npy "$path"/"$foldername"/"$subfoldername"/avg.npy
+    mv "$path"/"$foldername"/"$subfoldername"/avg.npy "$path"/"$foldername"/"$subfoldername"/avg-features.npy
 
   done
 
