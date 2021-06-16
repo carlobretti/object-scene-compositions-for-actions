@@ -18,7 +18,6 @@ from   sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifi
 from   collections import defaultdict
 from   math import prod
 from tqdm import tqdm
-
 ### FROM https://github.com/cgnorthcutt/forum-diversification/blob/master/mmr_experiment/mmr.py arXiv:2002.12457v1
 ### implementation of https://doi.org/10.1145/290941.291025
 def mmr(pairwise_matrix, w, K, lam):
