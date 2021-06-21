@@ -64,25 +64,37 @@ def grid(   configfiles,
                                             for ksce in topk_scenes:
                                                 os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
 
-                if t == 10 or t == 101 or t == 400: # we don't need to iterate over seeds when we're selecting all the actions
+                if t == 10 or t==21 or t == 101 or t == 400: # we don't need to iterate over seeds when we're selecting all the actions
                     break
 
 # # make results for UCF-101
-grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
-configfiles = ["kinetics-sbert.config", "kinetics-fasttext.config"]
-nr_test_actions = [400,25,100]
-topk_objects = [100]
-topk_scenes = [5]
-topk_objsce = [250]
 
-# # make results for kinetics
-grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+# # # make results for kinetics
+# configfiles = ["kinetics-sbert.config", "kinetics-fasttext.config"]
+# nr_test_actions = [400,25,100]
+# topk_objects = [100]
+# topk_scenes = [5]
+# topk_objsce = [250]
+# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
-# # make results for ucf-sports
-configfiles = ["ucf-sports-sbert.config", "ucf-sports-fasttext.config"]
+
+
+
+# # # make results for ucf-sports
+# configfiles = ["ucf-sports-sbert.config", "ucf-sports-fasttext.config"]
+# modes = ["o", "s", "os"]
+# topk_objsce = [10,50,100,250,500]
+# nr_test_actions = [10]
+# store_predss=[1]
+# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+
+
+# # # make results for j-hmdb
+configfiles = ["j-hmdb-sbert.config", "j-hmdb-fasttext.config"]
 modes = ["o", "s", "os"]
 topk_objsce = [10,50,100,250,500]
-nr_test_actions = [10]
+nr_test_actions = [21]
 store_predss=[1]
 grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)

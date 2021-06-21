@@ -214,22 +214,6 @@ class ZeroShotActionClassifier(object):
                     top_x["top_objscepairs"].append(osidxs[ids])
 
 
-
-            # # Save top scoring objects and scenes for each action.
-            # objects = [c.strip() for c in open("data/imagenet/wordlist-split-12988.txt")]
-            # scenes = [c.strip() for c in open("data/places-365/words/places365-words-English.txt")]
-            # allsidxs = np.argsort(a2ss)[::-1]
-            # alloidxs = np.argsort(a2os)[::-1]
-            # record = {}
-            # record["action_name"] = self.actions[test_actions[i]]
-            # for j in range(5):
-            #     record[f"top_scene_{j}"] = scenes[allsidxs[j]]
-            #     record[f"top_object_{j}"] = wn.synset_from_pos_and_offset('n',int(wnids[alloidxs[j]][1:])).lemma_names()[0]
-
-            # all_records.append(record)
-
-        # pd.DataFrame(all_records).sort_index(axis=1).to_csv(f"results/top_object_scene_action.csv")
-
         # Gather video predictions.
         predictions = np.zeros(len(self.videos), dtype=int)
 
@@ -434,7 +418,7 @@ if __name__ == "__main__":
     df.to_csv(results_path)
 
     # Print confusion matrix
-    if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10):
+    if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10 or args.nr_test_actions==21):
         root_name = f"{args.configfile}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports

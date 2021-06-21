@@ -35,8 +35,8 @@ def custom_get_sentence_vector(ft, text):
     return avged
 
 # generate and store embeddings for all labels for the five datasets
-# for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports"]:
-for dataset in ["ucf-sports"]:
+# for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports", "j-hmdb"]:
+for dataset in ["j-hmdb"]:
     ds_folder = f"data/{dataset}/"
     ds_wd_folder = ds_folder+"words/"
     ds_ft_folder = ds_folder+"fasttext/"
@@ -85,10 +85,12 @@ def wtv_mapping(wtv1, wtv2):
 #                  ("kinetics", "imagenet"),
 #                  ("ucf-sports", "places-365"),
 #                  ("ucf-sports", "imagenet"),
+#                  ("j-hmdb", "places-365"),
+#                  ("j-hmdb", "imagenet"),
 #                  ("imagenet", "imagenet"),
 #                  ("places-365", "places-365")]:
-for ds1, ds2 in [("ucf-sports", "places-365"),
-                 ("ucf-sports", "imagenet")]:
+for ds1, ds2 in [("j-hmdb", "places-365"),
+                 ("j-hmdb", "imagenet")]:
     ds1_ft_folder = f"data/{ds1}/fasttext/"
     ds2_ft_folder = f"data/{ds2}/fasttext/"
 
@@ -101,17 +103,17 @@ for ds1, ds2 in [("ucf-sports", "places-365"),
 
         emb2emb = wtv_mapping(ds1_emb, ds2_emb)
 
-        corr = {"imagenet12988":"o", "places365":"s", "ucf101":"a", "kinetics":"a", "ucfsports":"a"}
+        corr = {"imagenet12988":"o", "places365":"s", "ucf101":"a", "kinetics":"a", "ucfsports":"a", "jhmdb":"a"}
 
         np.save(ds1_ft_folder+f"{corr[ds1]}2{corr[ds2]}_ft_{ds2}_{lang}.npy", emb2emb)
 
 
 
 # computing pairwise similarity for object-scene pairs and actions
-# for dataset in ["kinetics", "ucf-101", "ucf-sports"]:
-for dataset in ["ucf-sports"]:
+# for dataset in ["kinetics", "ucf-101", "ucf-sports", "j-hmdb"]:
+for dataset in ["j-hmdb"]:
     for lang_short, lang in langs.items():
-        a = dataset.replace("-", "") if (dataset == "ucf-101" or dataset == "ucf-sports") else dataset
+        a = dataset.replace("-", "") if (dataset == "ucf-101" or dataset == "ucf-sports" or dataset == "j-hmdb") else dataset
         ds1_emb = np.load(f"data/{dataset}/fasttext/fasttext-{a}-{lang}.npy")
         ds2_emb = np.load(f"data/imagenet_places/fasttext/fasttext-imagenet12988places365pairs-{lang}.npy")
 

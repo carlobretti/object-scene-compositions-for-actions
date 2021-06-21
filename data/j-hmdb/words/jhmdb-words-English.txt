@@ -1,0 +1,21 @@
+brush hair
+catch
+clap
+climb stairs
+golf
+jump
+kick ball
+pick
+pour
+pull up
+push
+run
+shoot ball
+shoot bow
+shoot gun
+sit
+stand
+swing baseball
+throw
+walk
+wave
