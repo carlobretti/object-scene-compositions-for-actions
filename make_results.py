@@ -1,7 +1,8 @@
 import os
 from tqdm import tqdm
 
-configfiles = ["ucf-101-fasttext.config", "ucf-101-sbert.config"]
+configfiles = ["config/ucf-101-fasttext.config", "config/ucf-101-sbert.config"]
+
 nr_test_actions = [101,20,50]
 seeds = [1,2,3,4,5,6,7,8,9,10]
 
@@ -72,7 +73,7 @@ def grid(   configfiles,
 
 
 # # # make results for kinetics
-# configfiles = ["kinetics-sbert.config", "kinetics-fasttext.config"]
+# configfiles = ["config/kinetics-sbert.config", "config/kinetics-fasttext.config"]
 # nr_test_actions = [400,25,100]
 # topk_objects = [100]
 # topk_scenes = [5]
@@ -83,7 +84,7 @@ def grid(   configfiles,
 
 
 # # # make results for ucf-sports
-# configfiles = ["ucf-sports-sbert.config", "ucf-sports-fasttext.config"]
+# configfiles = ["config/ucf-sports-sbert.config", "config/ucf-sports-fasttext.config"]
 # modes = ["o", "s", "os"]
 # topk_objsce = [10,50,100,250,500]
 # nr_test_actions = [10]
@@ -92,7 +93,7 @@ def grid(   configfiles,
 
 
 # # # make results for j-hmdb
-configfiles = ["j-hmdb-sbert.config", "j-hmdb-fasttext.config"]
+configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
 modes = ["o", "s", "os"]
 topk_objsce = [10,50,100,250,500]
 nr_test_actions = [21]

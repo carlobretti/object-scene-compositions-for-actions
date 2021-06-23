@@ -25,8 +25,8 @@ langs = {"en":"English"}
 
 # generate and store embeddings for all labels for the three datasets
 
-# for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports","j-hmdb"]:
-for dataset in ["j-hmdb"]:
+for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports","j-hmdb"]:
+# for dataset in ["ucf-101"]:
     ds_folder = f"data/{dataset}/"
     ds_wd_folder = ds_folder+"words/"
     ds_sbert_folder = ds_folder+"sbert/"
@@ -71,19 +71,17 @@ def wtv_mapping(wtv1, wtv2):
     return 1 - wtvmap
 
 
-# for ds1, ds2 in [("imagenet", "places-365"),
-#                  ("ucf-101", "places-365"),
-#                  ("ucf-101", "imagenet"),
-#                  ("kinetics", "places-365"),
-#                  ("kinetics", "imagenet"),
-#                  ("ucf-sports", "places-365"),
-#                  ("ucf-sports", "imagenet"),
-#                  ("j-hmdb", "places-365"),
-#                  ("j-hmdb", "imagenet"),
-#                  ("imagenet", "imagenet"),
-#                  ("places-365", "places-365")]:
-for ds1, ds2 in [("j-hmdb", "places-365"),
-                 ("j-hmdb", "imagenet")]:
+for ds1, ds2 in [("imagenet", "places-365"),
+                 ("ucf-101", "places-365"),
+                 ("ucf-101", "imagenet"),
+                 ("kinetics", "places-365"),
+                 ("kinetics", "imagenet"),
+                 ("ucf-sports", "places-365"),
+                 ("ucf-sports", "imagenet"),
+                 ("j-hmdb", "places-365"),
+                 ("j-hmdb", "imagenet"),
+                 ("imagenet", "imagenet"),
+                 ("places-365", "places-365")]:
     ds1_sbert_folder = f"data/{ds1}/sbert/"
     ds2_sbert_folder = f"data/{ds2}/sbert/"
 
@@ -102,8 +100,7 @@ for ds1, ds2 in [("j-hmdb", "places-365"),
 
 
 # computing pairwise similarity for object-scene pairs and actions
-# for dataset in ["kinetics", "ucf-101", "ucf-sports", "j-hmdb"]:
-for dataset in ["j-hmdb"]:
+for dataset in ["kinetics", "ucf-101", "ucf-sports", "j-hmdb"]:
     for lang_short, lang in langs.items():
         a = dataset.replace("-", "") if (dataset == "ucf-101" or dataset == "ucf-sports" or dataset == "j-hmdb") else dataset
         ds1_emb = np.load(f"data/{dataset}/sbert/sbert-{a}-{lang}.npy")

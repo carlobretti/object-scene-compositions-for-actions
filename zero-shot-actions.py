@@ -339,7 +339,7 @@ class ZeroShotActionClassifier(object):
 #
 def parse_args():
     parser = argparse.ArgumentParser(description="Zero-shot actions from objects and scenes")
-    parser.add_argument("-c", dest="configfile", help="Configuration file", default="ucf-101-fasttext.config", type=str)
+    parser.add_argument("-c", dest="configfile", help="Configuration file", default="config/ucf-101-fasttext.config", type=str)
     parser.add_argument("-t", dest="nr_test_actions", help="Number of test actions", default=50, type=int)
     parser.add_argument("--kobj", dest="topk_objects", help="Top k objects per action", default=100, type=int)
     parser.add_argument("--ksce", dest="topk_scenes", help="Top k scenes per action", default=5, type=int)
