@@ -3,7 +3,8 @@ from tqdm import tqdm
 
 configfiles = ["config/ucf-101-fasttext.config", "config/ucf-101-sbert.config"]
 
-nr_test_actions = [101,20,50]
+nr_test_actions = [101,25,50]
+
 seeds = [1,2,3,4,5,6,7,8,9,10]
 
 modes = ["o", "s", "os", "or"]
@@ -17,6 +18,11 @@ languages = ["English"]
 xdiscrs = [0]
 adiscrs = [0]
 store_predss = [0]
+
+nr_test_actions = [25]
+topk_objects = [100]
+topk_scenes = [5]
+topk_objsce = [250]
 
 def grid(   configfiles,
             nr_test_actions,
@@ -69,7 +75,7 @@ def grid(   configfiles,
                     break
 
 # # make results for UCF-101
-# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
 
 # # # make results for kinetics
@@ -93,9 +99,9 @@ def grid(   configfiles,
 
 
 # # # make results for j-hmdb
-configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
-modes = ["o", "s", "os"]
-topk_objsce = [10,50,100,250,500]
-nr_test_actions = [21]
-store_predss=[1]
-grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+# configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
+# modes = ["o", "s", "os"]
+# topk_objsce = [10,50,100,250,500]
+# nr_test_actions = [21]
+# store_predss=[1]
+# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)

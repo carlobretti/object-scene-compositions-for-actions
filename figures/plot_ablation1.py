@@ -4,10 +4,10 @@ import numpy as np
 
 nractions = [25,50,101]
 
-objectsonly = np.array([[50.8,40.9,33.5],[7.2,2.9,0.0]])
-scenesonly  = np.array([[31.9,22.6,16.4],[8.4,3.6,0.0]])
-fusion      = np.array([[47.9,36.8,29.1],[6.5,3.0,0.0]])
-composition = np.array([[54.3,45.5,38.5],[6.4,3.3,0.0]])
+objectsonly = np.array([[47.1,40.9,33.5],[7.1,2.9,0.0]])
+scenesonly  = np.array([[29.3,22.6,16.4],[5.6,3.6,0.0]])
+fusion      = np.array([[44.6,36.8,29.1],[6.0,3.0,0.0]])
+composition = np.array([[52.5,45.5,38.5],[5.7,3.3,0.0]])
 
 colors = ["#606060", "#A0A0A0", "#D0D0D0", "#FF9933"]
 
