@@ -81,9 +81,8 @@ def video_action_score(x_scores, action_x_scores, top_x):
 #
 # Obtain action score for scenes and objects pairs
 # here we have to assume that the pairs were computed by taking the first object and combining it with all scenes, then the second object, and combining it with all the scene
-# i.e. the objscepairs were created with [objlabel+" "+scelabel for objlabel in objlabels for scelabel in scelabels] as in Fasttext for all labels.ipynb
+# i.e. the objscepairs were created with [objlabel+" "+scelabel for objlabel in objlabels for scelabel in scelabels] as in getfasttextembs.py and getsbertembs.py
 #
-# def video_action_score_paired(obj_scores, sce_scores, action_x_scores, top_objscepairs, o2s):
 def video_action_score_paired(obj_scores, sce_scores, action_x_scores, top_objscepairs):
     n_s = len(sce_scores)
 
@@ -106,7 +105,7 @@ class ZeroShotActionClassifier(object):
         parser.read(configfile)
 
         # Directories and videos.
-        self.configfile = configfile
+        self.configfile = configfile.split("/")[1]
         self.objfeatdir = parser.get('actions', 'objectscores')
         self.scefeatdir = parser.get('actions', 'scenescores')
         self.videos  = parser.get('actions', 'videofile')
@@ -169,10 +168,7 @@ class ZeroShotActionClassifier(object):
         a2xscores = defaultdict(list)
         top_x = defaultdict(list)
 
-
         dweights = [adiscr, xdiscr]
-
-
 
         for i in tqdm(range(len(test_actions)), desc = "computing topks for actions"):
             if mode in ["o", "os", "or"] and aggregate != "paired":
@@ -280,6 +276,7 @@ class ZeroShotActionClassifier(object):
             # Select highest scoring action.
             predictions[i] = np.argmax(action_scores)
 
+        # store per video action predictions
         if (store_preds and mode != "or"):
             preds_path = f"{self.configfile}_{mode}_{aggregate}a_{topk_objects}kobj_{topk_scenes}ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_preds"
             np.save(f"results/video_action_scores/{preds_path}", np.array(video_action_scores))
@@ -395,7 +392,7 @@ if __name__ == "__main__":
     acc = np.mean(ty == tp)
 
     results = { "datetime": datetime.now().isoformat(' ', 'seconds'),
-                "configfile":args.configfile,
+                "configfile":args.configfile.split("/")[1],
                 "mode":args.mode,
                 "a": args.aggregate,
                 "t":args.nr_test_actions,
@@ -407,8 +404,10 @@ if __name__ == "__main__":
                 "lam": args.lam,
                 "s":args.seed,
                 "l":args.language,
-                "acc":acc}
-    print(f"Setting: [configfile:{args.configfile}, mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, lambda:{args.lam}, s:{args.seed}, l:{args.language}]: \tacc: {acc:.4f}")
+                "acc":acc
+                }
+
+    print(f"Setting: [configfile:{args.configfile.split('/')[1]}, mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, lambda:{args.lam}, s:{args.seed}, l:{args.language}]: \tacc: {acc:.4f}")
 
     os.makedirs("results/confusion_matrix", exist_ok = True)
     os.makedirs("results/classification_report", exist_ok = True)
@@ -419,7 +418,7 @@ if __name__ == "__main__":
 
     # Print confusion matrix
     if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10 or args.nr_test_actions==21):
-        root_name = f"{args.configfile}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
+        root_name = f"{args.configfile.split('/')[1]}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports
         plt.rcParams["figure.figsize"] = (70,70)
