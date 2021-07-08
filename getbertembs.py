@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
 import os
 os.system('pip install -U sentence-transformers')
 
@@ -16,17 +12,16 @@ import numpy as np
 model_name = "paraphrase-MiniLM-L6-v2" # best model in terms of tradeoff speed performance
 
 # model_name = "distiluse-base-multilingual-cased-v1" # model to be used for multilingual
+# langs = {"en":"English", "af":"Afrikaans", "nl":"Dutch", "fr":"French", "pt":"Portuguese"}
+
 model = SentenceTransformer(model_name)
 
 langs = {"en":"English"}
 
-# langs = {"en":"English", "af":"Afrikaans", "nl":"Dutch", "fr":"French", "pt":"Portuguese"}
 
-
-# generate and store embeddings for all labels for the three datasets
+# generate and store embeddings for all labels for all the datasets
 
 for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports","j-hmdb"]:
-# for dataset in ["ucf-101"]:
     ds_folder = f"data/{dataset}/"
     ds_wd_folder = ds_folder+"words/"
     ds_sbert_folder = ds_folder+"sbert/"
@@ -46,21 +41,21 @@ for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports","j
 
 
 
-# generate and store embeddings for object-scene label pairs for the three datasets
+# generate and store embeddings for object-scene label pairs
 
-# for lang_short, lang in langs.items():
-#
-#     imagenet_vecs = np.load(f"data/imagenet/sbert/sbert-imagenet12988-{lang}.npy")
-#     places_vecs = np.load(f"data/places-365/sbert/sbert-places365-{lang}.npy")
-#
-#     ds_sbert_folder = "data/imagenet_places/sbert/"
-#     os.system(f"mkdir -p {ds_sbert_folder}")
-#
-#     # averaging the embedding for object and for scene without dividing by norm
-#     embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
-#
-#     np.save(ds_sbert_folder+f"sbert-imagenet12988places365pairs-{lang}.npy", embeddings)
-#
+for lang_short, lang in langs.items():
+
+    imagenet_vecs = np.load(f"data/imagenet/sbert/sbert-imagenet12988-{lang}.npy")
+    places_vecs = np.load(f"data/places-365/sbert/sbert-places365-{lang}.npy")
+
+    ds_sbert_folder = "data/imagenet_places/sbert/"
+    os.system(f"mkdir -p {ds_sbert_folder}")
+
+    # averaging the embedding for object and for scene without dividing by norm
+    embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
+
+    np.save(ds_sbert_folder+f"sbert-imagenet12988places365pairs-{lang}.npy", embeddings)
+
 
 
 #

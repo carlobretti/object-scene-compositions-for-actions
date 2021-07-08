@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
-
 import os
 os.system('pip install fasttext')
 
@@ -55,19 +50,19 @@ for dataset in ["imagenet", "places-365", "ucf-101", "kinetics", "ucf-sports", "
         np.save(ds_ft_folder+f"fasttext-{dataset}-{lang}.npy", embeddings)
 
 
-# generate and store embeddings for object-scene label pairs for the three datasets
-# for lang_short, lang in langs.items():
-#
-#     imagenet_vecs = np.load(f"data/imagenet/fasttext/fasttext-imagenet12988-{lang}.npy")
-#     places_vecs = np.load(f"data/places-365/fasttext/fasttext-places365-{lang}.npy")
-#
-#     ds_ft_folder = "data/imagenet_places/fasttext/"
-#     os.system(f"mkdir -p {ds_ft_folder}")
-#
-#     # averaging the embedding for object and for scene without dividing by norm
-#     embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
-#
-#     np.save(ds_ft_folder+f"fasttext-imagenet12988places365pairs-{lang}.npy", embeddings)
+# generate and store embeddings for object-scene label pairs
+for lang_short, lang in langs.items():
+
+    imagenet_vecs = np.load(f"data/imagenet/fasttext/fasttext-imagenet12988-{lang}.npy")
+    places_vecs = np.load(f"data/places-365/fasttext/fasttext-places365-{lang}.npy")
+
+    ds_ft_folder = "data/imagenet_places/fasttext/"
+    os.system(f"mkdir -p {ds_ft_folder}")
+
+    # averaging the embedding for object and for scene without dividing by norm
+    embeddings = np.array([np.mean([places_vec, imagenet_vec], axis = 0) for imagenet_vec in imagenet_vecs for places_vec in places_vecs])
+
+    np.save(ds_ft_folder+f"fasttext-imagenet12988places365pairs-{lang}.npy", embeddings)
 
 
 #
