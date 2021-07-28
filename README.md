@@ -2,7 +2,7 @@
 
 This repository contains the source code for the use of object-scene compositions for zero-shot action recognition.
 
-![Overview figure](figures/figure1-compressed.pdf)
+![Overview figure](figures/figure1-compressed.jpg)
 
 This repository includes:
 * object and scene predictions for UCF-101, UCF-Sports, J-HMDB
