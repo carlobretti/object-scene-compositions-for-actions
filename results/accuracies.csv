@@ -1,5 +1,0 @@
-,datetime,configfile,mode,a,t,kobj,ksce,kobjsce,xdiscr,adiscr,lam,s,l,acc
-0,2021-07-29 22:18:23,ucf-101-fasttext.config,o,compositions,101,10,5,250,0,0,0.75,1,English,0.341966966966967
-1,2021-07-29 22:18:45,ucf-101-fasttext.config,o,compositions,101,50,5,250,0,0,0.75,1,English,0.3458708708708709
-2,2021-07-29 22:19:08,ucf-101-fasttext.config,o,compositions,101,100,5,250,0,0,0.75,1,English,0.33506006006006
-3,2021-07-29 22:19:30,ucf-101-fasttext.config,s,compositions,101,100,3,250,0,0,0.75,1,English,0.1623873873873874
