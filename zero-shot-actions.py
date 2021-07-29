@@ -128,10 +128,10 @@ class ZeroShotActionClassifier(object):
         self.s2s_ft = {}
         # self.o2s_ft = {}
         for language in languages:
-            if mode in ["o", "os", "or"] and aggregate != "compositions":
+            if (mode == "o") or ((mode in ["os", "or"]) and (aggregate != "compositions")):
                 a2oftfile = parser.get('actions', f'a2oft_{language}')
                 self.a2o_ft[language] = np.load(a2oftfile)
-            if mode in ["s", "os", "or"] and aggregate != "compositions":
+            if (mode == "s") or ((mode in ["os", "or"]) and (aggregate != "compositions")):
                 a2sftfile = parser.get('actions', f'a2sft_{language}')
                 self.a2s_ft[language] = np.load(a2sftfile)
             if mode == "os" and aggregate == "compositions":
@@ -148,7 +148,7 @@ class ZeroShotActionClassifier(object):
     #
     # Predict the class of each test action.
     #
-    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, xdiscr, adiscr, aggregate, mode, lam, languages, store_preds):
+    def predict(self, seed, nr_test_actions, topk_objects, topk_scenes, topk_objsce, xdiscr, adiscr, aggregate, mode, lam, languages, store_preds, full):
         # Set seed and randomly select test actions.
         np.random.seed(seed)
         aa = np.arange(len(self.actions))
@@ -171,13 +171,13 @@ class ZeroShotActionClassifier(object):
         dweights = [adiscr, xdiscr]
 
         for i in tqdm(range(len(test_actions)), desc = "computing topks for actions"):
-            if mode in ["o", "os", "or"] and aggregate != "compositions":
+            if (mode == "o") or ((mode in ["os", "or"]) and (aggregate != "compositions")):
                 a2os = self.a2x_scores(test_actions, i, languages, dweights, "o")
                 a2xscores["a2oscores"].append(a2os)
                 oidxs = np.argsort(a2os)[-topk_objects:]
                 top_x["top_objects"].append(oidxs)
 
-            if mode in ["s", "os", "or"] and aggregate != "compositions":
+            if (mode == "s") or ((mode in ["os", "or"]) and (aggregate != "compositions")):
                 a2ss = self.a2x_scores(test_actions, i, languages, dweights, "s")
                 a2xscores["a2sscores"].append(a2ss)
                 sidxs = np.argsort(a2ss)[-topk_scenes:]
@@ -237,20 +237,20 @@ class ZeroShotActionClassifier(object):
                     if aggregate == "simple":
                         # simplest average, take the two scores, add them up and divide by 2
                         action_scores[j] = (video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j]) + video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j]))/2
-                    elif aggregate == "normalized":
-                        # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
-                        action_scores[j] = (video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])/len(top_x["top_objects"][j]) + video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])/len(top_x["top_scenes"][j]) )/2
-                    elif aggregate == "weighted":
-                        # weighted average, take the two scores, multiply them by the respective weight z, add them up
-                        # don't have yet a scientific way of finding the best values for zs and zo, but ballpark estimate is that zs=0.1 and zo=0.9 works best
-                        zs = 0.1
-                        zo = 0.9
-                        action_scores[j] = video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])*zo + video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])*zs
-                    elif aggregate == "combined":
-                        # unifying object and scenes in a single table
-                        objsceavgfeat = np.concatenate((objavgfeat, sceavgfeat))
-                        action_scores[j] = video_action_score(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
-                        # action_scores[j] = video_action_score_normalized(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
+                    # elif aggregate == "normalized":
+                    #     # ""normalized"" average, take the two scores, divide them by the respective k, add them up and divide by 2
+                    #     action_scores[j] = (video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])/len(top_x["top_objects"][j]) + video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])/len(top_x["top_scenes"][j]) )/2
+                    # elif aggregate == "weighted":
+                    #     # weighted average, take the two scores, multiply them by the respective weight z, add them up
+                    #     # don't have yet a scientific way of finding the best values for zs and zo, but ballpark estimate is that zs=0.1 and zo=0.9 works best
+                    #     zs = 0.1
+                    #     zo = 0.9
+                    #     action_scores[j] = video_action_score(objavgfeat, a2xscores["a2oscores"][j], top_x["top_objects"][j])*zo + video_action_score(sceavgfeat, a2xscores["a2sscores"][j], top_x["top_scenes"][j])*zs
+                    # elif aggregate == "combined":
+                    #     # unifying object and scenes in a single table
+                    #     objsceavgfeat = np.concatenate((objavgfeat, sceavgfeat))
+                    #     action_scores[j] = video_action_score(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
+                    #     # action_scores[j] = video_action_score_normalized(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
                     elif aggregate == "compositions":
                         # with o2s passed for semantic similarity between objects and scenes in a pair
                         # action_scores[j] = video_action_score_compositions(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j], self.o2s_ft[languages.split("-")[0]])
@@ -277,7 +277,7 @@ class ZeroShotActionClassifier(object):
             predictions[i] = np.argmax(action_scores)
 
         # store per video action predictions
-        if (store_preds and mode != "or"):
+        if (store_preds and full):
             preds_path = f"{self.configfile}_{mode}_{aggregate}a_{topk_objects}kobj_{topk_scenes}ksce_{topk_objsce}kobjsce_{xdiscr}xdiscr_{adiscr}adiscr_{lam}lambda_{languages}l_preds"
             np.save(f"results/video_action_scores/{preds_path}", np.array(video_action_scores))
 
@@ -374,6 +374,11 @@ if __name__ == "__main__":
     # Initialize zero-shot classifier.
     model = ZeroShotActionClassifier(args.configfile, args.mode, args.aggregate, args.xdiscr)
 
+    full = 1 if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10 or args.nr_test_actions==21) else 0
+
+    os.makedirs("results/confusion_matrix", exist_ok = True)
+    os.makedirs("results/classification_report", exist_ok = True)
+    os.makedirs("results/video_action_scores", exist_ok = True)
     # Perform zero-shot action prediction.
     ty, tp = model.predict( seed = args.seed,
                             nr_test_actions = args.nr_test_actions,
@@ -386,7 +391,8 @@ if __name__ == "__main__":
                             mode = args.mode,
                             lam = args.lam,
                             languages = args.language,
-                            store_preds = args.store_preds)
+                            store_preds = args.store_preds,
+                            full = full)
 
     # Print the results.
     acc = np.mean(ty == tp)
@@ -409,15 +415,14 @@ if __name__ == "__main__":
 
     print(f"Setting: [configfile:{args.configfile.split('/')[1]}, mode:{args.mode}, a: {args.aggregate} t:{args.nr_test_actions}, kobj:{args.topk_objects}, ksce:{args.topk_scenes}, kobjsce: {args.topk_objsce}, xdiscr: {args.xdiscr}, adiscr: {args.adiscr}, lambda:{args.lam}, s:{args.seed}, l:{args.language}]: \tacc: {acc:.4f}")
 
-    os.makedirs("results/confusion_matrix", exist_ok = True)
-    os.makedirs("results/classification_report", exist_ok = True)
+
     results_path = "results/accuracies.csv"
     df = pd.read_csv(results_path, index_col=0) if os.path.exists(results_path) else pd.DataFrame(columns = results.keys())
     df = df.append(results, ignore_index=True)
     df.to_csv(results_path)
 
     # Print confusion matrix
-    if (args.nr_test_actions==101 or args.nr_test_actions==400 or args.nr_test_actions==10 or args.nr_test_actions==21):
+    if full:
         root_name = f"{args.configfile.split('/')[1]}_{args.mode}_{args.aggregate}a_{args.topk_objects}kobj_{args.topk_scenes}ksce_{args.topk_objsce}kobjsce_{args.xdiscr}xdiscr_{args.adiscr}adiscr_{args.lam}lambda_{args.language}l"
 
         # plotting out confusion matrices and storing classification reports

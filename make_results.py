@@ -7,7 +7,7 @@ nr_test_actions = [101,25,50]
 
 seeds = [1,2,3,4,5,6,7,8,9,10]
 
-modes = ["o", "s", "os", "or"]
+modes = ["o", "s", "os"]
 topk_objects = [10,50,100]
 topk_scenes = [3,5,10]
 aggregates = ['simple', 'compositions']
@@ -17,12 +17,8 @@ lambdas = [0.75, 1]
 languages = ["English"]
 xdiscrs = [0]
 adiscrs = [0]
-store_predss = [0]
+store_predss = [1]
 
-nr_test_actions = [25]
-topk_objects = [100]
-topk_scenes = [5]
-topk_objsce = [250]
 
 def grid(   configfiles,
             nr_test_actions,
@@ -91,17 +87,13 @@ grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggr
 
 # # # make results for ucf-sports
 configfiles = ["config/ucf-sports-sbert.config", "config/ucf-sports-fasttext.config"]
-modes = ["o", "s", "os"]
-topk_objsce = [10,50,100,250,500]
+topk_objsce = [250]
 nr_test_actions = [10]
-store_predss=[1]
 grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
 
 # # # make results for j-hmdb
 configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
-modes = ["o", "s", "os"]
-topk_objsce = [10,50,100,250,500]
+topk_objsce = [250]
 nr_test_actions = [21]
-store_predss=[1]
 grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
