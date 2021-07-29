@@ -83,7 +83,7 @@ def video_action_score(x_scores, action_x_scores, top_x):
 # here we have to assume that the pairs were computed by taking the first object and combining it with all scenes, then the second object, and combining it with all the scene
 # i.e. the objscepairs were created with [objlabel+" "+scelabel for objlabel in objlabels for scelabel in scelabels] as in getfasttextembs.py and getsbertembs.py
 #
-def video_action_score_paired(obj_scores, sce_scores, action_x_scores, top_objscepairs):
+def video_action_score_compositions(obj_scores, sce_scores, action_x_scores, top_objscepairs):
     n_s = len(sce_scores)
 
 
@@ -128,13 +128,13 @@ class ZeroShotActionClassifier(object):
         self.s2s_ft = {}
         # self.o2s_ft = {}
         for language in languages:
-            if mode in ["o", "os", "or"] and aggregate != "paired":
+            if mode in ["o", "os", "or"] and aggregate != "compositions":
                 a2oftfile = parser.get('actions', f'a2oft_{language}')
                 self.a2o_ft[language] = np.load(a2oftfile)
-            if mode in ["s", "os", "or"] and aggregate != "paired":
+            if mode in ["s", "os", "or"] and aggregate != "compositions":
                 a2sftfile = parser.get('actions', f'a2sft_{language}')
                 self.a2s_ft[language] = np.load(a2sftfile)
-            if mode == "os" and aggregate == "paired":
+            if mode == "os" and aggregate == "compositions":
                 a2ospairsftfile = parser.get('actions', f'a2ospairsft_{language}')
                 self.a2ospairs_ft[language] = np.load(a2ospairsftfile)
                 ospairsftfile = parser.get('actions', f'ospairsft_{language}')
@@ -171,13 +171,13 @@ class ZeroShotActionClassifier(object):
         dweights = [adiscr, xdiscr]
 
         for i in tqdm(range(len(test_actions)), desc = "computing topks for actions"):
-            if mode in ["o", "os", "or"] and aggregate != "paired":
+            if mode in ["o", "os", "or"] and aggregate != "compositions":
                 a2os = self.a2x_scores(test_actions, i, languages, dweights, "o")
                 a2xscores["a2oscores"].append(a2os)
                 oidxs = np.argsort(a2os)[-topk_objects:]
                 top_x["top_objects"].append(oidxs)
 
-            if mode in ["s", "os", "or"] and aggregate != "paired":
+            if mode in ["s", "os", "or"] and aggregate != "compositions":
                 a2ss = self.a2x_scores(test_actions, i, languages, dweights, "s")
                 a2xscores["a2sscores"].append(a2ss)
                 sidxs = np.argsort(a2ss)[-topk_scenes:]
@@ -189,7 +189,7 @@ class ZeroShotActionClassifier(object):
                 osidxs = np.argsort(a2oss)[-topk_objsce:]
                 top_x["top_objsce"].append(osidxs)
 
-            if mode == "os" and aggregate == "paired":
+            if mode == "os" and aggregate == "compositions":
                 a2ospairss = self.a2x_scores(test_actions, i, languages, dweights, "osp")
                 a2xscores["a2ospairscores"].append(a2ospairss)
                 if lam == 1:
@@ -251,11 +251,11 @@ class ZeroShotActionClassifier(object):
                         objsceavgfeat = np.concatenate((objavgfeat, sceavgfeat))
                         action_scores[j] = video_action_score(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
                         # action_scores[j] = video_action_score_normalized(objsceavgfeat, a2xscores["a2osscores"][j], top_x["top_objsce"][j])
-                    elif aggregate == "paired":
+                    elif aggregate == "compositions":
                         # with o2s passed for semantic similarity between objects and scenes in a pair
-                        # action_scores[j] = video_action_score_paired(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j], self.o2s_ft[languages.split("-")[0]])
+                        # action_scores[j] = video_action_score_compositions(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j], self.o2s_ft[languages.split("-")[0]])
                         # without o2s passed
-                        action_scores[j] = video_action_score_paired(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j])
+                        action_scores[j] = video_action_score_compositions(objavgfeat, sceavgfeat, a2xscores["a2ospairscores"][j], top_x["top_objscepairs"][j])
 
                 elif mode == "or":
                     # oracle mode
@@ -324,7 +324,7 @@ class ZeroShotActionClassifier(object):
             elif x == "s":
                 new_priors = self.a2s_ft[languages[i]][actions[actionindex]]
             elif x == "osp":
-                # raise NotImplementedError("Using more than one language with -m os -a paired would take too long given my memory restrictions")
+                # raise NotImplementedError("Using more than one language with -m os -a compositions would take too long given my memory restrictions")
                 new_priors = self.a2ospairs_ft[languages[i]][actions[actionindex]]
             new_priors[np.isnan(new_priors)] = -10
             x_priors += new_priors
@@ -336,18 +336,18 @@ class ZeroShotActionClassifier(object):
 #
 def parse_args():
     parser = argparse.ArgumentParser(description="Zero-shot actions from objects and scenes")
-    parser.add_argument("-c", dest="configfile", help="Configuration file", default="config/ucf-101-fasttext.config", type=str)
-    parser.add_argument("-t", dest="nr_test_actions", help="Number of test actions", default=50, type=int)
+    parser.add_argument("-c", dest="configfile", help="Configuration file", default="config/ucf-101-sbert.config", type=str)
+    parser.add_argument("-t", dest="nr_test_actions", help="Number of test actions", default=101, type=int)
     parser.add_argument("--kobj", dest="topk_objects", help="Top k objects per action", default=100, type=int)
     parser.add_argument("--ksce", dest="topk_scenes", help="Top k scenes per action", default=5, type=int)
     parser.add_argument("--kobjsce", dest="topk_objsce", help="Top k objects and scenes per action", default=250, type=int)
-    parser.add_argument("--xdiscr", dest="xdiscr", help="x-based (object/scene) discrimination, should be either 1 or 0", default=0, type=int)
-    parser.add_argument("--adiscr", dest="adiscr", help="action-based discrimination, should be either 1 or 0", default=0, type=int)
+    parser.add_argument("--xdiscr", dest="xdiscr", help="Not in use: x-based (object/scene) discrimination, should be either 1 or 0", default=0, type=int)
+    parser.add_argument("--adiscr", dest="adiscr", help="Not in use: action-based discrimination, should be either 1 or 0", default=0, type=int)
     parser.add_argument("-s", dest="seed", help="Random seed", default=100, type=int)
-    parser.add_argument("-m", dest="mode", help="Mode used, can be Objects (o); Scenes (s); Objects and scenes (os); Objects and scenes oracle (or)", default="o", type=str)
-    parser.add_argument("-a", dest="aggregate", help="Way of aggregating scores used in Objects and scenes (os) mode", default="NA", type=str)
-    parser.add_argument("--lambda", dest="lam", help="Value for Lambda used to generate diverse top k. Must be between 0 and 1. If lambda is set to 1, no diversity is injected, otherwise, the lower lambda is, the more diverse the top k", default="1", type=float)
-    parser.add_argument("-l", dest="language", help="Used language", default="English", type=str)
+    parser.add_argument("-m", dest="mode", help="Mode used, can be Objects (o); Scenes (s); Objects and scenes (os); Objects and scenes oracle (or)", default="os", type=str)
+    parser.add_argument("-a", dest="aggregate", help="Way of aggregating scores used in Objects and scenes (os) mode. Can be either 'simple' or 'compositions'", default="compositions", type=str)
+    parser.add_argument("--lambda", dest="lam", help="Value for Lambda used to generate diverse top k. Must be between 0 and 1. If lambda is set to 1, no diversity is injected, otherwise, the lower lambda is, the more diverse the top k", default="0.75", type=float)
+    parser.add_argument("-l", dest="language", help="Not in use: Used languages", default="English", type=str)
     parser.add_argument("--store_preds", dest="store_preds", help="Whether to save video action scores or not, can be yes (1) or no (0)", default=0, type=int)
     args = parser.parse_args()
     return args
@@ -363,10 +363,10 @@ if __name__ == "__main__":
         raise ValueError("Mode used, can be Objects (o); Scenes (s); Objects and scenes (os), Objects and scenes oracle (or)")
 
     if args.mode == "os":
-        if args.aggregate not in ['simple', 'normalized', 'weighted', 'combined', 'paired']:
-            raise ValueError("When using os mode an aggregation method needs to be specified.\n Can be 'simple', 'normalized', 'weighted', 'combined', 'paired'")
-        if (args.aggregate == "paired") & (args.xdiscr == 1) :
-            raise NotImplementedError("cannot use x-based discrimination with -m os -a paired")
+        if args.aggregate not in ['simple', 'compositions']:
+            raise ValueError("When using os mode an aggregation method needs to be specified.\n Can be 'simple', 'compositions'")
+        if (args.aggregate == "compositions") & (args.xdiscr == 1) :
+            raise NotImplementedError("cannot use x-based discrimination with -m os -a compositions")
 
     if (args.lam < 0):
         raise ValueError("Lambda must be between 0 and 1")

@@ -10,7 +10,7 @@ seeds = [1,2,3,4,5,6,7,8,9,10]
 modes = ["o", "s", "os", "or"]
 topk_objects = [10,50,100]
 topk_scenes = [3,5,10]
-aggregates = ['simple', 'paired']
+aggregates = ['simple', 'compositions']
 topk_objsce = [100,250,500]
 
 lambdas = [0.75, 1]
@@ -57,9 +57,9 @@ def grid(   configfiles,
                                                 for kobj in topk_objects:
                                                     for ksce in topk_scenes:
                                                         os.system(f"python zero-shot-actions.py -c {c} -s {s} -t {t} -m {m} -l {l} -a {aggregate} --kobj {kobj} --ksce {ksce} --xdiscr {xdiscr} --adiscr {adiscr} --store_preds {store_preds}")
-                                            elif aggregate in ["combined", "paired"]:
+                                            elif aggregate in ["combined", "compositions"]:
                                                 for kobjsce in topk_objsce:
-                                                    if aggregate == "paired":
+                                                    if aggregate == "compositions":
                                                         if xdiscr == 1:
                                                             break
                                                         for lam in lambdas:
@@ -79,29 +79,29 @@ grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggr
 
 
 # # # make results for kinetics
-# configfiles = ["config/kinetics-sbert.config", "config/kinetics-fasttext.config"]
-# nr_test_actions = [400,25,100]
-# topk_objects = [100]
-# topk_scenes = [5]
-# topk_objsce = [250]
-# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+configfiles = ["config/kinetics-sbert.config", "config/kinetics-fasttext.config"]
+nr_test_actions = [400,25,100]
+topk_objects = [100]
+topk_scenes = [5]
+topk_objsce = [250]
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
 
 
 
 # # # make results for ucf-sports
-# configfiles = ["config/ucf-sports-sbert.config", "config/ucf-sports-fasttext.config"]
-# modes = ["o", "s", "os"]
-# topk_objsce = [10,50,100,250,500]
-# nr_test_actions = [10]
-# store_predss=[1]
-# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+configfiles = ["config/ucf-sports-sbert.config", "config/ucf-sports-fasttext.config"]
+modes = ["o", "s", "os"]
+topk_objsce = [10,50,100,250,500]
+nr_test_actions = [10]
+store_predss=[1]
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
 
 
 # # # make results for j-hmdb
-# configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
-# modes = ["o", "s", "os"]
-# topk_objsce = [10,50,100,250,500]
-# nr_test_actions = [21]
-# store_predss=[1]
-# grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
+configfiles = ["config/j-hmdb-sbert.config", "config/j-hmdb-fasttext.config"]
+modes = ["o", "s", "os"]
+topk_objsce = [10,50,100,250,500]
+nr_test_actions = [21]
+store_predss=[1]
+grid(configfiles, nr_test_actions, seeds, modes, topk_objects, topk_scenes, aggregates, topk_objsce, lambdas, languages, xdiscrs, adiscrs, store_predss)
