@@ -1,6 +1,7 @@
 # Diverse Object-Scene Compositions For Zero-Shot Action Recognition
 
-This repository contains the source code for the use of object-scene compositions for zero-shot action recognition.
+This repository implements the BMVC2021 paper [Zero-Shot Action Recognition from
+Diverse Object-Scene Compositions](https://www.bmvc2021-virtualconference.com/assets/papers/0739.pdf). 
 
 ![Overview figure](figures/figure1-compressed.jpg)
 
