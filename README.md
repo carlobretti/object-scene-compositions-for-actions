@@ -38,7 +38,6 @@ This will additionally compute the embeddings for all object-scene compositions 
 
 ## Using the main script
 The main script can be run using the default arguments as follows:
-To compute the word and sentence embeddings for all the video and image datasets run:
 ```
 python zero-shot-actions.py
 ```
